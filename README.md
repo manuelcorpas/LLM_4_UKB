@@ -1,4 +1,3 @@
-```markdown
 # LLM_4_UKB: Large Language Models for Mining UK Biobank Insights
 
 This repository hosts the code and data for our paper:
@@ -39,7 +38,6 @@ We measure each model’s **Coverage Score** (breadth of matched terms) and **We
 
 Below is a high-level overview of the repository:
 
-```
 LLM_4_UKB/
 ├── DATA/
 │   ├── 01-most-common-keyword.csv
@@ -71,7 +69,6 @@ LLM_4_UKB/
 │   └── opt-125m/
 ├── requirements.txt
 └── ...
-```
 
 **Notable Folders**  
 - **DATA/**  
@@ -176,7 +173,7 @@ python PYTHON/05-benchmark-summary-results.py
   author   = {Corpas, Manuel and Iacoangeli, Alfredo, ...},
   year     = {2025},
   archivePrefix = {bioRxiv},
-  eprint        = {YOUR_PAPER_DOI_OR_ID}
+  eprint        = {PAPER_DOI}
 }
 ```
 
@@ -184,8 +181,7 @@ python PYTHON/05-benchmark-summary-results.py
 
 ## Contact
 
-- **Maintainer**: [Manuel Corpas](mailto:YOUR_EMAIL_HERE)  
-- **Co-Author**: [Alfredo Iacoangeli](mailto:ALFREDO_EMAIL_HERE)
+- **Maintainer**: [Manuel Corpas](mailto:M.Corpas@westminster.ac.uk)  
+- **Co-Author**: [Alfredo Iacoangeli](mailto:alfredo.iacoangeli@kcl.ac.uk)
 
 Feel free to open an issue or pull request if you encounter bugs or want to contribute improvements.
-```
