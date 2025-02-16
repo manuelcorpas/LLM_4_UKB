@@ -1,0 +1,636 @@
+UK Biobank is the largest retinal data repository in a prospective population-based cohort. A history of fracture was associated with increased risk of current widespread chronic pain. Maternal diabetes is associated with higher birthweight.
+
+Researchers find 15 new significant loci and implicate 40 new genes, most of which are predominantly expressed in the brain. Researchers identify 12 new genetic loci that implicate known components of the circadian clock machinery.
+
+UK Biobank participants aged 40-69 had mild visual impairment or worse in one or both eyes. Increasing deprivation, age and ethnicity were independently associated with both monocular and binocular visual impairment.
+
+The potential of Mendelian randomization studies is rapidly expanding due to the growing power of genome-wide association study (GWAS) meta-analyses. Higher intelligence had positive direct effects on income, alcohol consumption, and vigorous physical activity. Red and processed meat may be risk factors for breast cancer.
+
+People with a history of depression are at increased risk for developing autoimmune diseases. People with more grey matter, and more intact connections between regions, had slightly higher scores on the abstract puzzle tests.
+
+A study of 223,315 individuals identified 101 loci associated with grip strength. A 1 SD higher polygenic education score was associated with &#8764;2.7% lower mortality risk.
+
+Coffee-related genetic variants could be used as proxies for coffee consumption in Mendelian randomization studies. Study examined their association with non-alcoholic beverage consumption and socio-demographic and life-style factors.
+
+Women with premature and early menopause had a substantially increased risk of a non-fatal cardiovascular disease event before the age of 60 years. The prevalence of nulliparity rose progressively from 14% of women born from 1940 49 to 22% of woman born 1970 84.
+
+Study explored impact of our physical health, such as body weight, heart health and blood pressure. Results suggested a consistent causal effect of higher BMI on lower mental wellbeing. Suicide occurred more frequently in those who had high levels of distress.
+
+UK Biobank study recruited 40-70-year-olds in 2006-2010. 2658 had been tested for SARS-CoV-2 and 948 tested positive (726 in hospital) Black and south Asian groups more likely to test positive.
+
+Vitamin D deficiency (serum 25-hydroxyvitamin D 60 years), and those living outside of Greater London (OR=0.53 to 0.77), with borderline trends for a lower body mass index. The additional schooling affected body size, lung function, and blood pressure in middle age.
+
+Study looked at 86,759 middle- to older-aged adults from the UK Biobank general population cohort. Small but consistent negative associations between air pollutant exposure and baseline cognitive performance.
+
+Researchers identified 153 new loci associated with heel bone mineral density. They also conducted in vivo studies that implicated GPC6 and several other genes in osteoporosis. The grey and white matter volumes are known to reduce with age.
+
+CMO test integrates genetically regulated DNA methylation and enhancer-target gene pairs with genome-wide association study (GWAS) summary results. By analyzing to date the largest AD GWAS of 71,880 cases and 383,378 controls, CMO identified six novel loci for AD.
+
+BMI is more strongly related to test positivity and death in non-whites (predominantly South Asians and Afro-Caribbeans), compared with whites. The exact biological link between these traits is yet to be elucidated.
+
+Prostate cancer is a highly heritable disease with large disparities in incidence rates across ancestry populations. We examined associations between BMI and the number of formal physical activity facilities within 1 km of each individual's home. We found that the association between a greater number of local PA facilities and lower BMI was stronger among people with fewer urban green spaces.
+
+Using UK Biobank data, we tested the association of 391 genes known to influence lung development with FVC and FEV 1 /FVC. We show that eGFRcys is most strongly associated with CVD and mortality.
+
+UK Biobank recruited 502,624 participants aged 37-73 years between 2006 and 2010. Vitamin D was associated with COVID-19 infection univariably, but not after adjustment for confounders.
+
+The TyG index significantly increased the risk of overall CVD, ischemic heart diseases (IHD), and cerebrovascular diseases (CED) The effect of GLU and TG was independent of each other genetically and presented dose-response effects. High physical activity was associated with lower risk of premature mortality.
+
+Preeclampsia, gestational diabetes, preterm birth, and placental abruption are among the most studied ones. Using publicly available data, we confirm that immune system and, in particular, T-cell related pathways are one of the most important drivers of pregnancy-related traits.
+
+Study looked at 8,895 women in the UK Biobank cohort (age range = 54-81 years) Age-related hearing impairment (ARHI) can be mitigated, but not cured or eliminated.
+
+The role of growth factors and inflammation in the onset of glioma is poorly understood. The nature and underlying mechanisms of the observed increased vulnerability to posttraumatic stress disorder (PTSD) in women are unclear.
+
+The obesity paradox in which overweight/obesity is associated with mortality benefits is believed to be explained by confounding and reverse causality rather than by a genuine clinical benefit of excess body weight.ACE inhibitors reduce the risk of type 2 diabetes using a Mendelian randomization (MR) approach.
+
+A trend towards earlier menarche in women has been associated with childhood factors. One additional drink of alcohol per day was positively associated with systolic blood pressure, hemorrhagic stroke, and atrial fibrillation.
+
+Vitamin D has been shown to be beneficial at reducing the risk of cancer. Study found that UVB was strongly and inversely associated with hospitalization and death overall. Findings were replicated in the UK Biobank study and US National Health Interview Survey.
+
+Cortisol's immunosuppressive, obesogenic, and hyperglycaemic effects suggest that it may play a role in cancer development. Night shift work, behavioral rhythms, and the common  MTNR1B risk single nucleotide polymorphism (SNP) associate with type 2 diabetes.
+
+Study looked at the association between musculoskeletal pain at multiple sites and physical work capacity. Increase in number of painful sites was associated with lower PWC, moderate and vigorous PA. For people with the same BMI, those who were more active had a lower body fat percentage.
+
+Data was from 147,478 individuals from the UK Biobank and 2,905 from the Netherlands Study of Depression and Anxiety (NESDA) Inflammation was associated with core depressive symptoms of low mood and anhedonia. Less consistent associations were found for anxiety.
+
+Study enrolled 328,850 participants aged between 37 and 73 years from the UK Biobank. Frequent sleep disturbances were associated with increased risk of all-cause mortality.
+
+A genetic predisposition to AF was significantly associated with decreased eGFR. Larger CMR PAT area was associated with significantly greater odds of diabetes independent of age, sex and body mass index.
+
+The UK Biobank study has successfully imaged more than 32,000 volunteer participants with magnetic resonance imaging (MRI) Each scan is linked to extensive metadata, providing a comprehensive medical survey of imaged anatomy.
+
+UK Biobank recruited 503,325 persons aged 40-69 years. High VAT-high LF and high VAT-low LF associated with prevalent atherosclerosis. Older age, smoking, and adiposity were consistently associated with higher VTE risk.
+
+Study followed 130,473 UK Biobank participants aged 60-69 y (baseline 2006-2010) for &#8804;8.3 y ( n  = 2974 deaths) Being overweight with a higher WHR was associated with substantial excess mortality. Higher childhood body mass index has been associated with an increased risk of multiple sclerosis (MS)
+
+Coffee and tea are the major contributors of caffeine in the diet. Higher educational attainment predicted lower BMI and higher blood pressure. The lack of evidence for associations could be explained by weak instrumental variables.
+
+Genome-wide association studies have identified 190 loci associated with maternal or fetal effects on birth weight. We found birth weight GWAS single nucleotide polymorphisms (SNPs) fall closer to such genes than expected.
+
+People with 'CVD' or 'Type 2 diabetes + CVD' more likely to report simultaneous low physical activity, high TV viewing and poor sleep duration than those without disease. Excessive alcohol intake is associated with 5.9% of global deaths.
+
+A total of 416,588 participants (54% women) from the UK Biobank were included in the present study. High intake of red meat and processed meat was associated with an increased risk of lung cancer. The consumption of breakfast cereals, and dietary fiber was inversely associated with risk of heart disease.
+
+Study aims to discover new genetic loci associated with heart rate from Exome Chip meta-analyses. Social behavior, personality predisposition, and demographic profile all have intimate links to the medial prefrontal cortex.
+
+Every one mmol/mol increase in genetically proxied HbA1c was associated with an 11% higher CHD risk (HR 1.11, 95% CI 1.05, 1.18) There was no evidence favouring a non-linear relationship over a linear one.
+
+Cancer risk was positively associated with testosterone in post-menopausal women. BRCA1/2 mutation carriers had a 2- to 3-fold increased risk for EC.
+
+Integration of DNA sequencing data with electronic health records (EHRs) could enhance our understanding of the contribution of rare genetic variation to human disease. Up to 10% of cancer incidents are attributed to inherited genetic alterations.
+
+The impact of unmeasured geographical confounding on genome-wide association studies (GWAS) of complex human traits has not been investigated. Fine-mapping identifies a subset of 55 highly likely causal variants, 91% of which are non-coding.
+
+Human DNA polymorphisms vary across geographic regions. Of 33 traits analysed, 21 showed significant geographic clustering at the genetic level. A favorable lifestyle was associated with 22% and 31% reductions in invasive breast cancer risk.
+
+Genetic variation associated with thyroid autoimmunity interacts with biological pathways driving the systemic immune response to PD-1 blockade. A genetic locus in mitochondrial glycerol-3-phosphate acyltransferase (GPAM) associated with increased levels of ALT, AST, ALP, and total bilirubin.
+
+Genome-wide association studies (GWAS) have identified several risk loci for gallstone disease. Shared genetic links are also seen with obesity, coronary heart disease, psychiatric diseases, cognitive traits and reproductive ageing.
+
+Genome-wide association studies (GWAS) have identified several risk loci for nonalcoholic fatty liver disease (NAFLD) Self-reported walking pace has been associated with a range of cardiorespiratory and cancer outcomes.
+
+The G84E mutation was found in 1,545 (0.34%) of 460,224 participants of European ancestry. While mutation status did not associate with cancer risk in females, it was significantly associated with increased risk in males. Gout and/or rheumatoid arthritis are risk factors for coronavirus disease 2019.
+
+Four major forms of Alzheimer's disease (AD) genetic risk are associated with 273 traits in 500,000 individuals in the UK Biobank. The traits cover blood biochemistry and cell traits, metabolic and general health, psychosocial health and cognitive function. The association between coffee consumption and dementia was non-linear.
+
+Study aimed to screen the entire genome for genetic markers associated with risk for Achilles tendon injury. Lung cancer is genetically correlated with reduced forced expiratory volume in one second.
+
+Study looked at the association between osteoarthritis (OA), rheumatoid arthritis (RA), and frailty. For every unit increase in BMI, WHR and body fat, the odds of death amongst Covid19-positive participants increased by 1.04.
+
+A growing number of genetic loci have been shown to influence individual predisposition to type 2 diabetes (T2D) We combined recent advances in the fine-mapping of causal T2D risk variants with the increased sample size available within UK Biobank.
+
+Genome-wide association studies (GWAS) have recurrently associated sequence variation nearby LIN28B with pubertal timing, growth and disease. We found negative associations of long-term antibiotic use during early life with remembrance (p value=1.74 × 10-6, b = 0.10) and intelligence.
+
+There is evidence that lower height is associated with a higher risk of coronary artery disease (CAD) and increased risk of type 2 diabetes (T2D) One standard deviation higher genetically determined height (~6.5 cm) is causally associated with 16% decrease in CAD risk. We observe no direct causal effect of height on the risk of T2D.
+
+Brisk walking and a greater muscle strength have been associated with a longer life. The clinical approval process is able to filter out medications whose utility does not offset their adverse drug reaction profile in humans.
+
+Study looked at genetics of weighted functional brain network graph theory measures. Visceral adipose tissue plays an important role in the pathogenesis of insulin resistance (IR), prediabetes and type 2 diabetes.
+
+The aim was to investigate whether there are underlying functional connectivity differences between humans that relate to food reward. Having offspring was associated with a faster response time and fewer mistakes made in the visual memory task.
+
+Polygenic risk scores (PRS) provide an opportunity to understand risk factors since they reflect etiologic pathways from the entire genome. It is unclear what combinations of physical capability markers used to define sarcopenia have the strongest associations with health outcomes.
+
+A model was trained on 84,743 retinal fundus photos from the UK Biobank dataset. Automated machine learning may enable clinician-driven automated discovery of novel insights and disease biomarkers.
+
+The proportion of variation in complex traits that can be attributed to non-additive genetic effects has been a topic of intense debate. Age was the best predictor of all-cause mortality.
+
+UK Biobank is a health resource with data from over 500,000 adults. U-shaped association observed for sleep duration and lung cancer risk. 18% higher risk for short sleepers compared with normal sleepers (7-8 h/day) Evening preference associated with elevated lung cancerrisk compared with morning preference. No association was found for insomnia or snoring.
+
+Sex differences in major cardiovascular risk factors for incident (fatal or non-fatal) all-cause dementia were assessed in the UK Biobank. Smoking, diabetes, high adiposity, prior stroke and low SES were associated with a greater risk of dementia. Sex differences in how reported traumas are experienced over the life course in relation to mental health require further exploration.
+
+Short sleepers had a 20% higher multivariable-adjusted risk of incident MI. Investigation of sleep extension to prevent MI may be warranted. Smoking is observationally and genetically associated with increased leukocyte counts.
+
+PMR-Egger is a probabilistic Mendelian randomization (MR) method for TWAS applications. Longer telomer length was associated with lowered risk of coronary heart disease (CHD) but raised risk of cancer.
+
+The sensitivity of electrocardiogram (ECG) criteria to detect left ventricular hypertrophy (LVH) is low, especially in women. Left-right hemispheric asymmetry is an important aspect of healthy brain organization.
+
+The Mediterranean (Medi) diet may lower the risk of type 2 diabetes mellitus (T2DM) Thrombosis and platelet activation play a central role in stroke pathogenesis.
+
+Study looked at 129,731 individuals in the UK Biobank of European descent. Hearing loss, older age, male gender, high BMI, higher deprivation, higher blood pressure, smoking history, as well as numerous comorbidities were associated with higher odds of current tinnitus.
+
+The stress hormone cortisol modulates fuel metabolism, cardiovascular homoeostasis, mood, inflammation and cognition. Little is known about sex-differential genetic effects on lung function. White matter lesions are a common finding on MRI in older adults.
+
+Liver fibrosis is associated with worse cognitive performance and corresponding brain imaging changes. Women's exposure to estrogen may influence their heightened risk of Alzheimer's disease.
+
+A total of 440,693 white European (55.9% women), 7305 South Asian (48.6%) and 7628 black African or Caribbean (57.7%) people were included in the UK Biobank study. The combined effects of ambient air pollution, lifestyle, and genetic predisposition on incident Type 2 Diabetes (T2D) have not been well documented.
+
+The integration of PRS and lifestyles can improve the prediction of RA risk. Sex differences in the relationship between brain structural complexity and general intelligence in UK and Indian populations are investigated.
+
+The relationship between obesity and neurocognitive consequences is complex. Higher BMI was associated with greater retention in visuospatial memory performance. The role of copy number variants in susceptibility to asthma is not well understood.
+
+Study aimed to evaluate whether polygenic risk scores could be helpful in addition to family history for triaging individuals. Monogenic causes of complex diseases were more prevalent among individuals with a parental disease history than the rest of the population.
+
+A lack of physical activity (PA) is one of the most pressing health issues today. Wine intake showed a significant U-shaped association with the lowest risk for incident dementia. No clear association is found for coffee.
+
+The calcium ion channel ORAI1 has emerged as a promising therapeutic target for the Coronavirus Disease 19 (COVID-19)-associated pneumonia. A significant interaction was found between night shift work and MTNR1b rs108 30963 on the incidence of prostate cancer.
+
+People from Black African, Black Caribbean and Indian groups were less likely to report hearing difficulty than their White British or Irish counterparts. Researchers have developed a clustering technique for testing for rare imaging phenotypes in the UK Biobank.
+
+Study analyzed baseline UK Biobank data on plasma glycated hemoglobin (HbA1c) to compare the prevalence of pre-diabetes and undiagnosed diabetes mellitus in white, South Asian, black, and Chinese participants.
+
+The ability to predict phenotype from genotype is the ultimate measure of our understanding of genetic architecture underlying the heritability of a trait. We apply our method to exome sequencing data (n = 184,698) across 2,019 traits from the UK Biobank.
+
+UK Biobank recruited adults across England, Scotland and Wales, between March 2006 and July 2010. Handgrip strength may provide an easily-administered marker of cognitive functional status.
+
+Those taking opiates and CM drugs had the worst CM health profile with a 95%, 82% and 63% increased odds of reporting obesity, 'very high risk' waist circumference and hypertension.
+
+Study looked at effects of sleep traits on glycated hemoglobin (HbA1c) Found a higher frequency of insomnia symptoms was associated with higher Hb a1c. Taller adult height is associated with lower risks of ischemic heart disease.
+
+The coronavirus disease 2019 (COVID-19) has become a global pandemic. Men with more advantaged socioeconomic position (SEP) have higher levels of testosterone.
+
+No association has been found between sedentary time and colorctalcancer risk. The hippocampus has a selective vulnerability to atrophy in ageing that may be accelerated in Alzheimer's.
+
+Ancient DNA has identified changes in genetic ancestry over time, but it is not clear whether those changes in ancestry are associated with changes in height. We show that the observed decrease in height between the Early Upper Paleolithic and the Mesolithic is qualitatively predicted by genetics.
+
+The amplitudes of spontaneous fluctuations in brain activity may be a significant source of within-subject and between-subject variability. A low-frequency missense variant in ADCY7 doubles risk of ulcerative colitis.
+
+Cancer-driving mutations might be enriched in genic subregions that are depleted of germline variation relative to somatic variation. The optimal economic strategy was when intermediate risk individuals with a PRS in the top 70% are eligible for statins.
+
+Study aimed to investigate associations of serum calcium, phosphate, and vitamin D levels with the risk of developing aortic stenosis. Inversions at 8p23, 16p11.2, and 11q13.2 were strongly associated with the co-occurrence of obesity with other common diseases.
+
+Daytime napping is a common, heritable behavior, but its genetic basis and causal relationship with cardiometabolic health remain unclear. The timing of puberty is highly variable and is associated with long-term health outcomes.
+
+Genome-wide association studies have identified multiple Alzheimer's disease risk loci. Pathway-specific profiling could further define pathophysiology in individuals, moving towards precision medicine in Alzheimer's.
+
+Habitual use of calcium supplements was significantly associated with higher risk of CVD events and mortality in people with diabetes. The effective size of a population in the recent past can be estimated through analysis of identity-by-descent (IBD) segments.
+
+A polygenic risk score (PRS) derived from 112 single-nucleotide polymorphisms (SNPs) for gastric cancer has been reported in Chinese populations. A functional PRS using functional SNPs may improve the generalizability of the PRS across populations.
+
+The ability to accurately predict whether a woman will develop breast cancer later in her life, should reduce the number of breast cancer deaths. Metabolomics can help identify novel risk factors to better understand pathogenesis and predict disease progression and severity.
+
+Study looked at associations of environmental and genetic factors with the risk of sporadic early-onset colorectal cancer (EOCRC) Study found no significant associations between the examined genetic variants and EOCRC risk.
+
+A higher dietary diversity score (DDS) and a lower energy-adjusted dietary inflammatory index (E-DII) may be associated with lower risks of type 2 diabetes (T2D) and mortality. Low hemoglobin and anemia are associated with cognitive impairment and Alzheimer's disease. Anemia was associated with a 56% higher risk of developing dementia.
+
+Study used data from UK Biobank, included 316568 participants aged 37 to 73 years. Lower levels of TPA, MVPA, and VPA independently associated with elevated risk of all-cause and cancer mortality.
+
+A total of 26,354 participants from the UK Biobank study with available CVH metrics and qualified retinal imaging were included in the present analysis. Each 10 beats per minute increase in RHR was linked with smaller ventricular structure, poorer left ventricular (LV) function and unhealthy pattern of LV remodeling.
+
+Relationships between insulin-like growth factor 1 (IGF-1) levels and cardiovascular disease (CVD) in the general population remain unclear. Low mobile phone use, perhaps indicative of poor social communication channels, was associated with low functional connectivity.
+
+A greater risk of cardiovascular disease is associated with low educational attainment and high adiposity. Sepsis is thought to be driven by cytokines such as interleukin 6 (IL-6) Genetic variants in IL6R known to down-regulate IL-6 signalling are associated with improved sepsis outcomes.
+
+PhenoAgeAccel was positively associated with the risk of overall and histological subtypes of lung cancer. The study of long-term ischemic heart disease prediction based on exercise electrocardiograms is still limited.
+
+Genetic predisposition to higher docosahexaenoic acid (DHA) was associated with cholelithiasis and cholecystitis. Higher genetically predicted levels of DHA (0.83, 0.73 to 0.95) and omega-3 were found to have a protective effect on obesity.
+
+Being frail was associated with 2.68 times, 3.27 times, and 3.31 times higher risk of total respiratory diseases mortality. Adherence to a healthy lifestyle represents a potentially modifiable target for improving the harmful impact of frailty.
+
+Gene expression is tightly regulated, with many genes exhibiting cell-specific silencing when their protein product would disrupt normal cellular function. The emergence of genetic data coupled to longitudinal electronic medical records offers the possibility of phenome-wide association studies.
+
+A retrospective MRI dataset pooled from more than 217 sites/scanners constituted one of the largest brain MRI samples to date. The model fine-tuned for AD classification achieved 90.9% accuracy in leave-sites-out cross-validation. The proposed stacking ensemble ML model showed clinically meaningful accuracy.
+
+Caffeinated coffee drinkers had lower odds for rosacea diagnosis compared to non-coffee drinkers. Red wine and champagne/white wine consumption was inversely associated with waist circumference for both sexes.
+
+Whole-exome sequencing analysis of >350,000 UK Biobank participants revealed that protein-truncating variants in four genes are negatively associated with human lifespan. Large-scale sequencing and genotyping data provide an opportunity to integrate external samples as controls.
+
+The long-term impact of maternal smoking during pregnancy on the risk of Crohn's disease [CD] and ulcerative colitis in adult offspring remains uncertain. Deep learning models have shown promise in detecting chronic kidney disease (CKD) from fundus photographs.
+
+Study included 98 893 UK Biobank participants whose PA data were measured using wrist-worn accelerometers. Total PA was inversely related to CA risk. Time spent outdoors has a small genetic component that tracked from childhood to adulthood.
+
+Ever smoking, higher cigarette consumption daily, and increased smoking intensity were associated with an increased BP risk. Heteroplasmic m.3243A>G was associated with diabetes, deafness and heart failure and 12 homoplasic variants increased aspartate aminotransferase levels.
+
+A quarter of dementia events could have a connection with a disadvantageous social environment. The polysocial risk score (PsRS) could be effectively used in discriminating individuals at high risk of dementia.
+
+A study of 47,420 spouse-pairs from the UK Biobank found a weak positive phenotypic correlation between spouses for self-reported sleep duration. Reduced gray matter volume of the right anterior superior temporal gyrus had direct effects on ANX.
+
+People with mental disorders have worse physical health compared with the general population. Living close to the coast and air pollution were associated with a decreased risk of prostate cancer and skin melanoma, respectively.
+
+Excessive screen time is associated with an increased prevalence of dementia, Parkinson's disease (PD), and depression. Little is known about the persistence of antibodies after the first year following SARS-CoV-2 infection.
+
+COPD is a leading cause of morbidity and mortality worldwide. Several regions of the genome have shown to be associated with COPD. Study identified several associations with the risk of COPD and severity of airflow limitation.
+
+The prevalence of chronic obstructive pulmonary disease (COPD) is increasing faster among women than among men. The association of airflow obstruction with smoking characteristics was assessed by sex. Self-reported tiredness and low energy are associated with poorer physical and mental health.
+
+A genetic predisposition to enhanced nitric oxide signaling is associated with reduced risks of coronary heart disease, peripheral arterial disease, and stroke. Rare variants that inactivate the NOS3 or GUCY1A3 genes were associated with a 23 mm Hg higher systolic blood pressure.
+
+Genome-wide association studies have identified >250 loci for body mass index (BMI) Most GWAS loci represent clusters of common, noncoding variants from which pinpointing causal genes remains challenging. Handedness has been associated with several pathologic neurological conditions.
+
+The effect of a healthy lifestyle on dementia associated with multimorbidity is not well understood. A sex-specific competing risk-adjusted Cox proportional hazards model was derived in individuals with type 1 diabetes without prior CVD.
+
+Vitamin D (25-OHD) levels are associated with higher risk of colorectal cancer (CRC) Since vitamin D is modifiable, these observations have substantial clinical and public health implications. High blood pressure is a highly heritable and modifiable risk factor for cardiovascular disease.
+
+Coffee, tea and alcohol consumption might be shaped by individual differences in bitter taste perception. PM 2.5 and NO 2 were identified as the primary mediators. Short sleep duration was associated with increased risk of developing type 2 diabetes.
+
+The relationships between sleep duration and aging-associated diseases are intricate. The association of diabetes onset age and duration with incident arrhythmias remains unclear. We documented 23,518 AF, 9079 bradyarrhythmia, 9280 conduction system diseases.
+
+People with BP (chronic>acute) have higher IMF and lower aCSA than people reporting no pain. Glaucoma is the leading cause of irreversible blindness worldwide.
+
+The UK Biobank recruited half a million adults who provided a variety of physical measurements. The lifetime risk of overall breast cancer in the top centile of the PRSs was 32.6%. The highest 1% of risk had 4.37- and 2.78-fold risks.
+
+The prevalence of cardiometabolic multimorbidity (CMDs) has increased rapidly in recent years. The association between CMDs and cardiovascular incidence in middle-aged adults remains unclear. The potential interaction between genetic risk for type 2 diabetes and physical activity on cardiovascular outcomes remains elusive.
+
+East Asians had a 38% lower 5-year incidence rate compared with Caucasians. East Asians consuming alcohol &#8805;3 times/week showed a higher incidence of the primary outcome. Study revealed significant racial differences in bleeding incidence, influenced by anatomical sites and lifestyle habits.
+
+Chronic kidney disease (CKD) is highly prevalent among Indigenous Australians. Evidence exists for a causal association between 25-hydroxyvitamin D (25(OH)D) serum levels, and multiple sclerosis (MS)
+
+Ozone exposure was associated with higher levels of arterial stiffness. In contrast, fish oil consumption showed a protective association. Older age is related to a less atherogenic metabolic profile.
+
+The role of sex-specific risk factors during midlife, including hormone replacement therapy (HRT) and their interaction with other major risk factors for Alzheimer's Disease, such as apolipoprotein E (APOE)-e4 genotype and age, remains unclear.
+
+Sleep is an essential human function but its regulation is poorly understood. Insulin resistance, broadly defined as the reduced ability of insulin to exert its biological action, is associated with depression and cognitive dysfunction.
+
+The role of genetics and incident cardiovascular disease (CVD) remains unclear. People with atrial fibrillation had an increased future risk of dementia, Alzheimer's disease, vascular dementia.
+
+The human genetic basis of tuberculosis (TB) has long remained elusive. The protective role of estrogen in the development of dementia remains uncertain. The All of Us Research Program seeks to enroll 1 million diverse participants who share multiple sources of data.
+
+Sleep duration, chronotype/morningness, napping, sleeplessness/insomnia, and getting up from bed were examined. Study found decreased risk of terminated healthspan for healthy sleep behaviors such as 'sleep duration 7-8h/d'
+
+Never smoking, light alcohol consumption, adequate physical activity and optimal BMI were significantly associated with a lower risk of all-cause mortality. Lifestyle factors after a cancer diagnosis could influence the survival of cancer survivors.
+
+PASTRY outperformed the standard method on both simulated and real datasets in terms of the power symmetry. Remnant cholesterol (RC) has been associated with atherosclerotic cardiovascular disease.
+
+Study looked at associations of ideal cardiovascular health metrics (ICVHMs) with all-cause mortality among former and current smokers. Study aimed to examine rheumatoid arthritis (RA) risk associated with hormonal and reproductive factors in women.
+
+Study looked at the relationship between fructose consumption and serum sex hormone-binding globulin (SHBG), (free) testosterone, and risk of hyperandrogenism in a population-based cohort. Human humoral immune responses to SARS-CoV-2 vaccines exhibit substantial inter-individual variability.
+
+Study examined associations between dietary VC and VE with the incident risk of AAD. Long-term exposure to PM 10 and PM 2.5 increases the risk of IBS, especially PM2.5.
+
+The impact of residential greenness on incident idiopathic pulmonary fibrosis (IPF) is unknown. Consuming a pro-inflammatory diet was significantly associated with a higher risk of total anxiety disorders.
+
+Long-term exposures to particulate matter with an aerodynamic diameter smaller than 2.5 &#181;m were associated with increased risk of stroke. The relationship between alcohol consumption and the risk of incident atrial fibrillation remains controversial.
+
+Genome-wide genotype data can be used to analyse previously unexplored relationships between gene expression and in vivo measures of human brain structural connectivity.
+
+Researchers examined associations between a genetic risk score (GRS) associated with CRC liability and 231 circulating metabolites measured by nuclear magnetic resonance spectroscopy. The GRS for CRC was associated with up to 28% of the circulating metabolites at FDR-P.
+
+A polygenic risk score (PGS) is an estimate of an individual's genetic liability to a trait or disease. Black, Asian, and Minority ethnic (BAME) ethnicity, male sex, and higher BMI were independently associated with a positive result. Major depression has been linked to changes in white matter architecture.
+
+The brain-predicted age difference may serve as a biomarker for neurodegeneration. A mixed-linear model applied to 37,653 individuals from the UK Biobank reveals genome-wide significant associations.
+
+Accelerated biological ageing is thought to be a major risk factor for age-related diseases. Both genetic factors and air pollution are risk factors for coronary artery disease (CAD) The study aimed to comprehensively investigate their separate and interaction effects.
+
+Studies of sleep duration in relation to the risk of site-specific cancers other than breast cancer are scarce. We show the limited generalizable of 1,376 robust SNP associations in the general population across 12 complex anthropometric and cardiometabolic phenotypes.
+
+Habitual fish oil use was associated with a lower risk of new-onset kidney stones in participants with low or intermediate genetic risk. Lack of physical activity (PA) and sarcopenia is a known risk factors for ischemic heart disease.
+
+UK Biobank cohort included 417,253 participants (aged 56.18 +/- 8.09 years) Of whom, 19,243 (4.6%) and 188,219 (45.1%) were considered frail and pre-frail. A moderately higher risk of breast cancer was associated with the consumption of processed meat. The modification effect of genetic susceptibility is unknown.
+
+Study looked at association between cardiovascular health (CVH) and incident depression and anxiety. Having IBD was associated with an increased risk of death from all causes. We observed elevated breast cancer mortality rates for individuals with Crohn's disease.
+
+High BMI and waist circumference were associated with increased risks of retinopathy, nephropathy and peripheral neuropathy in the UK Biobank cohort. Carrying DQB1*02:01 and C*07:01 was associated with higher cognitive function, but no association with dementia was found.
+
+In the UK Biobank, during a median follow-up of 12.13 years, 3535 (2.01%) participants developed CKD. Compared with tea non-consumers, the risk of new-onset CKD was significantly lower in unsweetened tea consumers.
+
+Study looked at relationship between blood glycated hemoglobin (HbA1c) and cerebral cortical thickness (CT) Results were negative, emerging negatively within the prediabetic range (39.6 mmol/mol) Despite development of vaccines to prevent SARS-CoV-2, treatment of critically ill COVID-19 patients remains an important goal.
+
+There are 78 loci associated with Parkinson's disease in the most recent genome-wide association study. Metformin use was associated with decreased urate levels, risk of hyperuricaemia and incident gout in patients with diabetes.
+
+Hearing loss is a modifiable risk factor for dementia. Women with hearing loss show greater risk of dementia and brain atrophy. Colorectal cancer risk varies widely in the population at average risk without a family history.
+
+BMI was found to be a stronger risk factor in women compared to men for psoriatic arthropathy and gout. PM 2.5 , PM 10 , NO 2 , and NO x each were associated with an increased ASCvd risk >7.5%. No association was observed in both sexes between ASCVDrisk and PM 2-10.
+
+Study looked at long-term associations between coronavirus disease 2019 (COVID-19) and diabetes complications and mortality, in patients with diabetes.
+
+Eighty IMDs (involving allergic/atopic diseases, autoimmune diseases, immunodeficiency diseases, etc) were identified in the UK Biobank. All markers except height and hip index were positively associated with type 2 diabetes. Regular aspirin use was associated with an 11.2% reduction in the risk of developing new liver diseases.
+
+The Trans-Omics for Precision Medicine programme seeks to elucidate the genetic architecture and biology of heart, lung, blood and sleep disorders. Machine learning models could be used to predict risks at different stages of management.
+
+Major depressive disorder (MDD), bipolar disorder (BD), and schizophrenia (SCZ) are associated with an increased risk of cardiovascular diseases. A positive shared genetic basis was observed for GSD with stroke and CAD. Smoking initiation and lifetime smoking (but not smoking heaviness) on likelihood of experiencing headache.
+
+A data-driven transdiagnostic approach could provide a new perspective on the neurobiology of AUD and NUD. Women with an early menopause are at higher risk of stroke compared with women with a later one.
+
+There is insufficient evidence to show that the guidelines' recommendations of physical activity are associated with long-term benefits in individuals with hypertension. Modest amounts of LPA or VPA were likely to be more beneficial than higher amounts of either.
+
+The data used in the study were obtained from the UK Biobank, a database that contains information collected from 502 389 participants between March 2006 and October 2010. Many sequence variants have additive effects on blood lipid levels and, through that, on the risk of coronary artery disease.
+
+Protein-truncating variants (PTVs) affecting dyslipidemia risk may point to therapeutic targets for cardiometabolic disease. Previous studies have failed to definitively establish a causal relationship between serum 25-hydroxyvitamin D (25OHD) concentrations and the onset of rosacea.
+
+There is a paucity of evidence on the risk of sudden cardiac death according to the degree of neuroticism. Four SNP-SNP interactions were found to be positively associated with BC risk among Caucasian participants.
+
+Study aimed to identify new genetic determinants of mJSW. 42 SNPs, which mapped to 39 loci, were identified. Hip minimum joint space width (mJSW) provides a proxy for cartilage thickness.
+
+The pharmacological management of musculoskeletal pain starts with NSAIDs, followed by weak or strong opioids until the pain is under control. Inflammatory bowel disease (IBD) was associated with elevated risk of cardiometabolic diseases.
+
+Migraine is three times more prevalent in people with bipolar disorder or depression. Rare copy number variants (CNVs) and polygenic risk for intelligence (PRS-IQ) both confer susceptibility for autism spectrum disorder (ASD)
+
+Genetic variants that severely alter protein products are often associated with disease. Study aimed to assess the effect of obesity genetic liability and physical activity on hypertension among European and African ancestry individuals within the UK Biobank.
+
+The role of germline genetic factors in determining survival from cutaneous melanoma is not well understood. Machine learning can build upon prior sub-grouping approaches by using a data-driven approach to overcome clinician subjectivity.
+
+Study looked at the effect of ultra-processed food (UPF) consumption, genetic susceptibility, and their interactions on hip/knee OA. Long-term exposure to ozone (O 3 ) and adult-onset asthma (AOA) remains inconclusive.
+
+Study looked at 407,792 participants from the UK Biobank who were free of dementia, stroke, or Parkinson's disease at enrollment. Overfeeding PUFA induced greater lean tissue accumulation despite similar weight gain.
+
+Women with polycystic ovary syndrome (PCOS) have increased odds of concurrent depression. The impact of gestational diabetes mellitus (GDM) on incident dementia is unknown.
+
+Aerobic MVPA bouts undertaken in the evening were associated with the lowest risk of mortality, CVD, and MVD. Timing of physical activity may play a role in the future of obesity and T2D management.
+
+Study looked at the links between birth weight and incident adult type 2 diabetes (T2D) that were mediated by plasma metabolites. Low birth weight was associated with the adverse metabolic responses across multiple metabolic pathways.
+
+The importance of left ventricular global radial strain in predicting new-onset heart failure in a population with diabetes is unclear. Cardiometabolic disease risk factors disproportionately prevalent in bipolar disorder (BD) It is unknown which health risk factors are relevant to cognition in BD.
+
+Life's Essential 8 (LE8) score comprised eight metrics: smoking, body mass index, physical activity, non-high-density lipoprotein cholesterol, blood pressure, glycated haemoglobin, diet and sleep duration. Higher LE8 scores associated with a lower risk of incident macrovascular and microvascular complications among individuals with T2D.
+
+A study examined how frailty in combination with loneliness or social isolation is associated with socioeconomic deprivation. Vigorous physical activity, low-to-moderate sitting time, and high sleep quality were associated with a reduced risk of Parkinson's.
+
+A multiscale study to disentangle pathological brain aging from normal brain aging may reveal the underlying mechanisms. Diets with pro-inflammatory characteristics are associated with a heightened risk of anxiety and depression.
+
+Having any of the three microvascular diseases was associated with a 48% increase in the hazard of developing arrhythmias. Having optimal levels of risk factors may mitigate this risk. Short-term alcohol abstinence was found to accelerate biological aging.
+
+Physical activity (PA) is linked to a decreased risk of type 2 diabetes mellitus (T2DM) However, the influence of circadian PA trajectories remains uncertain. Vitamin D deficiency was associated with a 1.5-fold (95% CIs: 1.2-2.0) increased incidence of dementia.
+
+The presence of tinnitus was found to be associated with a higher incident rate of the primary outcome (HR = 1.057, 95%CI: 1.017-1.099, p  = 0.005) After adjusting for confounders, there was no significant association between tinnitis and stroke or mortality.
+
+ Consumption of sugar-sweetened beverages (SSB), artificially sweetened drinks (ASB), and pure fruit juice (PJ) was associated with an increased risk of atrial fibrillation. No significant interactions were observed between the consumption of SSB, ASB, or PJ and genetic predisposition to AF.
+
+The apolipoprotein E (APOE) plays a central role in lipid metabolism, vascular disease and dementia. For individuals with genetically predicted high plasma apoE and remnant cholesterol the risk for PAD was increased.
+
+The associations between hip/knee osteoarthritis (OA) and various psychiatry disorders remain unclear. Excessive consumption of ASBs was associated with an increased risk of incident hospitalized NAFLD. Sex steroid hormone fluctuations may underlie both reproductive disorders and sex differences in lifetime depression prevalence.
+
+Osteoarthritis affects over 300 million people worldwide. We identify 100 independently associated risk variants across 11 osteoarth arthritis phenotypes, 52 of which have not been associated with the disease before. Tea drinkers were 16% less likely to develop dementia compared with non-drinkers.
+
+Study used a novel clustering algorithm to identify robust subtypes of type 2 diabetes. Single nucleotide polymorphisms (SNPs) could be potentially useful to construct polygenic risk scores (PRSs) for kidney disease.
+
+UK Biobank participants (46.9% men, mean age 55 years) with data on early markers of CVD risk (n=12 706) were followed longitudinally (2014-2020; mean 8.4 years) Two DPs (DP1, DP2) were derived using reduced rank regression. DP1 positively correlated with saturated fat, monounsaturated fat, and polyunsaturated fat. DP2 (characterized by higher butter and high-fat cheese, lower nuts and seeds intake) was associated with slightly higher odds of elevated CVB risk.
+
+Low-to-moderate nut consumption was associated with a 17% lower risk of depression during a 5.3-year follow-up compared with no nut consumption. The incidence of all-cause dementia increased by 4.6% for each additional unit of DII.
+
+Study used data from 425 043 participants from the UK Biobank. Sleep, physical activity and sedentary behavior found to be associated with dementia risk.
+
+The Mediterranean diet is associated with better global cognition in older adults, slower cognitive decline and lower risk of dementia. Air pollutants exposure and venous thromboembolism (VTE) remains controversial.
+
+Maternal obesity causes early metabolic disorder in the offspring. Alcohol's impact on telomere length, a proposed marker of biological aging, is unclear. Study uses Mendelian randomisation to investigate the causal effect of metformin targets on Alzheimer's disease.
+
+A low-inflammatory diet could modify the chronic obstructive pulmonary disease (COPD) and lung cancer risk related to smoking. Proton-pump inhibitors (PPIs) are used to suppress gastric acid secretion in several gastrointestinal conditions. We analyzed the association between treatment with PPIs and migraine prevalence.
+
+Long-term blood pressure variability (BPV) is a risk factor for cardiovascular diseases, dementia, and stroke. We report a phenome-wide association study of genetic liability for AD in 334,968 participants of the UK Biobank study, stratified by age.
+
+The association between body mass index (BMI) and Alzheimer's disease (AD) remains controversial. An elevated risk of CVD was constantly observed among cancer patients, compared to their matched unexposed individuals. Exposure to air pollutants, especially PM 2.5 and PM 10, was positively associated with LBW.
+
+Decaffeinated, ground, and instant coffee, particularly at 2-3 cups/day, were associated with significant reductions in incident CVD and mortality. The combined effect of coffee and tea consumption on asthma has rarely been studied.
+
+Study looked at hypertension-related cardiovascular magnetic resonance (CMR) phenotypes in the UK Biobank. Hypertension was associated with concentric left ventricular (LV) hypertrophy, poorer LV function, larger left atrial (LA) volumes, lower LA ejection fraction.
+
+The human genome contains hundreds of thousands of regions harboring copy-number variants (CNV) Only larger CNVs have been ascertainable from SNP-array data generated by large biobanks. We developed a computational approach leveraging haplotype sharing in biobank cohorts to more sensitively detect CNVs.
+
+A healthy lifestyle score was constructed using 16 factors of six dimensions. A higher PRS was associated with increased odds of type 2 diabetes in all ancestries. The relationship between fish oil use and chronic obstructive pulmonary disease (COPD) is unclear.
+
+Hyperopia was significantly associated with an increased risk of incident CSD. A longer duration of hypertension (HTN) has been suggested to be associated with a greater risk of cardiovascular disease. The discovery of human obesity-associated genes can reveal new mechanisms for weight loss therapy.
+
+Theory for liability-scale models of the underlying genetic basis of complex disease provides an important way to interpret, compare, and understand results. Regular use of non-steroidal anti-inflammatory drugs (NSAIDs) was associated with the lower risk of colorectal cancer (CRC)
+
+Metabolic profile in middle-to-older age can predict cancer incidence, in particular risk of obesity-related cancer, hematologic malignancies, and liver cancer. Elevated values from liver tests are strong predictors for later risk of Liver cancer.
+
+A risk score developed with machine learning from the case-control genetics dataset can be used as an early screening test. PM 2.5 , smoking, and genetic factors are associated with lung cancer. It is unclear whether genetic risk modifies the impact of PM2.5 and smoking.
+
+A screening tool to assess if an older individual is likely to have a lower dietary protein intake (predicted probability of protein intake) has been developed for a Netherlands dietary profile. Replacing sedentary time with equal time spent doing PA may be associated with a significant reduction in dementia incidence and mortality risk.
+
+The relationship between sleep disturbances and depression is well documented, yet the biology of sleep is not fully understood. A later age at natural menopause has been linked to an increased risk of breast and endometrial cancer and a decreased risk of lung cancer, osteoporosis and Alzheimer disease.
+
+Study included 109,301 adults with obesity free of prior CVD based on the UK Biobank cohort. MUO was significantly associated with a 74% increased CVD risk compared with MHO.
+
+People with severe mental illness (SMI) experience large disparities in physical health. People with schizophrenia/psychosis, BD and MDD have higher risks of infection, hospitalisation and mortality.
+
+The incidence of kidney failure is known to increase with age. Non-random selection of analytic subsamples could introduce selection bias in observational studies. PM 2.5 showed the strongest associations with all transitions from healthy to FCMD, to CMM, and then death.
+
+First large-scale genome-wide association study for BSA was performed. Study aimed to identify novel genetic factors that contribute to body surface area. Based on more than 330,000 European individuals in the UK Biobank.
+
+A high adherence to the Mediterranean-Dietary Approaches to Stop Hypertension Diet Intervention for Neurodegenerative Delay (MIND) has been associated with better cognition. Smoking was associated with 27.8% higher white matter in the whole brain.
+
+The level of cartilage acidic protein 1 (CRTAC1) in plasma was recently discovered to be associated with osteoarthritis (OA) risk and progression to joint replacement in Iceland. The study analyzed serum GGT concentration at baseline of 421,032 participants recruited in the UK Biobank since 2006.
+
+Aging is a major risk factor for cardiovascular and neurodegenerative disorders. Brain atrophy mediated the inflammation-cognitive decline relationship. The older the age of pancreatitis, the higher the risk of the disease.
+
+Researchers used a convolutional neural network (CNN) to estimate brain age. A polygenic score of 78 European ancestry sleep duration single-nucleotide polymorphisms (SNPs) is associated with sleep duration in an African, East Asian and South Asian cohort.
+
+A genome-wide significant signal was found on chromosome 2q14.3 in the sex-combined GWAS. The negatively associated variants were most common in European Americans and African Americans and not observed in Japanese Americans.
+
+Study looked at 9,141 and 21,489 middle-aged participants with diabetes from Action to Control Cardiovascular Risk in Diabetes (ACCORD) trial and UK Biobank.
+
+The list of celebrities who took part in the contest includes celebrities, politicians, scientists and athletes. The list includes celebrities such as Barack Obama, Hillary Clinton, Beyonce, Kanye West, Oprah Winfrey, Jay Z, Justin Timberlake, Jennifer Aniston, Justin Bieber, Kanye's wife Beyonce and Hillary Clinton's daughter.
+
+Study looked at associations of residential green and blue spaces with chronic kidney disease (CKD) incidence. Higher intake of SSBs and ASBs was each associated with a higher risk of dementia. Menopause may have a role to play in explaining sex differences in cognition.
+
+No prior study has examined the effects of air pollution on the progression from healthy to chronic lung disease, subsequent chronic lung multimorbidity and further to death. Infants with bronchiolitis are at high risk for developing childhood asthma.
+
+Study looked at association of moderate-to-vigorous physical activity and sedentary behaviour with all-cause mortality (ACM) and incident cardiovascular disease (CVD) In 13,348 female BC survivors, there were 986 CVD events.
+
+Study aimed to assess associations between types and sources of dietary carbohydrates and CVD incidence. Study aimed to investigate the longitudinal association between decreased lung function and Cognitive brain health. Study examined associations of carbohydrate intakes with triglycerides within lipoprotein subclasses.
+
+Genetic risk scores can be deceiving as they do not consider other, easily attainable risk factors. Sex, BMI, age, smoking habits, parental disease status and physical activity can improve PGS based predictions.
+
+Cannabis use status was assessed among 104,092 volunteers of the UK Biobank population. Poor lifestyle was associated with a hazard ratio of up to 3.87 (95% CI, 2.98-5.02) for developing asthma.
+
+Sleep duration has been associated with cardiovascular disease, but the effect of sleep on peripheral artery disease (PAD) specifically remains unestablished. Short sleep duration was associated with an increased risk of PAD.
+
+Coffee intake and instant coffee intake were negatively correlated with telomere length. Long sleep was independently associated with lower left ventricular (LV) mass. Sex interactions exist with cardiac remodeling most evident in males with long sleep duration.
+
+Study aimed to evaluate the risk for long-term atherosclerotic cardiovascular disease according to polygenic risk scores for hypertensive disorders during pregnancy. Women with high genetic risk had a higher prevalence of hypertension at enrollment.
+
+Low grip strength and slow walking pace were associated with a higher risk of stroke and all-cause mortality in stroke survivors. Evidence suggests a correlation of blood pressure (BP) level with presence of diabetic microvascular complications (DMCs)
+
+A growing body of evidence shows differences in the prevalence of cardiometabolic syndrome (CMS) and dementia based on gender and ethnicity. Residential greenness has protective effects on glucose metabolism and T2D, and those beneficial effects can be amplified by low genetic risk.
+
+The lifetime risk of kidney disease in people with diabetes is 10-30%. We identify an expression quantitative trait loci (QTLs) in the cis-acting regulatory region of the xanthine dehydrogenase.
+
+Study included 407,615 participants from the UK Biobank study. 18,496 participants experienced at least one of hypertension, diabetes, and CKD, 2216 experienced multimorbidity, and 302 died afterwards.
+
+The study involved a total of 500,000 patients of European ancestry. The GSTM1 gene variant was found to be critical in the development of lung carcinogenesis. The results suggest that these associations can be regulated by several biological mechanisms.
+
+A total of 431,062 participants from the UK Biobank who were without cancer or cardiovascular disease at baseline between 2006 and 2010 were included in this study. 383,248 (88.9%) and 410,499 (95.2%) consumed oily fish and nonoily fish.
+
+Study examined interactions between ultraprocessed food (UPF) consumption and genetic predisposition with the risk of gout. Mobile phone use for making or receiving calls was significantly associated with a higher risk of new-onset hypertension, especially among high-frequency users.
+
+Researchers found that obesity and type 2 diabetes are associated with increased risk of pancreatic cancer. The use of statins was lower in patients who developed PD and higher in patients with DLB compared to patients with AD.
+
+Study looked at associations of sleep behaviors with esophageal adenocarcinoma (EAC) and squamous cell carcinoma (ESCC) Study included 409,923 participants from the UK Biobank. Long sleep duration increased the PD risk, especially among men and participants.
+
+Study included 116,711 CVD-free participants with a median of 11.8 years of follow-up. Results suggested 2q32.3 region and HECW2 gene could negatively moderate the influence of MS on offspring's educational status.
+
+Study looked at associations of diabetes, prediabetes and diabetes duration with chronic obstructive pulmonary disease (COPD) risk and survival in the UK Biobank. Longer telomere length (LTL) associated with better cognitive performance in specific cognitive domains.
+
+Study looked at associations of visit-to-visit HbA1c variability with incident dementia and hippocampal volume among middle-aged and older adults without diabetes. Sex-specific effects on cancer risk have rarely been studied.
+
+Cancer is a leading cause of morbidity and mortality worldwide. Smoking, older age and male sex were positively associated with cancer risk. Chronic back pain is a complex heritable trait and a major cause of disability.
+
+The melanocortin 3 receptor (MC3R) has recently emerged as a critical regulator of pubertal timing, linear growth, and the acquisition of lean mass in humans and mice. Patients with high socioeconomic deprivation had higher odds of reporting usual difficulties falling asleep or sleeping through the night.
+
+The association between C-Reactive protein (CRP), a marker associated with inflammation, and cognitive performance remains unclear. Shared variants were identified between specific nuclei and autism spectrum disorder, Alzheimer's disease, Parkinson's disease and schizophrenia.
+
+The extent of differences between genetic risks associated with various asthma subtypes is still unknown. The potential to reduce cancer mortality by vitamin D supplementation in populations with low 25(OH)D levels should be further explored.
+
+Vitamin D deficiency can cause atrial fibrillation and ischemic stroke, according to a new study. Study looked at the link between vitamin D deficiency and young onset of stroke.
+
+Exome sequencing data across 304,119 white British individuals from UK Biobank. Twenty-five variants are associated with alcohol consumption through single variant analysis. GIGYF1 and ANKRD12 show enrichment in brain function-related pathways.
+
+The relationship between physical frailty, age-related conditions, and the incidence of degenerative valvular heart disease (VHD) remains unclear. The independent role of body fat distribution and fat-free mass in heart failure (HF) risk is unclear.Shift work was associated with higher risk of dementia.
+
+Study looked at polygenic risk scores (PRS) for SA in 334,706 UK Biobank participants. Found 246 (63.07%) behaviour-related and 200 (10.41%) physiological factors significantly associated with SA.
+
+The Mediterranean-DASH Intervention for Neurodegenerative Delay (MIND) diet is emerging as a promising candidate for preventive measures against inflammatory bowel disease (IBD)
+
+Coffee consumption is globally widespread and has become a lifestyle habit. Moderate coffee consumption was associated with lower all-cause mortality across the entire cohort. Long-term exposure to high-level ambient PM 2.5 is associated with increased risks of brain disorders.
+
+The Multimorbidity-Adjusted Disability Score (MADS) integrates disease trajectory methodologies with advanced techniques for assessing interdependencies among concurrent diseases. We identified a genetic subtype (C4) of type 2 diabetes (T2D) benefitting from intensive glycemia treatment.
+
+Study used data from four cohorts in the International Collaboration for a Life Course Approach to Reproductive Health and Chronic Disease Events. Participants with irritability, nervous feelings, worrier/anxious feelings or fed-up feelings more likely to be rated as "about your age" or "older than you are"
+
+A healthy brain underpins cognitive and physical well-being, and mitigates cognitive decline, neurodegenerative diseases, and mental health disorders. We propose redefining case-control outcomes into ordinal case-subthreshold-asymptomatic variables.
+
+Study of 201,466 European participants from UK Biobank. Found 42.8% of the association between genetic predisposition to obesity and phenotypic obesity was explained by lifestyle. Noise and green space showed considerable contribution to brain volumes.
+
+Heart failure (HF) risk is greater in rural versus urban regions in the United States (US) Whether this excess risk applies to countries with universal healthcare is unclear. The association of diet with atopic dermatitis remains poorly understood.
+
+Long-term exposure to air pollution is linked to increased incidence risks of atrial and ventricular arrhythmias. High salt intake may play a critical role in the etiology of psoriasis.
+
+The relationships between ABO blood genotypes and dementia are modified by gender and APOE status. Findings reveal pattern of lower cortical thickness in fronto-temporal brain regions associated with obesity across all age cohorts.
+
+Long-term changes in frailty were associated with the risk of incident T2DM, irrespective of baseline frailty status. Preventing the worsening of frailty may reduce T2 DM risk.
+
+A study of UK Biobank data found that alcohol consumption is associated with a higher risk of many health conditions. The study also found that a higher FDS (compared to lower [Q4 vs. Q1] was associated to a 26% lower T 2D risk.
+
+Study included 23,129 participants with T2D at baseline from the UK Biobank. High levels of PM2.5, NO2, and NOX were associated with an elevated risk of severe NAFLD. A lower LE8 score was negatively associated with the risk of NAFLd.
+
+The ERLin1 p.Ile291Val single-nucleotide polymorphism (rs2862954) is associated with protection from steatotic liver disease (SLD) The protective effect of this variant was enhanced in patients with alcoholic liver disease.
+
+Smaller household size was associated with an increased risk of all-cause dementia. The relationship between sarcopenia and the long-term risk of atrial fibrillation (AF) remains unclear.
+
+The independent effect of waist-to-height ratio (WHtR) and body fat percentage (BF%) on ischemic cardiovascular disease (CVD) remains uncertain. Polygenic Risk Scores (PRS) based on results from genome-wide association studies offer the prospect of risk stratification for many common and complex diseases.
+
+The relationship between 24-hour rest-activity rhythms (RARs) and risk for dementia or mild cognitive impairment (MCI) remains an area of growing interest. One genome-wide significant (P &#8804; 5E-08) locus was associated with the susceptibility to upper UTI.
+
+The role of plant-based diets, particularly their quality, is poorly known. High low-density lipoprotein, low education, and high blood pressure had a greater effect on the rate of cognitive decline in the executive function for females.
+
+The relationship between socioeconomic status (SES) inequity and incident age-related macular degeneration (AMD) remains unclear. Brain age gap (BAG) was significantly increased in Alzheimer&#8242;s disease, anxiety disorders, bipolar disorder and post-traumatic stress disorder.
+
+High-density lipoprotein cholesterol (HDL-C) and low- density lipop protein cholesterol (LDL-L) were examined. HDL-C/LDl-C ratio of 0.4-0.6 was correlated with lower MI risk, all-cause mortality, haemorrhagic stroke and ischaemic stroke.
+
+The relationship between fish oil supplementation and incident dementia in a large population-based cohort study has not yet well studied. The evidence linking chronic kidney disease (CKD) to spontaneous intracerebral hemorrhage (ICH) is inconclusive owing to possible confounding by comorbidities.
+
+Genetic liability to RA was associated with an increased risk of CAD and ICH. The heightened cardiovascular risk should be actively monitored and managed in RA patients. A lower BMI conferred a faster rate of visual field progression.
+
+Oesophageal adenocarcinoma (EA), with Barrett's oesophagus (BE) as a precursor, is the most prevalent EC subtype in the Western world. The fat-to-muscle mass ratio (FMR) has been proposed as a useful indicator to assess disease risk independent of overall obesity.
+
+Genome-wide association (GWA) analyses were performed utilizing data from the Kaiser Permanente Research Board (KPRB) and the UK Biobank. Higher BMI decreased apolipoprotein B and low-density lipoprotein cholesterol (LDL-C) whilst BMI increased triglycerides only before WHR-adjustment.
+
+UK Biobank cohort included 61,958 participants aged 40 to 70 years from April 2007 to December 2016. Being a low meat-eater, fish-eaters, or vegetarians were all associated with a lower risk of cancer.
+
+Study confirms associations with waist and hip size, independent of BMI, for metabolic biomarkers but only with waist size for inflammatory biomarker. Study looked at 127 496 participants who completed a psychological wellbeing questionnaire and did not have type 2 diabetes at baseline.
+
+Sleep duration, psychiatric disorders and dementias are closely interconnected in older adults. Little is known about gene-gene interactions that may influence the risk of non-small cell lung cancer (NSCLC)
+
+With age, the prevalence of diseases such as fatty liver disease, cirrhosis, and type two diabetes increases. We found that rare mutations in a gene called autophagy-related 7 (ATG7) increase the risk of developing severe liver disease in individuals with dysmetabolism.
+
+Late-onset Alzheimer's disease (LOAD) is significantly more frequent in Hispanics than in non-Hispanic Whites. A dietary pattern high in high-SFA and low-fiber discretionary food and beverages was associated with higher risk of obesity.
+
+Genome-wide association study links infant mortality rate by place and year in the United Kingdom with common genetic variants among birth cohorts in the UK Biobank. Child maltreatment is associated with asthma in adults.
+
+Half a million adults were recruited into the UK Biobank prospective cohort study between March 2006 and October 2010. The main outcome measure was a composite primary outcome of 30-day major postoperative complications and 90-day all-cause mortality.
+
+Aging is characterized by body composition alterations. Alcohol consumption may partially drive these alterations, but findings are mixed. Red wine may help protect against adipogenesis due to anti-inflammatory/eulipidemic effects.
+
+Study examines how alcohol intake from wine and non-wine alcoholic beverages are associated with all-cause, cancer, non-cancer and CVD mortality. Study included 393,690 participants without CVD at baseline measurements between March 13, 2006, and October 1, 2010.
+
+'Sexually antagonistic' (SA) variants contribute to variation in life-history traits and overall fitness. The complexity of people's social lives may constitute the dominating factor in the vibrancy of many individuals' environment. The herpesviridae virus cytomegalovirus has been associated with lower cognitive function.
+
+The human protein transmembrane protease serine type 2 (TMPRSS2) plays a key role in SARS-CoV-2 infection. We hypothesized that naturally-occurring TMPR SS2 human genetic variants may modulate the severity of SARS. Inflammatory bowel disease is associated with an increased risk of skin cancer.
+
+High body mass index (BMI) has implications for clinical practice. The role of female-specific endocrine and reproductive events in modulating dementia risk needs to be further clarified.
+
+Genome-wide association studies (GWAS) have identified germline variants influencing the risk of developing colorectal cancer. We found that humans who carry loss-of-function mutations in MC3R have a later onset of puberty.
+
+The link between cardiometabolic and psychiatric illness has long been attributed to human behaviour. We found 84 SNPs associated with 46 genes that are involved in different pathways including: "Ca 2+  activated K +  channels"
+
+Phenome-wide association study (PheWAS) analysis was conducted to map the association of genetically predicted smoking status with 1,549 phenotypes. Sickle cell anemia and type 2 diabetes exhibited the most significant SNPs.
+
+A growing research body supports the connection between neurodegenerative disorders, including Alzheimer's disease (AD), and traffic-related air pollution. A favorable lifestyle (6-10 healthy factors; 46.4%) was associated with a 36% lower risk of multisystem sequelae.
+
+The Brain Care Score (BCS) is a tool designed to empower patients to address 12 dementia and stroke risk factors. Every 5-point increase in baseline BCS was linked to significantly lower WMH volumes.
+
+A total of 210,832 participants from the UK Biobank cohort were included in this prospective cohort study. Increased absolute sugar intake was significantly associated with a higher risk of all-cause dementia. A healthy lifestyle may have a protective effect throughout the longitudinal progression of CRMM.
+
+Exome sequencing of 40 IMDs in 350,770 UK Biobank participants identified 162 unique genes in 35 IMDs. 91 genes exerted significant effects on longitudinal outcomes. Plasma low-density lipoprotein (LDL)-cholesterol is positively associated with coronary artery disease risk. Different plasma LDL-cholesterol lowering pathways may have distinct effects on biliary cholesterol.
+
+Study aimed to investigate the relationships of lipids and their fractions with CKD in patients with T2D. Higher GRS of apolipoprotein B was associated with an increased CKD risk. Vision and eye conditions are associated with increased risk for Alzheimer disease.
+
+Genome-wide association studies have identified multiple genomic regions associated with anorexia nervosa. Altered expression of the complement component C4A gene is a known risk factor for schizophrenia. We obtained genetic information and performance measures on seven cognitive tasks.
+
+A polygenic risk score of 90 single nucleotide polymorphisms previously associated with stroke was constructed at P -5. Women with type 1 diabetes, type 2 diabetes, hypertension, hypercholesterolaemia, low levels of physical activity and fitness, low strength, high levels of TV viewing, sleep duration were at higher risk of HF incidence.
+
+Study used data from the UK Biobank, a middle-aged and elderly cohort recruited in 2006-2010. Depression was associated with a higher prevalence of modifiable risk factors. Wine preference and drinking with meals showed small protective associations with mortality.
+
+Smoking habits and education had high importance and clear directionality for both sexes. No significant association was detected between Z-meds and CHD, stroke, and cardiovascular mortality.
+
+Watch Walk digital biomarkers were developed, validated, and applied to 92,022 participants aged 45-79 who wore a wrist sensor for at least three days. The top 20% of the PRS combined distribution had a 3.25 increased risk of HCC vs. the middle decile.
+
+The mechanisms underlying relationships between ambient air pollution and chronic obstructive pulmonary disease (COPD) risk remained largely uncertain. Two LoF variants in the PAM gene, Ser539Trp and Asp563Gly, independently contributed to a decrease of 2.33 [95% confidence interval (CI): 2.52/2.15; P = 2.5E-140] and 0.98 (1.04/0.92) SD units of PAM-AMA.
+
+Lipid-lowering drugs were associated with decreased risk of 21 types of cancers. Disadvantaged socioeconomic status was associated with the risk of anxiety and depression. Strong associations were shown for individuals with greater genetic susceptibility.
+
+Study looked at the association of the American Heart Association's Life's Essential 8 (LE8) metrics with the incidence of cardiovascular disease (CVD) among depression participants.
+
+High cognitive reserve (CR) has been related to lower dementia risk, but its association with heart disease (HD) is unknown. High CR was associated with delayed HD onset by 1.59 (95% CI, 1.37-1.82) years compared with low CR.
+
+Study looked at relationship between cardiorespiratory fitness (CRF) and liver fat content (LFC) CRF was estimated with bicycle ergometer fitness testing. Study examined the association between ultra-processed food (UPF) consumption and rheumatoid arthritis (RA)
+
+The rate of AdSD in the cervical or lumbar spine will be less than 3% annually after primary fusion. Fish oil use was inversely associated with the incidence of CKD (HR 0.90; 95% CI: 0.83, 0.97)
+
+Study examined relationship between major plasma n6 PUFA, linoleic acid (LA), and total and cause-specific mortality. magnesium deficiency is linked to higher cardiovascular disease risk, but its association with chronic kidney disease (CKD) remains unclear.
+
+Body composition at early and middle age may be indicative of the risk of MND development. Gestational diabetes mellitus is associated with a higher risk of cardiovascular diseases, but the causality remains unclear.
+
+Time spent sitting above 10 h/day was associated with both higher orthostatic circulatory disease and major CVD risk. Time spent standing was not associated with major CVB risk. Metabolic abnormality has a stronger association with dementia than obesity.
+
+The role of environmental factors, particularly air pollutants, in the prevalence of sarcopenia remains unclear. Polygenic risk score (PRS) and rare monogenic variant screening are valuable tools for predicting cancer risk. Age-related decline in circulating serum testosterone concentrations is a well-established phenomenon in men.
+
+Aging plays an important role in type 2 diabetes mellitus (T2DM) But the association between accelerated biological age and T2DM remains unclear. There are no reliable methods for predicting and preventing atrial fibrillation (AF)
+
+Human brain aging is a complex process that affects various aspects of brain function and structure. We assessed impact of polygenic scores (PGS) and rare variants on ND-CNV carrier fluid intelligence (FI) scores in the UK Biobank.
+
+Regular laxative use was significantly associated with a higher risk of incident depression. The prognostic value of personality and its association with lifestyle factors remain elusive. Some genetic variants that decrease caffeine metabolism associate with higher levels of plasma caffeine, but lower levels of caffeine consumption.
+
+Inhibition of cholesteryl ester transfer protein (CETP) meaningfully affects the concentrations of blood lipids. Lower CETP concentrations were associated with higher total brain volume, lower risk of LBD and Parkinson's dementia.
+
+Low grip strength (GS) is associated with higher risk of Parkinson's disease (PD) incidence. Diabetes was associated with a 70% 58% and 134% increased risk for all-cause dementia, Alzheimer's disease, and vascular dementia.
+
+Study examined data of UK Biobank participants who were diagnosed with cancer. Fish oil and glucosamine use was associated with reduced risks of all-cause mortality. Study used genetic variants from the genome-wide association study.
+
+A higher consumption of cereals was significantly associated with lower risks of diabetes and diabetic complications. Polygenic of HbA1c mediates the effect of cereALS on incident diabetes.
+
+Data came from 79,294 participants in the UK Biobank who completed at least two 24-h dietary assessments. Blood metabolites, which are readily accessible, may become highly promising biomarkers for brain disorders.
+
+The emergence of biobank-level datasets offers new opportunities to discover novel biomarkers and develop predictive algorithms for human disease. Exome-wide sequencing and association analysis (ExWAS) in 75 K Pakistanis identified NM_000435.3(NOTCH3):c.3691 C > T.
+
+A balanced diet and adequate physical activity (PA) are recognized as pivotal components among modifiable environmental factors. Long-term PM1 exposure can contribute to rapid cognitive decline at concentrations exceeding 23 and 5.5 &#956;g/m-3.
+
+Study examined impact of ultra-processed food on type 2 diabetes (T2D), cardiovascular disease (CVD), hypertension, and cardiometabolic multimorbidity (CMM) Participants with high UPF consumption had a higher risk of T2D, CVD, and CMM.
+
+UK Biobank study in a cohort of participants who wore accelerometers for one week. Meeting physical activity guidelines is necessary to reduce all-cause mortality in those at the lower and middle thirds of handgrip strength.
+
+Study examined the association of consumption of coffee, including different types (instant and ground) and with new-onset hypertension. The human sex ratio (fraction of males) at birth is close to 0.5 at the population level.
+
+The impact of tobacco smoking on the whole-brain functional connectome remains largely unexplored. Fish consumption and long-chain n-3 polyunsaturated fatty acid (PUFA) intake were inversely associated with risk of hearing loss.
+
+Apolipoprotein E (APOE) &#949;4 allele is the strongest genetic risk factor for late onset Alzheimer's disease (AD) Visceral obesity was associated with a smaller LV EDV and subclinical lower LV systolic function in men.
+
+Cannabis use disorder has a strong genetic component and is associated with negative outcomes. High plasma vitamin C levels are associated with lower type 2 diabetes risk, but whether this association is causal is uncertain. The prevalence of vitamin D deficiency was highest among participants of Asian ancestry.
+
+A study followed 245,072 participants from the UK Biobank from baseline (2006-2010) until March 30, 2023. High soluble urokinase plasminogen activator receptor (suPAR) levels are associated with adverse outcomes in chronic heart failure (HF) There are limited data on impact of feedback of incidental findings (IFs) from research imaging.
+
+A study sought to construct a genomic risk score for coronary artery disease. The effect of socioeconomic deprivation on these extended lifestyle risks remains unclear. Genetic variants associated with lower activity of a gene can act as proxies to identify potential side effects.
+
+People with low or no red meat intake generally had lower hemoglobin concentrations. Circulating protein biomarkers with causal genetic evidence represent promising drug targets. No systematic screen of the proteome has been performed.
+
