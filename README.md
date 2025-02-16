@@ -37,7 +37,7 @@ We measure each model’s **Coverage Score** (breadth of matched terms) and **We
 ## Directory Structure
 
 Below is a high-level overview of the repository:
-
+```
 LLM_4_UKB/
 ├── DATA/
 │   ├── 01-most-common-keyword.csv
@@ -69,7 +69,7 @@ LLM_4_UKB/
 │   └── opt-125m/
 ├── requirements.txt
 └── ...
-
+```
 **Notable Folders**  
 - **DATA/**  
   Contains CSV files with LLM outputs, metadata, or partial extracts used for benchmarking.  
