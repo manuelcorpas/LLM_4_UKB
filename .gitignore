@@ -17,3 +17,5 @@ __pycache__/
 ukb_env/
 .env
 .DS_Store
+DATA/*
+!DATA/*.csv
