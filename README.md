@@ -44,12 +44,9 @@ LLM_4_UKB/
 │   ├── 02-subject-most-cited.csv
 │   ├── 03-most-prolific-authors.csv
 │   ├── 04-top-applicant-institutions.csv
-│   ├── ARCHIVE/
 │   ├── bart_temp.csv
 │   ├── combined_bart_keywords.csv
 │   ├── combined_keywords_bart.csv
-│   ├── publication_cleaned.xml
-│   └── schema_19.txt
 ├── PYTHON/
 │   ├── 00-00-ukb-schema-publication-reports.py
 │   ├── 00-condense-UKB-abstracts.py
@@ -66,7 +63,6 @@ LLM_4_UKB/
 │   ├── BART/
 │   ├── BENCHMARK/
 │   ├── REPORTS/
-│   └── opt-125m/
 ├── requirements.txt
 └── ...
 ```

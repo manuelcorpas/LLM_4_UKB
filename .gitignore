@@ -1,6 +1,9 @@
 # Directories to ignore
 ANALYSIS/
-DATA/
+DATA/*
+!DATA/*.csv
+!DATA/**/*.csv
+
 results/*/model/
 results/*/data/
 __pycache__/
@@ -17,5 +20,3 @@ __pycache__/
 ukb_env/
 .env
 .DS_Store
-DATA/*
-!DATA/*.csv
