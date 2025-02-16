@@ -164,13 +164,13 @@ python PYTHON/05-benchmark-summary-results.py
 
 ## License & Citation
 
-- **License**: [Choose your open-source license, e.g., MIT or Apache 2.0.]  
+- **License**: MIT  
 - **Citation**: If you use or extend this code, please cite our paper:
 
 ```bibtex
 @misc{CorpasIacoangeli2025LLMUKB,
   title    = {Large Language Models for Mining Biobank-Derived Insights into Health and Disease},
-  author   = {Corpas, Manuel and Iacoangeli, Alfredo, ...},
+  author   = {Corpas, Manuel and Iacoangeli, Alfredo},
   year     = {2025},
   archivePrefix = {bioRxiv},
   eprint        = {PAPER_DOI}
