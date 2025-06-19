@@ -334,9 +334,9 @@ class LLMBiobankEvaluator:
                    bbox=dict(boxstyle='round,pad=0.3', facecolor='white', alpha=0.8))
         
         # Overall title with better positioning
-        fig.suptitle('Enhanced Multidimensional Evaluation of LLM Performance on Biobank Tasks\n' +
-                    'Addressing Semantic Depth and Interpretive Competence',
-                    fontsize=16, fontweight='bold', y=0.96)
+        #fig.suptitle('Enhanced Multidimensional Evaluation of LLM Performance on Biobank Tasks\n' +
+        #            'Addressing Semantic Depth and Interpretive Competence',
+        #            fontsize=16, fontweight='bold', y=0.96)
         
         return fig
     
@@ -344,8 +344,8 @@ class LLMBiobankEvaluator:
         """Generate improved baseline comparison addressing reviewer concern #3."""
         
         fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(14, 10))
-        fig.suptitle('LLM Performance vs Multiple Baselines\n(Addressing Baseline Comparison Concern)', 
-                    fontsize=14, fontweight='bold', y=0.95)
+        #fig.suptitle('LLM Performance vs Multiple Baselines\n(Addressing Baseline Comparison Concern)', 
+        #            fontsize=14, fontweight='bold', y=0.95)
         
         # Simulate random baseline performance
         np.random.seed(44)
