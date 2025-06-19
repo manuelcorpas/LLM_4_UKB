@@ -1,0 +1,2 @@
+model1,model2,model1_mean,model1_ci_lower,model1_ci_upper,model2_mean,model2_ci_lower,model2_ci_upper,mean_difference,cohens_d,p_value,effect_size_interpretation,p_value_corrected,significant_corrected
+ChatGPT_4o,ChatGPT_o1_pro,0.5438999999999999,0.501250271963006,0.5865497280369939,0.5919000000000001,0.4732825940982909,0.7105174059017093,-0.048000000000000154,-0.8569151782116663,0.4857142857142857,large,0.4857142857142857,False

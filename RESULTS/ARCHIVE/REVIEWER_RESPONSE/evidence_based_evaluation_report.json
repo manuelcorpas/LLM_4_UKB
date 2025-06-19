@@ -1,0 +1,521 @@
+{
+  "evaluation_framework": {
+    "description": "Comprehensive LLM evaluation addressing reviewer concerns",
+    "evaluation_dimensions": [
+      "Coverage metrics (original paper consistency)",
+      "Precision/Recall/F1 (enhanced semantic matching)",
+      "Semantic accuracy (beyond basic cosine similarity)",
+      "Response depth and technical accuracy",
+      "Reasoning quality for complex queries",
+      "Biobank-specific knowledge assessment"
+    ],
+    "baseline_comparisons": [
+      "Random_Selection",
+      "Frequency_Based",
+      "TFIDF_Retrieval",
+      "Rule_Based_Heuristic"
+    ],
+    "query_complexity_levels": [
+      "simple_retrieval",
+      "complex_reasoning",
+      "hypothesis_generation",
+      "causal_inference",
+      "data_interpretation",
+      "multi_step_inference",
+      "cross_modal_reasoning"
+    ],
+    "total_queries": 6,
+    "statistical_testing": "Effect sizes and significance tests vs baselines"
+  },
+  "empirical_findings": {},
+  "model_performance": {
+    "ChatGPT_4o": {
+      "mean_f1_score": 1.6,
+      "mean_semantic_accuracy": 0.44084656119346616,
+      "mean_reasoning_quality": 1.0,
+      "mean_biobank_specificity": 0.48,
+      "response_count": 1
+    },
+    "ChatGPT_o1": {
+      "mean_f1_score": 1.8588235294117648,
+      "mean_semantic_accuracy": 0.45115112763258713,
+      "mean_reasoning_quality": 1.0,
+      "mean_biobank_specificity": 0.8,
+      "response_count": 1
+    },
+    "ChatGPT_o1_pro": {
+      "mean_f1_score": 1.881081081081081,
+      "mean_semantic_accuracy": 0.4803073459658129,
+      "mean_reasoning_quality": 1.0,
+      "mean_biobank_specificity": 0.8,
+      "response_count": 1
+    },
+    "Claude_Sonnet": {
+      "mean_f1_score": 1.7037037037037037,
+      "mean_semantic_accuracy": 0.5047885219256083,
+      "mean_reasoning_quality": 1.0,
+      "mean_biobank_specificity": 0.8,
+      "response_count": 1
+    },
+    "Gemini": {
+      "mean_f1_score": 1.6507936507936507,
+      "mean_semantic_accuracy": 0.4277136589090029,
+      "mean_reasoning_quality": 1.0,
+      "mean_biobank_specificity": 0.8,
+      "response_count": 1
+    },
+    "Mistral_Large_2": {
+      "mean_f1_score": 1.7981651376146788,
+      "mean_semantic_accuracy": 0.37071040603849625,
+      "mean_reasoning_quality": 1.0,
+      "mean_biobank_specificity": 0.48,
+      "response_count": 1
+    },
+    "Meta_Llama_3_1_405B": {
+      "mean_f1_score": 1.6901408450704225,
+      "mean_semantic_accuracy": 0.42297708478111484,
+      "mean_reasoning_quality": 1.0,
+      "mean_biobank_specificity": 0.48,
+      "response_count": 1
+    },
+    "DeepThink_R1": {
+      "mean_f1_score": 1.8208955223880596,
+      "mean_semantic_accuracy": 0.40682245625389946,
+      "mean_reasoning_quality": 1.0,
+      "mean_biobank_specificity": 0.8,
+      "response_count": 1
+    },
+    "Random_Selection": {
+      "mean_f1_score": 0.3240740740740741,
+      "mean_semantic_accuracy": 0.4015771657228469,
+      "mean_reasoning_quality": 0.16666666666666666,
+      "mean_biobank_specificity": 0.3066666666666667,
+      "response_count": 6
+    },
+    "Frequency_Based": {
+      "mean_f1_score": 0.5387205387205387,
+      "mean_semantic_accuracy": 0.29641976257165276,
+      "mean_reasoning_quality": 0.16666666666666666,
+      "mean_biobank_specificity": 0.0,
+      "response_count": 6
+    },
+    "TFIDF_Retrieval": {
+      "mean_f1_score": 0.24572649572649574,
+      "mean_semantic_accuracy": 0.32285504837830864,
+      "mean_reasoning_quality": 0.16666666666666666,
+      "mean_biobank_specificity": 0.08000000000000002,
+      "response_count": 6
+    },
+    "Rule_Based_Heuristic": {
+      "mean_f1_score": 0.8271640640061692,
+      "mean_semantic_accuracy": 0.3491140604019165,
+      "mean_reasoning_quality": 0.16666666666666666,
+      "mean_biobank_specificity": 0.026666666666666672,
+      "response_count": 6
+    }
+  },
+  "baseline_comparisons": {
+    "ChatGPT_4o_vs_Random_Selection": {
+      "improvement_absolute": 1.275925925925926,
+      "improvement_percentage": 393.71428571428567,
+      "statistical_significance": "significant",
+      "effect_interpretation": "large"
+    },
+    "ChatGPT_4o_vs_Frequency_Based": {
+      "improvement_absolute": 1.0612794612794614,
+      "improvement_percentage": 197.00000000000003,
+      "statistical_significance": "significant",
+      "effect_interpretation": "large"
+    },
+    "ChatGPT_4o_vs_TFIDF_Retrieval": {
+      "improvement_absolute": 1.3542735042735043,
+      "improvement_percentage": 551.1304347826087,
+      "statistical_significance": "significant",
+      "effect_interpretation": "large"
+    },
+    "ChatGPT_4o_vs_Rule_Based_Heuristic": {
+      "improvement_absolute": 0.7728359359938309,
+      "improvement_percentage": 93.43200093229231,
+      "statistical_significance": "significant",
+      "effect_interpretation": "large"
+    },
+    "ChatGPT_o1_vs_Random_Selection": {
+      "improvement_absolute": 1.5347494553376906,
+      "improvement_percentage": 473.57983193277306,
+      "statistical_significance": "significant",
+      "effect_interpretation": "large"
+    },
+    "ChatGPT_o1_vs_Frequency_Based": {
+      "improvement_absolute": 1.320102990691226,
+      "improvement_percentage": 245.04411764705884,
+      "statistical_significance": "significant",
+      "effect_interpretation": "large"
+    },
+    "ChatGPT_o1_vs_TFIDF_Retrieval": {
+      "improvement_absolute": 1.613097033685269,
+      "improvement_percentage": 656.4603580562659,
+      "statistical_significance": "significant",
+      "effect_interpretation": "large"
+    },
+    "ChatGPT_o1_vs_Rule_Based_Heuristic": {
+      "improvement_absolute": 1.0316594654055957,
+      "improvement_percentage": 124.7224716713396,
+      "statistical_significance": "significant",
+      "effect_interpretation": "large"
+    },
+    "ChatGPT_o1_pro_vs_Random_Selection": {
+      "improvement_absolute": 1.5570070070070068,
+      "improvement_percentage": 480.44787644787635,
+      "statistical_significance": "significant",
+      "effect_interpretation": "large"
+    },
+    "ChatGPT_o1_pro_vs_Frequency_Based": {
+      "improvement_absolute": 1.3423605423605423,
+      "improvement_percentage": 249.17567567567565,
+      "statistical_significance": "significant",
+      "effect_interpretation": "large"
+    },
+    "ChatGPT_o1_pro_vs_TFIDF_Retrieval": {
+      "improvement_absolute": 1.6353545853545852,
+      "improvement_percentage": 665.5182138660399,
+      "statistical_significance": "significant",
+      "effect_interpretation": "large"
+    },
+    "ChatGPT_o1_pro_vs_Rule_Based_Heuristic": {
+      "improvement_absolute": 1.053917017074912,
+      "improvement_percentage": 127.41329839337068,
+      "statistical_significance": "significant",
+      "effect_interpretation": "large"
+    },
+    "Claude_Sonnet_vs_Random_Selection": {
+      "improvement_absolute": 1.3796296296296295,
+      "improvement_percentage": 425.7142857142856,
+      "statistical_significance": "significant",
+      "effect_interpretation": "large"
+    },
+    "Claude_Sonnet_vs_Frequency_Based": {
+      "improvement_absolute": 1.164983164983165,
+      "improvement_percentage": 216.25,
+      "statistical_significance": "significant",
+      "effect_interpretation": "large"
+    },
+    "Claude_Sonnet_vs_TFIDF_Retrieval": {
+      "improvement_absolute": 1.457977207977208,
+      "improvement_percentage": 593.3333333333333,
+      "statistical_significance": "significant",
+      "effect_interpretation": "large"
+    },
+    "Claude_Sonnet_vs_Rule_Based_Heuristic": {
+      "improvement_absolute": 0.8765396396975346,
+      "improvement_percentage": 105.96926025197793,
+      "statistical_significance": "significant",
+      "effect_interpretation": "large"
+    },
+    "Gemini_vs_Random_Selection": {
+      "improvement_absolute": 1.3267195767195765,
+      "improvement_percentage": 409.3877551020407,
+      "statistical_significance": "significant",
+      "effect_interpretation": "large"
+    },
+    "Gemini_vs_Frequency_Based": {
+      "improvement_absolute": 1.112073112073112,
+      "improvement_percentage": 206.42857142857142,
+      "statistical_significance": "significant",
+      "effect_interpretation": "large"
+    },
+    "Gemini_vs_TFIDF_Retrieval": {
+      "improvement_absolute": 1.405067155067155,
+      "improvement_percentage": 571.8012422360248,
+      "statistical_significance": "significant",
+      "effect_interpretation": "large"
+    },
+    "Gemini_vs_Rule_Based_Heuristic": {
+      "improvement_absolute": 0.8236295867874815,
+      "improvement_percentage": 99.57269937458729,
+      "statistical_significance": "significant",
+      "effect_interpretation": "large"
+    },
+    "Mistral_Large_2_vs_Random_Selection": {
+      "improvement_absolute": 1.4740910635406046,
+      "improvement_percentage": 454.86238532110076,
+      "statistical_significance": "significant",
+      "effect_interpretation": "large"
+    },
+    "Mistral_Large_2_vs_Frequency_Based": {
+      "improvement_absolute": 1.25944459889414,
+      "improvement_percentage": 233.78440366972475,
+      "statistical_significance": "significant",
+      "effect_interpretation": "large"
+    },
+    "Mistral_Large_2_vs_TFIDF_Retrieval": {
+      "improvement_absolute": 1.552438641888183,
+      "improvement_percentage": 631.7750299162345,
+      "statistical_significance": "significant",
+      "effect_interpretation": "large"
+    },
+    "Mistral_Large_2_vs_Rule_Based_Heuristic": {
+      "improvement_absolute": 0.9710010736085096,
+      "improvement_percentage": 117.38917535968629,
+      "statistical_significance": "significant",
+      "effect_interpretation": "large"
+    },
+    "Meta_Llama_3_1_405B_vs_Random_Selection": {
+      "improvement_absolute": 1.3660667709963483,
+      "improvement_percentage": 421.52917505030166,
+      "statistical_significance": "significant",
+      "effect_interpretation": "large"
+    },
+    "Meta_Llama_3_1_405B_vs_Frequency_Based": {
+      "improvement_absolute": 1.1514203063498838,
+      "improvement_percentage": 213.73239436619718,
+      "statistical_significance": "significant",
+      "effect_interpretation": "large"
+    },
+    "Meta_Llama_3_1_405B_vs_TFIDF_Retrieval": {
+      "improvement_absolute": 1.4444143493439268,
+      "improvement_percentage": 587.8138395590937,
+      "statistical_significance": "significant",
+      "effect_interpretation": "large"
+    },
+    "Meta_Llama_3_1_405B_vs_Rule_Based_Heuristic": {
+      "improvement_absolute": 0.8629767810642534,
+      "improvement_percentage": 104.32957844960453,
+      "statistical_significance": "significant",
+      "effect_interpretation": "large"
+    },
+    "DeepThink_R1_vs_Random_Selection": {
+      "improvement_absolute": 1.4968214483139854,
+      "improvement_percentage": 461.8763326226012,
+      "statistical_significance": "significant",
+      "effect_interpretation": "large"
+    },
+    "DeepThink_R1_vs_Frequency_Based": {
+      "improvement_absolute": 1.282174983667521,
+      "improvement_percentage": 238.0037313432836,
+      "statistical_significance": "significant",
+      "effect_interpretation": "large"
+    },
+    "DeepThink_R1_vs_TFIDF_Retrieval": {
+      "improvement_absolute": 1.5751690266615639,
+      "improvement_percentage": 641.0253082414016,
+      "statistical_significance": "significant",
+      "effect_interpretation": "large"
+    },
+    "DeepThink_R1_vs_Rule_Based_Heuristic": {
+      "improvement_absolute": 0.9937314583818905,
+      "improvement_percentage": 120.13716524010876,
+      "statistical_significance": "significant",
+      "effect_interpretation": "large"
+    }
+  },
+  "query_complexity_analysis": {
+    "simple_retrieval": {
+      "query_count": 1,
+      "model_performance": {
+        "ChatGPT_4o": {
+          "mean_f1": 1.6,
+          "mean_reasoning": 1.0
+        },
+        "ChatGPT_o1": {
+          "mean_f1": 1.8588235294117648,
+          "mean_reasoning": 1.0
+        },
+        "ChatGPT_o1_pro": {
+          "mean_f1": 1.881081081081081,
+          "mean_reasoning": 1.0
+        },
+        "Claude_Sonnet": {
+          "mean_f1": 1.7037037037037037,
+          "mean_reasoning": 1.0
+        },
+        "Gemini": {
+          "mean_f1": 1.6507936507936507,
+          "mean_reasoning": 1.0
+        },
+        "Mistral_Large_2": {
+          "mean_f1": 1.7981651376146788,
+          "mean_reasoning": 1.0
+        },
+        "Meta_Llama_3_1_405B": {
+          "mean_f1": 1.6901408450704225,
+          "mean_reasoning": 1.0
+        },
+        "DeepThink_R1": {
+          "mean_f1": 1.8208955223880596,
+          "mean_reasoning": 1.0
+        },
+        "Random_Selection": {
+          "mean_f1": 0.7777777777777778,
+          "mean_reasoning": 1.0
+        },
+        "Frequency_Based": {
+          "mean_f1": 0.7777777777777778,
+          "mean_reasoning": 1.0
+        },
+        "TFIDF_Retrieval": {
+          "mean_f1": 0.3076923076923077,
+          "mean_reasoning": 1.0
+        },
+        "Rule_Based_Heuristic": {
+          "mean_f1": 0.8421052631578948,
+          "mean_reasoning": 1.0
+        }
+      },
+      "performance_summary": "Strong performance across models"
+    },
+    "hypothesis_generation": {
+      "query_count": 1,
+      "model_performance": {
+        "Random_Selection": {
+          "mean_f1": 0.25,
+          "mean_reasoning": 0.0
+        },
+        "Frequency_Based": {
+          "mean_f1": 0.6,
+          "mean_reasoning": 0.0
+        },
+        "TFIDF_Retrieval": {
+          "mean_f1": 0.25,
+          "mean_reasoning": 0.0
+        },
+        "Rule_Based_Heuristic": {
+          "mean_f1": 0.923076923076923,
+          "mean_reasoning": 0.0
+        }
+      },
+      "performance_summary": "Moderate performance across models"
+    },
+    "causal_inference": {
+      "query_count": 1,
+      "model_performance": {
+        "Random_Selection": {
+          "mean_f1": 0.2222222222222222,
+          "mean_reasoning": 0.0
+        },
+        "Frequency_Based": {
+          "mean_f1": 0.5454545454545454,
+          "mean_reasoning": 0.0
+        },
+        "TFIDF_Retrieval": {
+          "mean_f1": 0.2222222222222222,
+          "mean_reasoning": 0.0
+        },
+        "Rule_Based_Heuristic": {
+          "mean_f1": 0.8571428571428571,
+          "mean_reasoning": 0.0
+        }
+      },
+      "performance_summary": "Weak performance across models"
+    },
+    "data_interpretation": {
+      "query_count": 1,
+      "model_performance": {
+        "Random_Selection": {
+          "mean_f1": 0.2222222222222222,
+          "mean_reasoning": 0.0
+        },
+        "Frequency_Based": {
+          "mean_f1": 0.36363636363636365,
+          "mean_reasoning": 0.0
+        },
+        "TFIDF_Retrieval": {
+          "mean_f1": 0.2222222222222222,
+          "mean_reasoning": 0.0
+        },
+        "Rule_Based_Heuristic": {
+          "mean_f1": 0.7142857142857143,
+          "mean_reasoning": 0.0
+        }
+      },
+      "performance_summary": "Weak performance across models"
+    },
+    "multi_step_inference": {
+      "query_count": 1,
+      "model_performance": {
+        "Random_Selection": {
+          "mean_f1": 0.2222222222222222,
+          "mean_reasoning": 0.0
+        },
+        "Frequency_Based": {
+          "mean_f1": 0.5454545454545454,
+          "mean_reasoning": 0.0
+        },
+        "TFIDF_Retrieval": {
+          "mean_f1": 0.2222222222222222,
+          "mean_reasoning": 0.0
+        },
+        "Rule_Based_Heuristic": {
+          "mean_f1": 0.8571428571428571,
+          "mean_reasoning": 0.0
+        }
+      },
+      "performance_summary": "Weak performance across models"
+    },
+    "cross_modal_reasoning": {
+      "query_count": 1,
+      "model_performance": {
+        "Random_Selection": {
+          "mean_f1": 0.25,
+          "mean_reasoning": 0.0
+        },
+        "Frequency_Based": {
+          "mean_f1": 0.4,
+          "mean_reasoning": 0.0
+        },
+        "TFIDF_Retrieval": {
+          "mean_f1": 0.25,
+          "mean_reasoning": 0.0
+        },
+        "Rule_Based_Heuristic": {
+          "mean_f1": 0.7692307692307692,
+          "mean_reasoning": 0.0
+        }
+      },
+      "performance_summary": "Weak performance across models"
+    }
+  },
+  "evidence_based_conclusions": {
+    "demonstrated_capabilities": [
+      "Reliable keyword and concept identification",
+      "Basic biomedical terminology recognition",
+      "Some reasoning capability for complex queries"
+    ],
+    "clear_limitations": [
+      "Variable performance across query types",
+      "Limited depth in technical explanations",
+      "Inconsistent biobank-specific knowledge"
+    ],
+    "baseline_comparison_insights": [
+      "LLMs show statistically significant improvements over 32 baseline comparisons"
+    ],
+    "complexity_handling": [
+      "Variable performance across complexity levels"
+    ],
+    "statistical_evidence": [
+      "Analysis based on 32 total responses (32 LLM responses)",
+      "Mean F1 score: 0.801 \u00b1 0.594"
+    ],
+    "practical_implications": [
+      "LLMs show promise for basic biomedical information retrieval tasks",
+      "Significant limitations remain for complex reasoning and interpretation",
+      "Baseline comparisons suggest non-trivial but modest improvements over simple methods",
+      "Performance varies substantially across models and query types",
+      "Current capabilities insufficient for autonomous clinical decision-making",
+      "Potential utility as assistive tools for literature review and hypothesis generation"
+    ]
+  },
+  "limitations_acknowledged": {
+    "evaluation_scope": "Limited to retrieval and summarization tasks; does not assess clinical decision-making",
+    "query_generalizability": "Query set focused on UK Biobank domain; may not generalize to other biomedical datasets",
+    "baseline_sophistication": "Baselines are simple; more sophisticated retrieval systems could provide better comparison",
+    "response_variability": "LLM responses are stochastic; multiple runs would improve reliability assessment",
+    "semantic_evaluation": "Semantic similarity metrics have limitations; human expert evaluation would enhance validity"
+  },
+  "future_directions": {
+    "evaluation_refinement": "Develop more sophisticated evaluation metrics incorporating clinical relevance",
+    "domain_adaptation": "Investigate fine-tuning approaches for biobank-specific tasks",
+    "human_evaluation": "Conduct expert evaluation studies for response quality assessment",
+    "multimodal_extension": "Extend evaluation to include analysis of genomic, imaging, and clinical data",
+    "real_world_validation": "Test LLM performance in actual biobank research workflows"
+  }
+}

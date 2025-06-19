@@ -1,0 +1,9 @@
+statistic,value,description
+total_llm_models_evaluated,8,Number of LLM models evaluated
+total_baseline_models,0,Number of baseline models
+openai_models_evaluated,3,Number of OpenAI models evaluated
+total_llm_evaluations,32,Total number of LLM evaluations
+total_baseline_evaluations,0,Total number of baseline evaluations
+metrics_evaluated,6,Number of performance metrics evaluated
+total_pairwise_comparisons,168,Total number of pairwise model comparisons
+significant_pairwise_comparisons,0,Pairwise comparisons with significant differences (FDR-corrected)

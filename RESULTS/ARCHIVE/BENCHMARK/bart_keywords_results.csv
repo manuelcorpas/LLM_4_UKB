@@ -1,0 +1,101 @@
+Model,CoverageScore,WeightedCoverageScore,KeywordsFound
+Overall,1.0,1.0,20
+The most commonly occurring keywords in UK Biobank papers reflect a broad spectrum of research areas,0.95,0.9865668879075548,19
+all aimed at understanding the complex interplay between genetics,0.95,0.9632440436840575,19
+Terms related to blood and urine biomarkers (lipids,0.85,0.9368537959118914,17
+Overall,0.95,0.9288944125657773,19
+Overall,0.95,0.9288944125657773,19
+- Studies often focus on cardiovascular and metabolic diseases,0.95,0.9266467461723563,19
+- **Depression,0.85,0.9220191977153133,17
+- **Keywords:** Risk factors,0.8,0.8864531824311818,16
+2. **Major public health diseases** (cardiovascular,0.8,0.8771716423830552,16
+- **Keywords:** Alzheimer’s disease,0.85,0.8765370071660893,17
+BART,0.7,0.8493005791046355,14
+Gemini 2.0 Flash,0.8,0.8443821561731496,16
+Especially *breast cancer*,0.85,0.8423460348520506,17
+- Many UK Biobank papers focus on genetic and genomic data,0.85,0.8423460348520506,17
+High-prevalence conditions such as *hypertension,0.75,0.8422931485839702,15
+Keywords such as “dietary habits,0.7,0.8323240870507973,14
+- Keywords around **GWAS,0.8,0.8279609699341566,16
+- **Lifestyle factors**,0.8,0.8279609699341566,16
+- **Keywords:** Aging,0.75,0.8153475949969591,15
+- **Keywords:** MRI,0.8,0.8066742470317582,16
+- **Keywords:** COVID-19,0.7,0.8050083295872227,14
+These subjects reflect the broad and comprehensive nature of the UK Biobank's data,0.75,0.8044530237723775,15
+- **Keywords:** Transcriptomics,0.75,0.793241134939313,15
+- **Keywords:** Predictive modeling,0.65,0.7904381627310468,13
+In other words,0.7,0.7723775021815585,14
+1. **Large-scale genetic association studies** (GWAS,0.65,0.7496628500409869,13
+Based on these keywords,0.75,0.745484834862628,15
+- **Risk Factors,0.65,0.7430785096649655,13
+- Studies often examine the impact of lifestyle and environmental factors on health outcomes. This includes research on diet,0.7,0.7410423883438665,14
+Heart disease is a prime research focus,0.7,0.735410000793294,14
+Meta Llama 3.1 405B,0.6,0.7348811381124891,12
+With half a million genotyped participants,0.65,0.7276092762514214,13
+A major theme is how genetic predisposition interacts with lifestyle (e.g.,0.65,0.7276092762514214,13
+UKB’s extensive imaging sub-study is increasingly popular,0.65,0.7275299468493006,13
+- **Keywords:** Genome-wide association studies (GWAS),0.65,0.7245154295687125,13
+- **Keywords:** Breast cancer,0.65,0.7245154295687125,13
+- **Keywords:** Socioeconomic status,0.65,0.6906946611312372,13
+Terms like “hazard ratio,0.6,0.6763095962133432,12
+Sleep duration and disturbances have gained attention in recent years,0.55,0.6721051379009441,11
+- Infectious diseases,0.6,0.665335695586641,12
+3. **Lifestyle determinants** (physical activity,0.5,0.6618452018933284,10
+Imaging-based keywords are common,0.5,0.6618452018933284,10
+- Research on multimorbidity,0.55,0.6565301319512389,11
+- **Keywords:** Diet,0.5,0.6545468968982204,10
+3. **Lifestyle/behavioral epidemiology** (diet,0.45,0.6419864082291034,9
+- Neurodegenerative diseases,0.55,0.6387867890102334,11
+- **Keywords:** Type 2 diabetes,0.55,0.6267287198878811,11
+- **Keywords:** Rheumatoid arthritis,0.5,0.6052040087791205,10
+The UK Biobank is a large-scale biomedical database and research resource,0.65,0.6011846524050031,13
+However,0.45,0.5907396144591057,9
+- Imaging (MRI,0.5,0.578866647275035,10
+Includes self-reported activity data,0.6,0.5774122749028214,12
+- **Keywords:** Drug response,0.45,0.5740011106116297,9
+ChatGPT o1,0.55,0.5733664753946638,11
+ChatGPT o1 pro,0.55,0.5733664753946638,11
+- **“Observational Study,0.55,0.573075600920221,11
+Tobacco use data is often examined in relation to myriad diseases (cancer,0.4,0.5593516143533331,8
+These keywords reflect the broad range of research topics that are being studied using the UK Biobank. The UK Biobank is a valuable resource for researchers across many different fields of medicine,0.55,0.5394663775550679,11
+- Precision medicine is a significant area of research,0.6,0.5300790649707804,12
+In essence,0.45,0.5214057170055795,9
+DeepThink R1,0.45,0.5192373800142793,9
+- **Genetic and epidemiological investigations** of *cardiometabolic,0.45,0.517809450776106,9
+- **Keywords:** Coronary artery disease,0.35,0.504191236745379,7
+Often listed explicitly as a keyword,0.55,0.49559721818229896,11
+1. **Major disease areas** (cardiometabolic,0.3,0.48539016844276384,6
+- **“Cardiovascular Disease,0.55,0.48163524340904884,11
+Putting these keyword clusters together,0.4,0.4593701245471613,8
+- **Co-occurrence,0.6,0.4571753444218209,12
+ChatGPT 4o,0.65,0.4479202475077346,13
+- **“Parkinson’s Disease,0.6,0.44747071422905044,12
+- **“Proteomics,0.5,0.4345400216833699,10
+The frequent occurrence of keywords related to genetics and genomics is not surprising,0.55,0.41462834175106433,11
+- **“Type 2 Diabetes,0.6,0.41087341671734934,12
+- Cancer research is a prominent subject,0.45,0.38144220853055505,9
+- **MRI,0.4,0.36904037866567946,8
+- **Cardiovascular Disease,0.5,0.3598910542877542,10
+Mistral Large 2,0.3,0.35150858079699604,6
+- **“Depression,0.35,0.34637861279318827,7
+Obesity and T2D also feature heavily,0.5,0.34352275431684165,10
+The most common keyword category centers on *GWAS*,0.5,0.32247401962080546,10
+Claude 3.5 Sonnet (explanatory style),0.35,0.30935822513684325,7
+- **Focus:** Utilizing imaging data to study organ structure and function,0.45,0.3090409075283603,9
+The presence of keywords related to epigenetics,0.45,0.30676679800089907,9
+- **“Breast Cancer,0.45,0.3058148451754502,9
+With the inclusion of mental health questionnaires and linked hospital records,0.35,0.30277388476082184,7
+- **Focus:** Identifying genetic associations with diseases and traits,0.45,0.30248301028637914,9
+- **Focus:** Exploring genetic predispositions,0.35,0.275854774307851,7
+Because of the linkage to national cancer registries and large participant numbers,0.4,0.27360710791443,8
+Given the Biobank’s rich lifestyle survey data,0.4,0.25660417272655156,8
+A particularly frequent keyword (or phrase) in UK Biobank studies: investigators use genetic variants as instrumental variables to test causal relationships (e.g.,0.4,0.25660417272655156,8
+- **Focus:** Investigating risk factors,0.35,0.2368247084644472,7
+- **“Physical Activity,0.3,0.232620250152048,6
+Both mental health outcomes and neurodegenerative disorders come up often as keywords,0.35,0.22593013723986566,7
+2. **Methodological frameworks** (GWAS,0.2,0.21704524420234286,4
+Especially *Alzheimer’s disease*,0.4,0.2089800883200677,8
+While less common than cardiometabolic or cancer keywords,0.35,0.20831900996906152,7
+These two interrelated conditions and their risk factors (BMI,0.3,0.17708966866753048,6
+Although less prevalent than GWAS keywords,0.2,0.14390353544702117,4
+- **“MRI,0.05,0.01438506491789407,1

@@ -1,0 +1,64 @@
+
+(ukb_env) manuelcorpas1@MacBook-Pro-156198 deepseek_training % python3.11 PYTHON/02-query-model.py
+/Users/manuelcorpas1/Library/Python/3.11/lib/python/site-packages/requests/__init__.py:102: RequestsDependencyWarning: urllib3 (1.26.7) or chardet (5.2.0)/charset_normalizer (2.0.12) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({})/charset_normalizer ({}) doesn't match a supported "
+
+Querying the model...
+
+Question: Which imaging data fields are most commonly used with genetic data?
+/Users/manuelcorpas1/Library/Python/3.11/lib/python/site-packages/transformers/pytorch_utils.py:337: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  test_elements = torch.tensor(test_elements)
+Answer: Based on UK Biobank publications, answer this question:
+
+Which imaging data fields are most commonly used with genetic data?
+
+ The UK Biobank has published a study comparing the use of genetic imaging in the UK Biobank population, but only the most recent data is available.
+
+ The UK Biobank has published a study comparing the use of genetic imaging in the UK Biobank population, but only the most recent data is available.
+
+ The UK Biobank has published a study comparing the use of genetic imaging in the UK Biobank population, but only the most recent data is available.
+
+ The UK Biobank has published a study comparing the use of genetic imaging in the UK Biobank population, but only the most recent data is available.
+
+ The UK Biobank has published a study comparing the use of genetic imaging in the UK Biobank population, but only the most recent data is available.
+
+ The UK Biobank has published a study comparing the use of genetic imaging in the UK Biobank population, but only the most recent data is available.
+
+ The UK
+
+================================================================================
+
+Question: What UK Biobank fields are trending in recent publications?
+Answer: Based on UK Biobank publications, answer this question:
+
+What UK Biobank fields are trending in recent publications?
+
+ Answer:
+
+UK Biobank is currently in the process of publishing a paper on the trend in UK Biobank. We will continue to look for new papers and will report results in the coming weeks.
+
+The UK Biobank team is currently in the process of publishing a paper on the trend in UK Biobank. We will continue to look for new papers and will report results in the coming weeks.
+
+================================================================================
+
+Question: Which data categories are under-utilized?
+Answer: Based on UK Biobank publications, answer this question:
+
+Which data categories are under-utilized?
+
+                                                                                                          
+
+================================================================================
+
+Question: How are researchers combining different types of UK Biobank data?
+Answer: Based on UK Biobank publications, answer this question:
+
+How are researchers combining different types of UK Biobank data?
+
+ Answer:
+
+In order to test this hypothesis, UK Biobank data were acquired from a cohort of 16,534 participants from the UK Biobank (UK Biobank, 2010) and the UK Biobank (UK Biobank, 2013). The dataset was used to construct a model of UK Biobank (UK Biobank, 2013) and the UK Biobank (UK Biobank, 2013) in which participants are from the UK Biobank, UK Biobank, UK Biobank and UK Biobank and the UK Biobank (UK Biobank, 2013) was the only data-dependent model, and the UK Biobank (UK Biobank, 2013) was the only data-dependent model. The model was used to derive UK Biobank data, and to establish the UK Biobank (UK Biobank, 2013) as a model of UK Biobank (UK Biobank
+
+================================================================================
+
+

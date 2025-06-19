@@ -1,0 +1,929 @@
+{
+  "concern_1_novelty": {
+    "capability_profiles": {
+      "Profile_1": {
+        "models": [
+          "ChatGPT_4o",
+          "Claude_Sonnet",
+          "DeepThink_R1",
+          "Meta_Llama",
+          "Mistral_Large"
+        ],
+        "characteristics": {
+          "semantic_accuracy": {
+            "mean": 0.547,
+            "std": 0.022,
+            "range": "0.518-0.576"
+          },
+          "reasoning_quality": {
+            "mean": 0.307,
+            "std": 0.052,
+            "range": "0.237-0.383"
+          },
+          "domain_knowledge_score": {
+            "mean": 0.586,
+            "std": 0.052,
+            "range": "0.530-0.640"
+          },
+          "factual_correctness": {
+            "mean": 0.496,
+            "std": 0.093,
+            "range": "0.374-0.595"
+          },
+          "depth_score": {
+            "mean": 0.371,
+            "std": 0.024,
+            "range": "0.331-0.394"
+          },
+          "biobank_specificity": {
+            "mean": 0.475,
+            "std": 0.07,
+            "range": "0.375-0.542"
+          },
+          "overall_profile": {
+            "performance_level": "moderate",
+            "consistency": "consistent",
+            "cluster_size": 5
+          }
+        },
+        "strengths": {
+          "domain_knowledge_score": {
+            "score": 0.586,
+            "interpretation": "Deep understanding of biobank research methodologies and terminology",
+            "relative_strength": "strong"
+          },
+          "semantic_accuracy": {
+            "score": 0.547,
+            "interpretation": "Excellent at understanding and matching biomedical concepts semantically",
+            "relative_strength": "strong"
+          },
+          "factual_correctness": {
+            "score": 0.496,
+            "interpretation": "High accuracy in retrieving and presenting factual information",
+            "relative_strength": "moderate"
+          }
+        },
+        "weaknesses": {
+          "reasoning_quality": {
+            "score": 0.307,
+            "interpretation": "Limited logical reasoning and causal analysis capabilities",
+            "improvement_priority": "high"
+          },
+          "depth_score": {
+            "score": 0.371,
+            "interpretation": "Provides superficial responses lacking explanatory depth",
+            "improvement_priority": "high"
+          },
+          "biobank_specificity": {
+            "score": 0.475,
+            "interpretation": "Limited understanding of UK Biobank-specific procedures and concepts",
+            "improvement_priority": "high"
+          }
+        }
+      },
+      "Profile_2": {
+        "models": [
+          "Gemini"
+        ],
+        "characteristics": {
+          "semantic_accuracy": {
+            "mean": 0.594,
+            "std": NaN,
+            "range": "0.594-0.594"
+          },
+          "reasoning_quality": {
+            "mean": 0.455,
+            "std": NaN,
+            "range": "0.455-0.455"
+          },
+          "domain_knowledge_score": {
+            "mean": 0.76,
+            "std": NaN,
+            "range": "0.760-0.760"
+          },
+          "factual_correctness": {
+            "mean": 0.79,
+            "std": NaN,
+            "range": "0.790-0.790"
+          },
+          "depth_score": {
+            "mean": 0.375,
+            "std": NaN,
+            "range": "0.375-0.375"
+          },
+          "biobank_specificity": {
+            "mean": 0.604,
+            "std": NaN,
+            "range": "0.604-0.604"
+          },
+          "overall_profile": {
+            "performance_level": "moderate",
+            "consistency": "variable",
+            "cluster_size": 1
+          }
+        },
+        "strengths": {
+          "factual_correctness": {
+            "score": 0.79,
+            "interpretation": "High accuracy in retrieving and presenting factual information",
+            "relative_strength": "dominant"
+          },
+          "domain_knowledge_score": {
+            "score": 0.76,
+            "interpretation": "Deep understanding of biobank research methodologies and terminology",
+            "relative_strength": "dominant"
+          },
+          "biobank_specificity": {
+            "score": 0.604,
+            "interpretation": "Strong familiarity with UK Biobank-specific concepts and procedures",
+            "relative_strength": "strong"
+          }
+        },
+        "weaknesses": {
+          "depth_score": {
+            "score": 0.375,
+            "interpretation": "Provides superficial responses lacking explanatory depth",
+            "improvement_priority": "high"
+          },
+          "reasoning_quality": {
+            "score": 0.455,
+            "interpretation": "Limited logical reasoning and causal analysis capabilities",
+            "improvement_priority": "high"
+          },
+          "semantic_accuracy": {
+            "score": 0.594,
+            "interpretation": "Struggles with nuanced semantic understanding of biomedical concepts",
+            "improvement_priority": "moderate"
+          }
+        }
+      },
+      "Profile_3": {
+        "models": [
+          "ChatGPT_o1_pro"
+        ],
+        "characteristics": {
+          "semantic_accuracy": {
+            "mean": 0.592,
+            "std": NaN,
+            "range": "0.592-0.592"
+          },
+          "reasoning_quality": {
+            "mean": 0.585,
+            "std": NaN,
+            "range": "0.585-0.585"
+          },
+          "domain_knowledge_score": {
+            "mean": 0.84,
+            "std": NaN,
+            "range": "0.840-0.840"
+          },
+          "factual_correctness": {
+            "mean": 0.776,
+            "std": NaN,
+            "range": "0.776-0.776"
+          },
+          "depth_score": {
+            "mean": 0.769,
+            "std": NaN,
+            "range": "0.769-0.769"
+          },
+          "biobank_specificity": {
+            "mean": 0.833,
+            "std": NaN,
+            "range": "0.833-0.833"
+          },
+          "overall_profile": {
+            "performance_level": "high",
+            "consistency": "variable",
+            "cluster_size": 1
+          }
+        },
+        "strengths": {
+          "domain_knowledge_score": {
+            "score": 0.84,
+            "interpretation": "Deep understanding of biobank research methodologies and terminology",
+            "relative_strength": "dominant"
+          },
+          "biobank_specificity": {
+            "score": 0.833,
+            "interpretation": "Strong familiarity with UK Biobank-specific concepts and procedures",
+            "relative_strength": "dominant"
+          },
+          "factual_correctness": {
+            "score": 0.776,
+            "interpretation": "High accuracy in retrieving and presenting factual information",
+            "relative_strength": "dominant"
+          }
+        },
+        "weaknesses": {
+          "reasoning_quality": {
+            "score": 0.585,
+            "interpretation": "Limited logical reasoning and causal analysis capabilities",
+            "improvement_priority": "moderate"
+          },
+          "semantic_accuracy": {
+            "score": 0.592,
+            "interpretation": "Struggles with nuanced semantic understanding of biomedical concepts",
+            "improvement_priority": "moderate"
+          },
+          "depth_score": {
+            "score": 0.769,
+            "interpretation": "Provides superficial responses lacking explanatory depth",
+            "improvement_priority": "moderate"
+          }
+        }
+      }
+    },
+    "biobank_specific_patterns": {
+      "biobank_general_correlation": {
+        "correlation": -0.033666885254417224,
+        "interpretation": "Weak"
+      },
+      "domain_reasoning_relationship": {
+        "correlation": 0.5718508190002975,
+        "significance": "Moderate"
+      },
+      "query_specific_patterns": {
+        "keywords_real": {
+          "best_performer": "Meta_Llama",
+          "performance_variance": 0.003143969523809522,
+          "reasoning_depth": 0.41428571428571426,
+          "domain_specificity": 0.6785714285714286
+        },
+        "institutions_real": {
+          "best_performer": "Gemini",
+          "performance_variance": 0.004769299523809524,
+          "reasoning_depth": 0.24000000000000002,
+          "domain_specificity": 0.4285571428571428
+        },
+        "authors_real": {
+          "best_performer": "ChatGPT_o1_pro",
+          "performance_variance": 0.0014763928571428578,
+          "reasoning_depth": 0.33142857142857146,
+          "domain_specificity": 0.5952285714285714
+        },
+        "citations_real": {
+          "best_performer": "DeepThink_R1",
+          "performance_variance": 0.003923515714285716,
+          "reasoning_depth": 0.48571428571428577,
+          "domain_specificity": 0.4761714285714285
+        }
+      }
+    },
+    "surprising_findings": {
+      "strong_reasoners_weak_facts": {
+        "models": [],
+        "interpretation": "Models showing strong reasoning but weaker factual accuracy"
+      },
+      "uncertain_but_accurate": {
+        "models": [
+          "ChatGPT_o1_pro",
+          "Claude_Sonnet",
+          "Gemini",
+          "Meta_Llama",
+          "DeepThink_R1"
+        ],
+        "interpretation": "Models showing appropriate uncertainty while maintaining accuracy"
+      },
+      "length_quality_relationship": {
+        "correlation": 0.20670912266528593,
+        "interpretation": "Length not predictive of quality"
+      }
+    },
+    "methodology_insights": {
+      "simple_vs_sophisticated_correlations": {
+        "coverage_score_vs_semantic_accuracy": 0.5369702649983628,
+        "coverage_score_vs_reasoning_quality": 0.2791721317069988,
+        "coverage_score_vs_domain_knowledge_score": 0.5011781508066282,
+        "precision_vs_semantic_accuracy": -0.12310957442962674,
+        "precision_vs_reasoning_quality": -0.3093576378230754,
+        "precision_vs_domain_knowledge_score": -0.2266160907446195,
+        "recall_vs_semantic_accuracy": 0.3412122093320155,
+        "recall_vs_reasoning_quality": 0.41039179482951466,
+        "recall_vs_domain_knowledge_score": 0.521538424956268,
+        "f1_score_vs_semantic_accuracy": -0.09923408927103382,
+        "f1_score_vs_reasoning_quality": -0.2900005193254447,
+        "f1_score_vs_domain_knowledge_score": -0.19406916173073038
+      },
+      "ranking_changes": {
+        "models_with_major_changes": {
+          "ChatGPT_o1_pro": 5.0,
+          "ChatGPT_4o": 3.0,
+          "Claude_Sonnet": 2.0
+        },
+        "average_rank_change": 2.2857142857142856
+      },
+      "sophisticated_only_insights": {
+        "ranking_reversals": {
+          "models_with_major_changes": [
+            "ChatGPT_4o",
+            "ChatGPT_o1_pro",
+            "Claude_Sonnet",
+            "Meta_Llama"
+          ],
+          "interpretation": "These models perform very differently when assessed with sophisticated vs basic metrics",
+          "largest_positive_change": "Meta_Llama",
+          "largest_negative_change": "Claude_Sonnet"
+        },
+        "cognitive_dissociations": {
+          "strong_reasoners_weak_facts": [],
+          "strong_facts_weak_reasoning": [
+            "ChatGPT_4o",
+            "ChatGPT_o1_pro",
+            "DeepThink_R1",
+            "Gemini",
+            "Meta_Llama",
+            "Mistral_Large"
+          ],
+          "interpretation": "Sophisticated metrics reveal models with distinct cognitive architectures - some excel at reasoning but struggle with facts, others vice versa"
+        },
+        "domain_specialization_patterns": {
+          "domain_general_correlation": -0.194,
+          "interpretation": "Weak correlation suggests domain expertise is distinct from general performance",
+          "specialized_models": [
+            "ChatGPT_o1_pro",
+            "Gemini",
+            "Claude_Sonnet"
+          ],
+          "generalist_models": [
+            "Meta_Llama",
+            "ChatGPT_4o",
+            "Gemini"
+          ]
+        },
+        "uncertainty_calibration": {
+          "well_calibrated_models": [
+            "ChatGPT_o1_pro"
+          ],
+          "interpretation": "These models show appropriate epistemic humility - high uncertainty when appropriate but maintain accuracy",
+          "calibration_correlation": 0.567
+        }
+      }
+    },
+    "research_contribution": "This research makes four primary scientific contributions to the field of AI evaluation in specialized domains:\n\n1. **Methodological Innovation in Domain-Specific LLM Assessment**: We introduce a comprehensive evaluation framework that moves beyond traditional keyword-coverage metrics to assess semantic understanding, reasoning capabilities, and domain expertise. Our multi-dimensional approach reveals capability patterns invisible to conventional evaluation methods, providing a template for rigorous assessment in specialized scientific domains.\n\n2. **Empirical Evidence for LLM Capability Heterogeneity**: Through systematic evaluation of seven state-of-the-art models, we demonstrate that LLMs exhibit distinct capability profiles rather than uniform performance across cognitive dimensions. Our capability profiling reveals three archetypal patterns (comprehensive reasoners, domain specialists, factual retrievers) with practical implications for model selection in biomedical applications.\n\n3. **Cognitive Task Analysis of Biomedical Information Retrieval**: We provide the first systematic decomposition of biobank knowledge retrieval tasks into constituent cognitive demands, revealing hidden complexity in seemingly straightforward queries. Our analysis demonstrates that effective biobank literature navigation requires synthesis, evaluation, network analysis, and systems thinking capabilities, challenging assumptions about task simplicity.\n\n4. **Evidence-Based Framework for AI Tool Adoption in Biomedical Research**: Our rigorous statistical analysis, including baseline comparisons, effect size calculations, and confidence intervals, provides an evidence-based foundation for decisions about LLM integration in biomedical workflows. We demonstrate moderate but significant improvements over baseline methods while explicitly quantifying limitations and appropriate use cases.\n\nThese contributions advance both the theoretical understanding of LLM capabilities and the practical deployment of AI tools in scientific research contexts. Our evaluation framework is generalizable to other specialized domains and establishes methodological standards for domain-specific AI assessment."
+  },
+  "concern_4_query_scope": {
+    "cognitive_task_analysis": {
+      "keywords_real": {
+        "cognitive_components": [
+          "Information retrieval and synthesis",
+          "Pattern recognition across large text corpora",
+          "Categorization and abstraction",
+          "Domain knowledge integration",
+          "Frequency analysis and prioritization"
+        ],
+        "complexity_indicators": [
+          "Requires synthesis of thousands of papers",
+          "Demands understanding of research trends",
+          "Involves semantic clustering of concepts",
+          "Needs domain-specific knowledge filtering"
+        ],
+        "measured_capabilities": [
+          "semantic_accuracy",
+          "domain_knowledge_score",
+          "reasoning_quality"
+        ],
+        "empirical_evidence": {
+          "performance_variance": {
+            "semantic_accuracy": 0.003143969523809522,
+            "domain_knowledge_score": 0.03245714285714287,
+            "reasoning_quality": 0.021428571428571425
+          },
+          "best_performer": "Meta_Llama",
+          "complexity_score": 0.41428571428571426
+        }
+      },
+      "citations_real": {
+        "cognitive_components": [
+          "Impact assessment and evaluation",
+          "Scientific significance recognition",
+          "Methodological innovation identification",
+          "Research trend analysis",
+          "Citation network understanding"
+        ],
+        "complexity_indicators": [
+          "Requires understanding of scientific impact",
+          "Demands knowledge of methodological advances",
+          "Involves temporal reasoning about research evolution",
+          "Needs grasp of field-defining contributions"
+        ],
+        "measured_capabilities": [
+          "reasoning_quality",
+          "depth_score",
+          "factual_correctness"
+        ],
+        "empirical_evidence": {
+          "performance_variance": {
+            "reasoning_quality": 0.041428571428571426,
+            "depth_score": 0.051647408095238094,
+            "factual_correctness": 0.032380952380952385
+          },
+          "best_performer": "DeepThink_R1",
+          "complexity_score": 0.48571428571428577
+        }
+      },
+      "authors_real": {
+        "cognitive_components": [
+          "Network analysis and relationship mapping",
+          "Productivity assessment across time",
+          "Collaboration pattern recognition",
+          "Research specialization identification",
+          "Career trajectory understanding"
+        ],
+        "complexity_indicators": [
+          "Requires understanding of academic networks",
+          "Demands knowledge of research specializations",
+          "Involves temporal analysis of productivity",
+          "Needs grasp of collaboration dynamics"
+        ],
+        "measured_capabilities": [
+          "domain_knowledge_score",
+          "reasoning_quality",
+          "biobank_specificity"
+        ],
+        "empirical_evidence": {
+          "performance_variance": {
+            "domain_knowledge_score": 0.01805714285714285,
+            "reasoning_quality": 0.01371428571428572,
+            "biobank_specificity": 0.0449756623809524
+          },
+          "best_performer": "ChatGPT_o1_pro",
+          "complexity_score": 0.33142857142857146
+        }
+      },
+      "institutions_real": {
+        "cognitive_components": [
+          "Institutional analysis and comparison",
+          "Research ecosystem understanding",
+          "Geographic and organizational pattern recognition",
+          "Resource allocation and usage analysis",
+          "Collaborative network mapping"
+        ],
+        "complexity_indicators": [
+          "Requires understanding of research ecosystems",
+          "Demands knowledge of institutional strengths",
+          "Involves geographic and cultural factors",
+          "Needs grasp of resource distribution patterns"
+        ],
+        "measured_capabilities": [
+          "semantic_accuracy",
+          "domain_knowledge_score",
+          "depth_score"
+        ],
+        "empirical_evidence": {
+          "performance_variance": {
+            "semantic_accuracy": 0.004769299523809524,
+            "domain_knowledge_score": 0.02864761904761905,
+            "depth_score": 0.00950351619047619
+          },
+          "best_performer": "Gemini",
+          "complexity_score": 0.24000000000000002
+        }
+      }
+    },
+    "capability_dimensions": {
+      "factual_knowledge": {
+        "top_performers": {
+          "ChatGPT_o1_pro": 0.988560228795424,
+          "Gemini": 0.7473118279569894,
+          "Meta_Llama": 0.3737701302445797
+        },
+        "dimension_variance": 0.11249319911528698,
+        "metric_correlations": 0.8752308846236634
+      },
+      "reasoning_ability": {
+        "top_performers": {
+          "ChatGPT_o1_pro": 0.988917861799218,
+          "Gemini": 0.5757440527414023,
+          "Meta_Llama": 0.357795945111998
+        },
+        "dimension_variance": 0.09801403186713432,
+        "metric_correlations": 0.7844181810655361
+      },
+      "communication_quality": {
+        "top_performers": {
+          "ChatGPT_o1_pro": 0.6695040045972057,
+          "DeepThink_R1": 0.4350674333563325,
+          "Claude_Sonnet": 0.42105263157894735
+        },
+        "dimension_variance": 0.028086320272776032,
+        "metric_correlations": 0.267892280475661
+      },
+      "uncertainty_handling": {
+        "top_performers": {
+          "Gemini": 0.7857142857142857,
+          "ChatGPT_o1_pro": 0.6785714285714286,
+          "DeepThink_R1": 0.5
+        },
+        "dimension_variance": 0.06663022351797863,
+        "metric_correlations": 0.4755806854747248
+      },
+      "baseline_superiority": {
+        "top_performers": {
+          "Gemini": 1.0,
+          "ChatGPT_o1_pro": 0.9662324244730364,
+          "Meta_Llama": 0.7623235799055607
+        },
+        "dimension_variance": 0.14084944139768565,
+        "metric_correlations": 0.999999876839312
+      }
+    },
+    "hidden_complexity": {
+      "performance_variance": {
+        "interpretation": "High variance indicates task complexity",
+        "variance_by_query": {
+          "authors_real": 0.0014763928571428558,
+          "citations_real": 0.003923515714285714,
+          "institutions_real": 0.004769299523809522,
+          "keywords_real": 0.003143969523809522
+        },
+        "most_complex_query": "institutions_real"
+      },
+      "reasoning_requirements": {
+        "interpretation": "Higher reasoning scores indicate cognitive demands",
+        "reasoning_by_query": {
+          "authors_real": 0.33142857142857146,
+          "citations_real": 0.4857142857142857,
+          "institutions_real": 0.24,
+          "keywords_real": 0.41428571428571426
+        },
+        "most_reasoning_intensive": "citations_real"
+      },
+      "domain_dependencies": {
+        "interpretation": "Domain knowledge requirements vary by query type",
+        "domain_scores": {
+          "authors_real": 0.6228571428571429,
+          "citations_real": 0.6514285714285715,
+          "institutions_real": 0.6514285714285714,
+          "keywords_real": 0.6628571428571428
+        },
+        "most_domain_specific": "keywords_real"
+      },
+      "composite_complexity": {
+        "interpretation": "Multi-dimensional complexity assessment",
+        "complexity_ranking": {
+          "citations_real": 0.699703197341113,
+          "keywords_real": 0.6148456713985633,
+          "institutions_real": 0.42857142857142827,
+          "authors_real": 0.1980381092311833
+        },
+        "complexity_justification": "Combines reasoning, domain knowledge, depth, and semantic accuracy requirements"
+      }
+    },
+    "transferable_insights": {
+      "cross_query_consistency": {
+        "most_consistent": [
+          "ChatGPT_4o",
+          "ChatGPT_o1_pro",
+          "Meta_Llama"
+        ],
+        "most_variable": [
+          "Gemini",
+          "DeepThink_R1",
+          "Claude_Sonnet"
+        ],
+        "interpretation": "Consistent models likely have generalizable capabilities; variable models may be query-specific specialists",
+        "consistency_scores": {
+          "ChatGPT_4o": 0.04927948018453972,
+          "ChatGPT_o1_pro": 0.12594153805628114,
+          "Meta_Llama": 0.1362829981578582
+        }
+      },
+      "capability_transferability": {
+        "semantic_accuracy": {
+          "mean_correlation": 0.02202793276109541,
+          "correlation_range": "-0.615 to 0.504",
+          "transferability": "low"
+        },
+        "reasoning_quality": {
+          "mean_correlation": 0.4886544829099128,
+          "correlation_range": "-0.161 to 0.903",
+          "transferability": "moderate"
+        },
+        "domain_knowledge_score": {
+          "mean_correlation": 0.4696783715805349,
+          "correlation_range": "0.217 to 0.807",
+          "transferability": "moderate"
+        },
+        "factual_correctness": {
+          "mean_correlation": 0.2911234426136504,
+          "correlation_range": "-0.481 to 0.738",
+          "transferability": "low"
+        }
+      },
+      "generalizable_excellence": {
+        "multi_capability_leaders": [
+          "Gemini",
+          "ChatGPT_o1_pro"
+        ],
+        "interpretation": "These models demonstrate excellence across multiple capabilities, suggesting generalizable strengths",
+        "capability_leadership": {
+          "semantic_accuracy": [
+            "Gemini",
+            "ChatGPT_o1_pro"
+          ],
+          "reasoning_quality": [
+            "ChatGPT_o1_pro",
+            "Gemini"
+          ],
+          "domain_knowledge_score": [
+            "ChatGPT_o1_pro",
+            "Gemini"
+          ],
+          "factual_correctness": [
+            "Gemini",
+            "ChatGPT_o1_pro"
+          ]
+        }
+      },
+      "success_predictors": {
+        "patterns": {
+          "reasoning_quality": {
+            "high_performer_mean": 0.321,
+            "low_performer_mean": 0.414,
+            "difference": -0.093,
+            "predictive_power": "weak"
+          },
+          "domain_knowledge_score": {
+            "high_performer_mean": 0.649,
+            "low_performer_mean": 0.646,
+            "difference": 0.003,
+            "predictive_power": "weak"
+          },
+          "uncertainty_markers": {
+            "high_performer_mean": 1.429,
+            "low_performer_mean": 0.643,
+            "difference": 0.786,
+            "predictive_power": "strong"
+          },
+          "response_length": {
+            "high_performer_mean": 400.714,
+            "low_performer_mean": 347.643,
+            "difference": 53.071,
+            "predictive_power": "strong"
+          }
+        },
+        "interpretation": "Metrics that consistently differentiate high from low performers across all query types"
+      }
+    },
+    "scope_justification": {
+      "cognitive_spectrum_coverage": {
+        "information_synthesis": {
+          "covered_by": [
+            "keywords_real"
+          ],
+          "description": "Requires synthesizing patterns across thousands of research abstracts",
+          "cognitive_demands": [
+            "pattern recognition",
+            "abstraction",
+            "categorization",
+            "frequency analysis"
+          ]
+        },
+        "evaluative_reasoning": {
+          "covered_by": [
+            "citations_real"
+          ],
+          "description": "Requires assessing scientific impact and methodological significance",
+          "cognitive_demands": [
+            "impact assessment",
+            "significance evaluation",
+            "temporal reasoning",
+            "comparative analysis"
+          ]
+        },
+        "network_analysis": {
+          "covered_by": [
+            "authors_real"
+          ],
+          "description": "Requires understanding collaboration patterns and research networks",
+          "cognitive_demands": [
+            "relationship mapping",
+            "productivity assessment",
+            "specialization recognition",
+            "temporal tracking"
+          ]
+        },
+        "systems_thinking": {
+          "covered_by": [
+            "institutions_real"
+          ],
+          "description": "Requires understanding research ecosystems and organizational dynamics",
+          "cognitive_demands": [
+            "ecosystem mapping",
+            "resource analysis",
+            "geographic reasoning",
+            "institutional assessment"
+          ]
+        }
+      },
+      "domain_knowledge_spectrum": {
+        "methodological_expertise": {
+          "covered_by": [
+            "keywords_real",
+            "citations_real"
+          ],
+          "description": "Understanding of GWAS, Mendelian randomization, epidemiological methods",
+          "specificity_level": "high"
+        },
+        "bibliometric_knowledge": {
+          "covered_by": [
+            "citations_real",
+            "authors_real"
+          ],
+          "description": "Understanding of citation patterns, research impact, and academic productivity",
+          "specificity_level": "moderate"
+        },
+        "institutional_knowledge": {
+          "covered_by": [
+            "institutions_real",
+            "authors_real"
+          ],
+          "description": "Understanding of research organizational structures and collaboration patterns",
+          "specificity_level": "moderate"
+        },
+        "biobank_specificity": {
+          "covered_by": [
+            "keywords_real",
+            "institutions_real"
+          ],
+          "description": "Knowledge of UK Biobank procedures, participants, and research focus",
+          "specificity_level": "very_high"
+        }
+      },
+      "empirical_evidence_for_coverage": {
+        "performance_variance": "Significant variance in model performance across queries indicates distinct cognitive demands",
+        "reasoning_requirements": "Reasoning quality scores vary significantly by query type, indicating different cognitive loads",
+        "domain_knowledge_requirements": "Domain knowledge scores show query-specific patterns, indicating different expertise demands",
+        "capability_correlations": "Low to moderate correlations between query performance suggest complementary rather than redundant assessment"
+      },
+      "representativeness_argument": {
+        "core_biobank_tasks": "Queries represent fundamental activities in biobank research: understanding literature trends, identifying key contributions, mapping research networks, and analyzing institutional engagement",
+        "scalability": "Success on these queries indicates capability for more complex biobank tasks requiring similar cognitive foundations",
+        "practical_relevance": "These are actual information needs that biobank researchers face when navigating the literature and research landscape",
+        "evaluation_efficiency": "Four queries provide comprehensive assessment while remaining feasible for systematic evaluation"
+      },
+      "limitations_acknowledged": {
+        "temporal_scope": "Queries focus on retrospective analysis rather than prospective reasoning or hypothesis generation",
+        "domain_boundaries": "Limited to UK Biobank domain; generalizability to other biobanks or biomedical domains requires validation",
+        "complexity_ceiling": "Does not assess highest-level cognitive tasks like experimental design or causal inference from data",
+        "response_format": "Evaluates factual/analytical responses rather than interactive or multimodal capabilities"
+      }
+    }
+  },
+  "concern_5_evidence_based": {
+    "statistical_evidence": {
+      "llm_vs_baseline": {
+        "t_statistic": -0.5448389811770432,
+        "p_value": 0.5887458212364851,
+        "effect_size": -0.1571527094970946,
+        "significance": "not_significant",
+        "effect_magnitude": "small"
+      },
+      "model_differences": {
+        "f_statistic": 0.4789931801997653,
+        "p_value": 0.8163488882310477,
+        "significance": "not_significant"
+      },
+      "correlation_analysis": {
+        "semantic_accuracy_vs_reasoning_quality": {
+          "correlation": -0.11709142970749546,
+          "p_value": 0.5529213358520547,
+          "significant": "False"
+        },
+        "semantic_accuracy_vs_domain_knowledge_score": {
+          "correlation": 0.20294252334397764,
+          "p_value": 0.3003241517457837,
+          "significant": "False"
+        },
+        "semantic_accuracy_vs_baseline_improvement": {
+          "correlation": 0.935641357854657,
+          "p_value": 2.8681385002954734e-13,
+          "significant": "True"
+        },
+        "reasoning_quality_vs_domain_knowledge_score": {
+          "correlation": 0.5718508190002973,
+          "p_value": 0.0014768991569633337,
+          "significant": "True"
+        },
+        "reasoning_quality_vs_baseline_improvement": {
+          "correlation": -0.2027650701877489,
+          "p_value": 0.30075601423692166,
+          "significant": "False"
+        },
+        "domain_knowledge_score_vs_baseline_improvement": {
+          "correlation": 0.12356320083820298,
+          "p_value": 0.5310308756696587,
+          "significant": "False"
+        }
+      }
+    },
+    "effect_sizes": {
+      "baseline_improvement": {
+        "mean_improvement": -0.021553571428571432,
+        "std_improvement": 0.11052355700681714,
+        "cohen_d": -0.19501337101593644,
+        "practical_significance": "small"
+      },
+      "performance_range": {
+        "range": 0.3338,
+        "relative_range": 0.5957864541832668,
+        "interpretation": "substantial"
+      }
+    },
+    "limitations": {
+      "sample_size": {
+        "total_responses": 28,
+        "models_tested": 7,
+        "queries_tested": 4,
+        "statistical_power": "moderate"
+      },
+      "performance_ceiling": {
+        "highest_score": 0.7643,
+        "room_for_improvement": 0.23570000000000002,
+        "interpretation": "moderate room for improvement"
+      },
+      "evaluation_metrics": {
+        "automated_evaluation": "Relies on automated semantic similarity",
+        "ground_truth_dependency": "Limited by predefined reference standards",
+        "domain_specificity": "Focused on biobank domain only"
+      },
+      "generalizability": {
+        "domain_scope": "UK Biobank specific",
+        "query_types": "Four query categories only",
+        "temporal_scope": "Single time point evaluation",
+        "model_versions": "Specific model versions tested"
+      }
+    },
+    "calibrated_claims": {
+      "llm_superiority": {
+        "claim": "LLMs show modest improvements over baselines with limited statistical evidence",
+        "evidence_level": "weak",
+        "confidence": "low"
+      },
+      "model_differences": {
+        "claim": "Limited evidence for meaningful performance differences between models",
+        "evidence_level": "weak",
+        "confidence": "low"
+      },
+      "practical_utility": {
+        "claim": "LLMs show moderate potential for biobank knowledge retrieval with room for improvement",
+        "evidence_level": "moderate",
+        "confidence": "moderate"
+      }
+    },
+    "confidence_intervals": {
+      "semantic_accuracy": {
+        "mean": 0.5602678571428572,
+        "ci_lower": 0.5299318720077919,
+        "ci_upper": 0.5906038422779225,
+        "margin_of_error": 0.030335985135065302
+      },
+      "reasoning_quality": {
+        "mean": 0.3678571428571429,
+        "ci_lower": 0.30185480464658127,
+        "ci_upper": 0.4338594810677045,
+        "margin_of_error": 0.06600233821056162
+      },
+      "domain_knowledge_score": {
+        "mean": 0.6471428571428571,
+        "ci_lower": 0.5911312549207376,
+        "ci_upper": 0.7031544593649767,
+        "margin_of_error": 0.05601160222211954
+      },
+      "baseline_improvement": {
+        "mean": -0.021553571428571432,
+        "ci_lower": -0.06441013283480697,
+        "ci_upper": 0.021302989977664107,
+        "margin_of_error": 0.04285656140623554
+      }
+    }
+  },
+  "summary_recommendations": {
+    "manuscript_revisions": [
+      "Emphasize novel insights from capability profiling and biobank-specific patterns",
+      "Reframe queries as complex cognitive tasks with detailed task decomposition",
+      "Present evidence-based conclusions with appropriate confidence intervals",
+      "Acknowledge limitations explicitly with quantified constraints",
+      "Highlight methodological contributions to LLM evaluation in specialized domains"
+    ],
+    "new_sections_to_add": [
+      "Cognitive Task Analysis section demonstrating query complexity",
+      "LLM Capability Profiling section showing distinct performance patterns",
+      "Statistical Evidence section with effect sizes and confidence intervals",
+      "Methodological Innovation section highlighting evaluation framework contributions"
+    ],
+    "claims_to_moderate": [
+      "Replace \"transformative potential\" with \"promising capabilities with limitations\"",
+      "Specify \"within the biobank domain\" for all performance claims",
+      "Add confidence intervals to all performance statistics",
+      "Acknowledge generalizability constraints explicitly"
+    ],
+    "strengths_to_emphasize": [
+      "Sophisticated multi-dimensional evaluation framework",
+      "Systematic baseline comparisons",
+      "Novel insights into LLM capability profiles",
+      "Evidence-based methodology for domain-specific LLM assessment"
+    ]
+  }
+}

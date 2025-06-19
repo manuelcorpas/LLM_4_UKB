@@ -1,0 +1,501 @@
+{
+  "summary": {
+    "total_models_evaluated": 10,
+    "total_llm_models": 8,
+    "total_baseline_models": 2,
+    "total_queries": 4,
+    "query_types": [
+      "keywords",
+      "institutions",
+      "authors",
+      "citations"
+    ],
+    "evaluation_framework": "Real Data LLM Evaluation with Enhanced Metrics"
+  },
+  "detailed_metrics": {
+    "ChatGPT_4o": {
+      "avg_coverage_score": 0.6687062937062938,
+      "avg_precision": 1.0,
+      "avg_recall": 0.5067432567432568,
+      "avg_f1_score": 0.6519005847953216,
+      "avg_semantic_accuracy": 0.6155963614583015,
+      "avg_coherence_score": 0.07186411149825783,
+      "avg_reasoning_quality": 0.7359493170132142,
+      "total_error_types": 1,
+      "avg_response_length": 234.25
+    },
+    "ChatGPT_o1": {
+      "avg_coverage_score": 0.6796953046953047,
+      "avg_precision": 1.0,
+      "avg_recall": 0.8632617382617382,
+      "avg_f1_score": 0.9233814333814334,
+      "avg_semantic_accuracy": 0.6395210921764374,
+      "avg_coherence_score": 0.08202716823406479,
+      "avg_reasoning_quality": 0.30236081359034805,
+      "total_error_types": 0,
+      "avg_response_length": 663.75
+    },
+    "ChatGPT_o1_pro": {
+      "avg_coverage_score": 0.6323676323676323,
+      "avg_precision": 1.0,
+      "avg_recall": 0.8261738261738261,
+      "avg_f1_score": 0.9025765900765901,
+      "avg_semantic_accuracy": 0.6192531734704971,
+      "avg_coherence_score": 0.05704321422284809,
+      "avg_reasoning_quality": 0.3151685991883008,
+      "total_error_types": 0,
+      "avg_response_length": 844.75
+    },
+    "Claude_Sonnet": {
+      "avg_coverage_score": 0.5257242757242757,
+      "avg_precision": 1.0,
+      "avg_recall": 0.42594905094905094,
+      "avg_f1_score": 0.5440472599296129,
+      "avg_semantic_accuracy": 0.5554624274373055,
+      "avg_coherence_score": 0.4464285714285714,
+      "avg_reasoning_quality": 0.9655172413793104,
+      "total_error_types": 0,
+      "avg_response_length": 168.5
+    },
+    "Gemini": {
+      "avg_coverage_score": 0.6824425574425574,
+      "avg_precision": 1.0,
+      "avg_recall": 0.7478771228771228,
+      "avg_f1_score": 0.8443121693121693,
+      "avg_semantic_accuracy": 0.6381377130746841,
+      "avg_coherence_score": 0.2294690603514133,
+      "avg_reasoning_quality": 0.6527057395056085,
+      "total_error_types": 0,
+      "avg_response_length": 326.5
+    },
+    "Mistral_Large_2": {
+      "avg_coverage_score": 0.5428321678321678,
+      "avg_precision": 1.0,
+      "avg_recall": 0.4067182817182817,
+      "avg_f1_score": 0.5447038255861786,
+      "avg_semantic_accuracy": 0.5859044641256332,
+      "avg_coherence_score": 0.2,
+      "avg_reasoning_quality": 0.583911086555315,
+      "total_error_types": 0,
+      "avg_response_length": 264.75
+    },
+    "Meta_Llama_3_1_405B": {
+      "avg_coverage_score": 0.6404845154845156,
+      "avg_precision": 1.0,
+      "avg_recall": 0.5635614385614386,
+      "avg_f1_score": 0.6947660427807487,
+      "avg_semantic_accuracy": 0.6156915128231049,
+      "avg_coherence_score": 0.034090909090909095,
+      "avg_reasoning_quality": 0.2730493486065789,
+      "total_error_types": 0,
+      "avg_response_length": 363.25
+    },
+    "DeepThink_R1": {
+      "avg_coverage_score": 0.5847902097902098,
+      "avg_precision": 1.0,
+      "avg_recall": 0.6251248751248751,
+      "avg_f1_score": 0.7226923076923077,
+      "avg_semantic_accuracy": 0.6286516264081001,
+      "avg_coherence_score": 0.12175324675324675,
+      "avg_reasoning_quality": 0.4892891076873691,
+      "total_error_types": 0,
+      "avg_response_length": 417.25
+    },
+    "Random_Baseline": {
+      "avg_coverage_score": 0.6383616383616384,
+      "avg_precision": 1.0,
+      "avg_recall": 0.17519980019980022,
+      "avg_f1_score": 0.28055555555555556,
+      "avg_semantic_accuracy": 0.6252157837152481,
+      "avg_coherence_score": 0.0,
+      "avg_reasoning_quality": 1.0,
+      "total_error_types": 1,
+      "avg_response_length": 14.5
+    },
+    "SimpleRule_Baseline": {
+      "avg_coverage_score": 0.8083166833166834,
+      "avg_precision": 1.0,
+      "avg_recall": 0.6446053946053946,
+      "avg_f1_score": 0.7732887700534761,
+      "avg_semantic_accuracy": 0.8029008358716965,
+      "avg_coherence_score": 0.0,
+      "avg_reasoning_quality": 0.75,
+      "total_error_types": 0,
+      "avg_response_length": 33.0
+    }
+  },
+  "model_rankings": {
+    "by_f1_score": [
+      {
+        "model": "ChatGPT_o1",
+        "f1_score": 0.9233814333814334
+      },
+      {
+        "model": "ChatGPT_o1_pro",
+        "f1_score": 0.9025765900765901
+      },
+      {
+        "model": "Gemini",
+        "f1_score": 0.8443121693121693
+      },
+      {
+        "model": "SimpleRule_Baseline",
+        "f1_score": 0.7732887700534761
+      },
+      {
+        "model": "DeepThink_R1",
+        "f1_score": 0.7226923076923077
+      },
+      {
+        "model": "Meta_Llama_3_1_405B",
+        "f1_score": 0.6947660427807487
+      },
+      {
+        "model": "ChatGPT_4o",
+        "f1_score": 0.6519005847953216
+      },
+      {
+        "model": "Mistral_Large_2",
+        "f1_score": 0.5447038255861786
+      },
+      {
+        "model": "Claude_Sonnet",
+        "f1_score": 0.5440472599296129
+      },
+      {
+        "model": "Random_Baseline",
+        "f1_score": 0.28055555555555556
+      }
+    ],
+    "by_coverage": [
+      {
+        "model": "SimpleRule_Baseline",
+        "coverage_score": 0.8083166833166834
+      },
+      {
+        "model": "Gemini",
+        "coverage_score": 0.6824425574425574
+      },
+      {
+        "model": "ChatGPT_o1",
+        "coverage_score": 0.6796953046953047
+      },
+      {
+        "model": "ChatGPT_4o",
+        "coverage_score": 0.6687062937062938
+      },
+      {
+        "model": "Meta_Llama_3_1_405B",
+        "coverage_score": 0.6404845154845156
+      },
+      {
+        "model": "Random_Baseline",
+        "coverage_score": 0.6383616383616384
+      },
+      {
+        "model": "ChatGPT_o1_pro",
+        "coverage_score": 0.6323676323676323
+      },
+      {
+        "model": "DeepThink_R1",
+        "coverage_score": 0.5847902097902098
+      },
+      {
+        "model": "Mistral_Large_2",
+        "coverage_score": 0.5428321678321678
+      },
+      {
+        "model": "Claude_Sonnet",
+        "coverage_score": 0.5257242757242757
+      }
+    ]
+  },
+  "baseline_comparisons": {
+    "ChatGPT_4o_vs_Random_Baseline": {
+      "llm_f1": 0.6519005847953216,
+      "baseline_f1": 0.28055555555555556,
+      "improvement": 0.3713450292397661,
+      "improvement_percentage": 132.3606044815008
+    },
+    "ChatGPT_4o_vs_SimpleRule_Baseline": {
+      "llm_f1": 0.6519005847953216,
+      "baseline_f1": 0.7732887700534761,
+      "improvement": -0.12138818525815442,
+      "improvement_percentage": -15.697652669876472
+    },
+    "ChatGPT_o1_vs_Random_Baseline": {
+      "llm_f1": 0.9233814333814334,
+      "baseline_f1": 0.28055555555555556,
+      "improvement": 0.6428258778258779,
+      "improvement_percentage": 229.12605546268912
+    },
+    "ChatGPT_o1_vs_SimpleRule_Baseline": {
+      "llm_f1": 0.9233814333814334,
+      "baseline_f1": 0.7732887700534761,
+      "improvement": 0.15009266332795734,
+      "improvement_percentage": 19.40965253091388
+    },
+    "ChatGPT_o1_pro_vs_Random_Baseline": {
+      "llm_f1": 0.9025765900765901,
+      "baseline_f1": 0.28055555555555556,
+      "improvement": 0.6220210345210345,
+      "improvement_percentage": 221.71046775007173
+    },
+    "ChatGPT_o1_pro_vs_SimpleRule_Baseline": {
+      "llm_f1": 0.9025765900765901,
+      "baseline_f1": 0.7732887700534761,
+      "improvement": 0.129287820023114,
+      "improvement_percentage": 16.719216032863535
+    },
+    "Claude_Sonnet_vs_Random_Baseline": {
+      "llm_f1": 0.5440472599296129,
+      "baseline_f1": 0.28055555555555556,
+      "improvement": 0.26349170437405733,
+      "improvement_percentage": 93.91783522243628
+    },
+    "Claude_Sonnet_vs_SimpleRule_Baseline": {
+      "llm_f1": 0.5440472599296129,
+      "baseline_f1": 0.7732887700534761,
+      "improvement": -0.22924151012386318,
+      "improvement_percentage": -29.645007014392593
+    },
+    "Gemini_vs_Random_Baseline": {
+      "llm_f1": 0.8443121693121693,
+      "baseline_f1": 0.28055555555555556,
+      "improvement": 0.5637566137566138,
+      "improvement_percentage": 200.94295143800096
+    },
+    "Gemini_vs_SimpleRule_Baseline": {
+      "llm_f1": 0.8443121693121693,
+      "baseline_f1": 0.7732887700534761,
+      "improvement": 0.07102339925869328,
+      "improvement_percentage": 9.184589510304374
+    },
+    "Mistral_Large_2_vs_Random_Baseline": {
+      "llm_f1": 0.5447038255861786,
+      "baseline_f1": 0.28055555555555556,
+      "improvement": 0.264148270030623,
+      "improvement_percentage": 94.15185862477652
+    },
+    "Mistral_Large_2_vs_SimpleRule_Baseline": {
+      "llm_f1": 0.5447038255861786,
+      "baseline_f1": 0.7732887700534761,
+      "improvement": -0.2285849444672975,
+      "improvement_percentage": -29.560101390259412
+    },
+    "Meta_Llama_3_1_405B_vs_Random_Baseline": {
+      "llm_f1": 0.6947660427807487,
+      "baseline_f1": 0.28055555555555556,
+      "improvement": 0.41421048722519316,
+      "improvement_percentage": 147.63938158521736
+    },
+    "Meta_Llama_3_1_405B_vs_SimpleRule_Baseline": {
+      "llm_f1": 0.6947660427807487,
+      "baseline_f1": 0.7732887700534761,
+      "improvement": -0.07852272727272736,
+      "improvement_percentage": -10.154386086234926
+    },
+    "DeepThink_R1_vs_Random_Baseline": {
+      "llm_f1": 0.7226923076923077,
+      "baseline_f1": 0.28055555555555556,
+      "improvement": 0.4421367521367522,
+      "improvement_percentage": 157.5932977913176
+    },
+    "DeepThink_R1_vs_SimpleRule_Baseline": {
+      "llm_f1": 0.7226923076923077,
+      "baseline_f1": 0.7732887700534761,
+      "improvement": -0.050596462361168326,
+      "improvement_percentage": -6.543023036228675
+    }
+  },
+  "query_analysis": {
+    "keywords": {
+      "query_text": "What is the Subject of the Most Commonly Occurring Keywords in UK Biobank Papers?...",
+      "category": "keywords",
+      "complexity": "simple_retrieval",
+      "model_performance": {
+        "ChatGPT_4o": {
+          "f1_score": 0.631578947368421,
+          "coverage_score": 0.9230769230769231,
+          "reasoning_quality": 1.0
+        },
+        "ChatGPT_o1": {
+          "f1_score": 0.9600000000000001,
+          "coverage_score": 0.8461538461538461,
+          "reasoning_quality": 0.3225806451612903
+        },
+        "ChatGPT_o1_pro": {
+          "f1_score": 0.9166666666666666,
+          "coverage_score": 0.8461538461538461,
+          "reasoning_quality": 0.41379310344827586
+        },
+        "Claude_Sonnet": {
+          "f1_score": 0.9600000000000001,
+          "coverage_score": 0.7692307692307693,
+          "reasoning_quality": 1.0
+        },
+        "Gemini": {
+          "f1_score": 0.761904761904762,
+          "coverage_score": 0.9230769230769231,
+          "reasoning_quality": 0.7751937984496123
+        },
+        "Mistral_Large_2": {
+          "f1_score": 0.8181818181818181,
+          "coverage_score": 0.9230769230769231,
+          "reasoning_quality": 0.2724795640326976
+        },
+        "Meta_Llama_3_1_405B": {
+          "f1_score": 0.8181818181818181,
+          "coverage_score": 0.9230769230769231,
+          "reasoning_quality": 0.37593984962406013
+        },
+        "DeepThink_R1": {
+          "f1_score": 0.9600000000000001,
+          "coverage_score": 0.8461538461538461,
+          "reasoning_quality": 0.35149384885764495
+        }
+      }
+    },
+    "institutions": {
+      "query_text": "What Are the Top 10 Leading Institutions in Terms of Number of Applications to UK Biobank?...",
+      "category": "institutions",
+      "complexity": "simple_retrieval",
+      "model_performance": {
+        "ChatGPT_4o": {
+          "f1_score": 0.4444444444444445,
+          "coverage_score": 0.5,
+          "reasoning_quality": 0.9174311926605504
+        },
+        "ChatGPT_o1": {
+          "f1_score": 0.962962962962963,
+          "coverage_score": 0.9285714285714286,
+          "reasoning_quality": 0.44150110375275936
+        },
+        "ChatGPT_o1_pro": {
+          "f1_score": 0.923076923076923,
+          "coverage_score": 0.5714285714285714,
+          "reasoning_quality": 0.23752969121140144
+        },
+        "Claude_Sonnet": {
+          "f1_score": 0.35294117647058826,
+          "coverage_score": 0.5714285714285714,
+          "reasoning_quality": 1.0
+        },
+        "Gemini": {
+          "f1_score": 0.962962962962963,
+          "coverage_score": 0.7857142857142857,
+          "reasoning_quality": 0.7692307692307693
+        },
+        "Mistral_Large_2": {
+          "f1_score": 0.35294117647058826,
+          "coverage_score": 0.5,
+          "reasoning_quality": 0.797872340425532
+        },
+        "Meta_Llama_3_1_405B": {
+          "f1_score": 0.88,
+          "coverage_score": 0.7857142857142857,
+          "reasoning_quality": 0.11389521640091117
+        },
+        "DeepThink_R1": {
+          "f1_score": 0.923076923076923,
+          "coverage_score": 0.5,
+          "reasoning_quality": 0.436046511627907
+        }
+      }
+    },
+    "authors": {
+      "query_text": "What Are the Top 20 Most Prolific Authors Publishing on the UK Biobank?...",
+      "category": "authors",
+      "complexity": "complex_reasoning",
+      "model_performance": {
+        "ChatGPT_4o": {
+          "f1_score": 0.9,
+          "coverage_score": 0.6363636363636364,
+          "reasoning_quality": 0.2982107355864811
+        },
+        "ChatGPT_o1": {
+          "f1_score": 0.9523809523809523,
+          "coverage_score": 0.6363636363636364,
+          "reasoning_quality": 0.23076923076923078
+        },
+        "ChatGPT_o1_pro": {
+          "f1_score": 0.9523809523809523,
+          "coverage_score": 0.7272727272727273,
+          "reasoning_quality": 0.2676659528907923
+        },
+        "Claude_Sonnet": {
+          "f1_score": 0.3076923076923077,
+          "coverage_score": 0.45454545454545453,
+          "reasoning_quality": 1.0
+        },
+        "Gemini": {
+          "f1_score": 0.9523809523809523,
+          "coverage_score": 0.6363636363636364,
+          "reasoning_quality": 0.5030181086519115
+        },
+        "Mistral_Large_2": {
+          "f1_score": 0.3076923076923077,
+          "coverage_score": 0.36363636363636365,
+          "reasoning_quality": 0.9803921568627451
+        },
+        "Meta_Llama_3_1_405B": {
+          "f1_score": 0.7058823529411764,
+          "coverage_score": 0.5454545454545454,
+          "reasoning_quality": 0.19083969465648853
+        },
+        "DeepThink_R1": {
+          "f1_score": 0.3076923076923077,
+          "coverage_score": 0.45454545454545453,
+          "reasoning_quality": 0.7109004739336493
+        }
+      }
+    },
+    "citations": {
+      "query_text": "What is the Subject of the Top Most Cited Papers Relating to the UK Biobank?...",
+      "category": "citations",
+      "complexity": "data_interpretation",
+      "model_performance": {
+        "ChatGPT_4o": {
+          "f1_score": 0.631578947368421,
+          "coverage_score": 0.6153846153846154,
+          "reasoning_quality": 0.7281553398058253
+        },
+        "ChatGPT_o1": {
+          "f1_score": 0.8181818181818181,
+          "coverage_score": 0.3076923076923077,
+          "reasoning_quality": 0.2145922746781116
+        },
+        "ChatGPT_o1_pro": {
+          "f1_score": 0.8181818181818181,
+          "coverage_score": 0.38461538461538464,
+          "reasoning_quality": 0.34168564920273353
+        },
+        "Claude_Sonnet": {
+          "f1_score": 0.5555555555555556,
+          "coverage_score": 0.3076923076923077,
+          "reasoning_quality": 0.8620689655172414
+        },
+        "Gemini": {
+          "f1_score": 0.7000000000000001,
+          "coverage_score": 0.38461538461538464,
+          "reasoning_quality": 0.5633802816901409
+        },
+        "Mistral_Large_2": {
+          "f1_score": 0.7000000000000001,
+          "coverage_score": 0.38461538461538464,
+          "reasoning_quality": 0.2849002849002849
+        },
+        "Meta_Llama_3_1_405B": {
+          "f1_score": 0.375,
+          "coverage_score": 0.3076923076923077,
+          "reasoning_quality": 0.4115226337448559
+        },
+        "DeepThink_R1": {
+          "f1_score": 0.7000000000000001,
+          "coverage_score": 0.5384615384615384,
+          "reasoning_quality": 0.4587155963302752
+        }
+      }
+    }
+  }
+}

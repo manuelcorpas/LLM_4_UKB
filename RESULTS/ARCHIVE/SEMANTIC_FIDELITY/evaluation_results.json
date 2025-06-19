@@ -1,0 +1,66 @@
+{
+  "GPT-4o": {
+    "semantic_accuracy": 0.2708333333333333,
+    "reasoning_quality": 0.15625,
+    "domain_knowledge_score": 0.13333333333333333,
+    "factual_correctness": 0.21250000000000002,
+    "response_depth": 0.5478155339805826,
+    "biobank_specificity": 0.25
+  },
+  "GPT-o1": {
+    "semantic_accuracy": 0.2375,
+    "reasoning_quality": 0.33124999999999993,
+    "domain_knowledge_score": 0.2726282051282051,
+    "factual_correctness": 0.48750000000000004,
+    "response_depth": 0.5,
+    "biobank_specificity": 0.525
+  },
+  "GPT-o1 Pro": {
+    "semantic_accuracy": 0.2666666666666667,
+    "reasoning_quality": 0.46874999999999994,
+    "domain_knowledge_score": 0.33092948717948717,
+    "factual_correctness": 0.5125000000000001,
+    "response_depth": 0.6000000000000001,
+    "biobank_specificity": 0.575
+  },
+  "Claude-3.5": {
+    "semantic_accuracy": 0.17916666666666667,
+    "reasoning_quality": 0.1875,
+    "domain_knowledge_score": 0.19115384615384617,
+    "factual_correctness": 0.175,
+    "response_depth": 0.4347462223944208,
+    "biobank_specificity": 0.275
+  },
+  "Gemini-2.0": {
+    "semantic_accuracy": 0.31666666666666665,
+    "reasoning_quality": 0.23124999999999998,
+    "domain_knowledge_score": 0.20923076923076922,
+    "factual_correctness": 0.3875,
+    "response_depth": 0.335,
+    "biobank_specificity": 0.35000000000000003
+  },
+  "Mistral-L2": {
+    "semantic_accuracy": 0.2333333333333333,
+    "reasoning_quality": 0.16875,
+    "domain_knowledge_score": 0.10833333333333334,
+    "factual_correctness": 0.08750000000000001,
+    "response_depth": 0.5578264497288278,
+    "biobank_specificity": 0.2
+  },
+  "Llama-3.1": {
+    "semantic_accuracy": 0.21666666666666665,
+    "reasoning_quality": 0.09999999999999999,
+    "domain_knowledge_score": 0.11666666666666667,
+    "factual_correctness": 0.275,
+    "response_depth": 0.3936428858405556,
+    "biobank_specificity": 0.3
+  },
+  "DeepThink-R1": {
+    "semantic_accuracy": 0.2125,
+    "reasoning_quality": 0.11249999999999999,
+    "domain_knowledge_score": 0.18833333333333332,
+    "factual_correctness": 0.08750000000000001,
+    "response_depth": 0.38109004739336494,
+    "biobank_specificity": 0.25
+  }
+}
