@@ -86,8 +86,12 @@ class LLMBiobankEvaluator:
         # Overall performance (mean across dimensions)
         self.overall_performance = self.scores_df.mean(axis=1)
         
-        # Consistency (inverse of standard deviation)
-        self.consistency_scores = 1 - (self.scores_df.std(axis=1) / self.scores_df.std(axis=1).max())
+        # Consistency (inverse of standard deviation) - Fixed calculation
+        std_scores = self.scores_df.std(axis=1)
+        max_possible_std = 0.5  # Maximum reasonable standard deviation
+        self.consistency_scores = 1 - (std_scores / max_possible_std)
+        # Ensure consistency scores are within [0, 1]
+        self.consistency_scores = np.clip(self.consistency_scores, 0, 1)
         
         # Precision and Recall simulation (addressing reviewer concern #2)
         np.random.seed(43)
@@ -101,7 +105,7 @@ class LLMBiobankEvaluator:
         self.rankings = self.scores_df.rank(ascending=False, method='min').astype(int)
     
     def create_radar_plot(self, ax):
-        """Create radar plot showing multidimensional performance (Figure 3A)."""
+        """Create radar plot showing multidimensional performance (Figure 3A) - ALL MODELS."""
         
         # Number of dimensions
         N = len(self.dimensions)
@@ -110,20 +114,26 @@ class LLMBiobankEvaluator:
         angles = [n / float(N) * 2 * np.pi for n in range(N)]
         angles += angles[:1]  # Complete the circle
         
-        # Colors for top 4 models
-        colors = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728']
-        top_models = self.overall_performance.nlargest(4).index
+        # Colors for ALL 8 models - expanded color palette
+        colors = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', 
+                 '#9467bd', '#8c564b', '#e377c2', '#7f7f7f']
         
-        # Plot each model
-        for i, (model, color) in enumerate(zip(top_models, colors)):
-            model_idx = self.models.index(model)
-            values = self.scores_matrix[model_idx].tolist()
+        # Plot ALL models instead of just top 4
+        for i, (model, color) in enumerate(zip(self.models, colors)):
+            values = self.scores_matrix[i].tolist()
             values += values[:1]  # Complete the circle
             
             # Shorten model names for legend
             short_name = model.replace(' Flash', '').replace(' Large 2', '').replace(' Sonnet', '').replace(' 405B', '')
-            ax.plot(angles, values, 'o-', linewidth=2.5, label=short_name, color=color, markersize=4)
-            ax.fill(angles, values, alpha=0.1, color=color)
+            
+            # Use different line styles for better distinction
+            linestyle = '-' if i < 4 else '--'
+            linewidth = 2.5 if i < 4 else 2.0
+            alpha = 0.8 if i < 4 else 0.6
+            
+            ax.plot(angles, values, linestyle, linewidth=linewidth, label=short_name, 
+                   color=color, markersize=3, alpha=alpha, marker='o')
+            ax.fill(angles, values, alpha=0.05, color=color)
         
         # Customize the plot
         ax.set_xticks(angles[:-1])
@@ -132,8 +142,10 @@ class LLMBiobankEvaluator:
         ax.set_yticks([0.2, 0.4, 0.6, 0.8, 1.0])
         ax.set_yticklabels(['0.2', '0.4', '0.6', '0.8', '1.0'], fontsize=8)
         ax.grid(True, alpha=0.3)
-        ax.legend(loc='upper right', bbox_to_anchor=(1.0, 1.0), fontsize=9)
-        ax.set_title('Multidimensional Performance', fontsize=12, fontweight='bold', pad=20)
+        
+        # Adjust legend for all models - use two columns
+        ax.legend(loc='upper right', bbox_to_anchor=(1.3, 1.0), fontsize=8, ncol=2)
+        ax.set_title('Multidimensional Performance (All Models)', fontsize=12, fontweight='bold', pad=20)
     
     def create_bar_comparison(self, ax):
         """Create bar chart comparing key metrics (Figure 3B)."""
@@ -248,7 +260,7 @@ class LLMBiobankEvaluator:
                     fontsize=12, fontweight='bold', pad=15)
     
     def create_distribution_plots(self, ax1, ax2):
-        """Create distribution plots for accuracy and consistency (Figure 3E)."""
+        """Create distribution plots for accuracy and consistency (Figure 3E) - FIXED."""
         
         # Left panel: Semantic Accuracy Distribution
         semantic_acc = self.scores_df['Semantic Accuracy'].sort_values(ascending=False)
@@ -269,9 +281,12 @@ class LLMBiobankEvaluator:
                 ax1.text(bar.get_x() + bar.get_width()/2., val + 0.02,
                         f'{val:.2f}', ha='center', va='bottom', fontsize=8, fontweight='bold')
         
-        # Right panel: Consistency Distribution
+        # Right panel: Consistency Distribution - FIXED
         consistency_sorted = self.consistency_scores.sort_values(ascending=False)
         short_names_consistency = [model.replace(' Flash', '').replace(' Large 2', '').replace(' Sonnet', '').replace(' 405B', '') for model in consistency_sorted.index]
+        
+        # Debug print to check values
+        print("Consistency scores:", consistency_sorted.values)
         
         bars2 = ax2.bar(range(len(consistency_sorted)), consistency_sorted.values,
                        color=plt.cm.plasma(np.linspace(0, 1, len(consistency_sorted))), alpha=0.8)
@@ -281,6 +296,7 @@ class LLMBiobankEvaluator:
         ax2.set_xticks(range(len(consistency_sorted)))
         ax2.set_xticklabels(short_names_consistency, rotation=45, fontsize=8, ha='right')
         ax2.grid(axis='y', alpha=0.3)
+        ax2.set_ylim(0, 1.0)  # Ensure proper y-axis scale
         
         # Add value labels for top performers only
         for i, (bar, val) in enumerate(zip(bars2, consistency_sorted.values)):
@@ -321,7 +337,7 @@ class LLMBiobankEvaluator:
         
         # Add panel labels with proper positioning
         panels = [
-            (ax_radar, 'A', (-0.05, 1.1)),
+            (ax_radar, 'A', (-0.2, 1.1)),
             (ax_bar, 'B', (-0.05, 1.05)), 
             (ax_heatmap, 'C', (-0.02, 1.05)),
             (ax_table, 'D', (-0.02, 1.05)),
@@ -333,19 +349,12 @@ class LLMBiobankEvaluator:
                    transform=ax.transAxes, va='bottom', ha='right',
                    bbox=dict(boxstyle='round,pad=0.3', facecolor='white', alpha=0.8))
         
-        # Overall title with better positioning
-        #fig.suptitle('Enhanced Multidimensional Evaluation of LLM Performance on Biobank Tasks\n' +
-        #            'Addressing Semantic Depth and Interpretive Competence',
-        #            fontsize=16, fontweight='bold', y=0.96)
-        
         return fig
     
     def generate_baseline_comparison(self):
         """Generate improved baseline comparison addressing reviewer concern #3."""
         
         fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(14, 10))
-        #fig.suptitle('LLM Performance vs Multiple Baselines\n(Addressing Baseline Comparison Concern)', 
-        #            fontsize=14, fontweight='bold', y=0.95)
         
         # Simulate random baseline performance
         np.random.seed(44)
@@ -467,11 +476,13 @@ if __name__ == "__main__":
     print("4. ✅ MULTIDIMENSIONAL: Six evaluation dimensions with consistency analysis")
     print("5. ✅ STATISTICAL RIGOR: Significance testing and effect size calculations")
     print("6. ✅ CLEAN VISUALIZATION: Fixed overlapping text and improved readability")
+    print("7. ✅ ALL MODELS IN RADAR: Now shows all 8 LLMs in the multidimensional view")
+    print("8. ✅ FIXED CONSISTENCY: Corrected consistency score calculation")
     
     # Save figures
-    fig3.savefig('figure_3_clean.png', dpi=300, bbox_inches='tight')
+    fig3.savefig('figure_3_clean_fixed.png', dpi=300, bbox_inches='tight')
     fig_baseline.savefig('baseline_comparison_clean.png', dpi=300, bbox_inches='tight')
     
-    print("\nFigures saved as 'figure_3_clean.png' and 'baseline_comparison_clean.png'")
+    print("\nFigures saved as 'figure_3_clean_fixed.png' and 'baseline_comparison_clean.png'")
     
     plt.show()
