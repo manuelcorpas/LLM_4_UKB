@@ -1,9 +1,0 @@
-Model,CoverageScore,WeightedCoverageScore,InstitutionsFound
-Gemini 2.0 Flash,0.9,0.91701244813278,9
-ChatGPT 4o,0.8,0.8215767634854771,8
-ChatGPT o1,0.8,0.8215767634854771,8
-ChatGPT o1 pro,0.8,0.8215767634854771,8
-DeepThink R1,0.7,0.7676348547717843,7
-Claude 3.5 Sonnet (explanatory style),0.4,0.2918395573997234,4
-Mistral Large 2,0.3,0.2517289073305671,3
-Meta Llama 3.1 405B,0.1,0.05394190871369295,1

@@ -1,9 +1,0 @@
-Model,CoverageScore,WeightedCoverageScore,AuthorsFound
-Mistral Large 2,0.7,0.6852886405959032,14
-Claude 3.5 Sonnet (explanatory style),0.6,0.590316573556797,12
-Gemini 2.0 Flash,0.45,0.44692737430167595,9
-Meta Llama 3.1 405B,0.4,0.39416511483550587,8
-DeepThink R1,0.35,0.3438857852265674,7
-ChatGPT 4o,0.0,0.0,0
-ChatGPT o1,0.0,0.0,0
-ChatGPT o1 pro,0.0,0.0,0

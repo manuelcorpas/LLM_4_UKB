@@ -1,9 +1,0 @@
-statistic,value,description
-total_models_evaluated,7,Number of LLM models evaluated
-gpt_models_evaluated,2,Number of GPT models evaluated
-total_evaluations,28,Total number of LLM evaluations
-metrics_evaluated,7,Number of performance metrics evaluated
-significant_baseline_improvements,6,Metrics with statistically significant improvement over baseline (FDR-corrected)
-large_effect_baseline_improvements,6,Baseline comparisons with large effect sizes (Cohen's d)
-total_pairwise_comparisons,147,Total number of pairwise model comparisons
-significant_pairwise_comparisons,0,Pairwise comparisons with significant differences (FDR-corrected)
