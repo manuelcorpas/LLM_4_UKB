@@ -181,3 +181,9 @@ python PYTHON/05-benchmark-summary-results.py
 - **Co-Author**: [Alfredo Iacoangeli](mailto:alfredo.iacoangeli@kcl.ac.uk)
 
 Feel free to open an issue or pull request if you encounter bugs or want to contribute improvements.
+
+## Repo policy
+- This repository tracks **code and configuration only**
+- `RESULTS/` contains local artefacts and is intentionally not versioned
+- Do not create multiple clones of this repo inside iCloud
+
