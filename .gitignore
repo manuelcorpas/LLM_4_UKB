@@ -20,3 +20,6 @@ __pycache__/
 ukb_env/
 .env
 .DS_Store
+
+# Ignore archived results artefacts
+RESULTS/ARCHIVE/
