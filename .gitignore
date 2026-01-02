@@ -23,3 +23,6 @@ ukb_env/
 
 # Ignore archived results artefacts
 RESULTS/ARCHIVE/
+
+# Results are local artefacts
+RESULTS/
