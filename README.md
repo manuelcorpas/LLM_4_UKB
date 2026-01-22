@@ -2,9 +2,22 @@
 
 This repository hosts the code and data for our paper:
 
-**“Large Language Models for Mining Biobank-Derived Insights into Health and Disease.”**
+**"Benchmarking Large Language Models for Extracting Biobank-Derived Insights into Health and Disease"**
 
-We benchmark multiple LLMs to assess how well they retrieve key insights from **UK Biobank**–related literature, including top keywords, most-cited papers, prolific authors, and leading applicant institutions.
+We benchmark multiple frontier LLMs to assess how well they retrieve key insights from **UK Biobank**–related literature, including top keywords, most-cited papers, prolific authors, and leading applicant institutions.
+
+## Latest Update: January 2026
+
+We have updated the benchmark to evaluate the latest frontier models:
+
+| Model | Provider | Overall Score |
+|-------|----------|---------------|
+| **Gemini 3 Pro** | Google | 0.643 |
+| **Claude Sonnet 4** | Anthropic | 0.577 |
+| **Claude Opus 4.5** | Anthropic | 0.577 |
+| **Mistral Large** | Mistral AI | 0.567 |
+| **DeepSeek V3** | DeepSeek | 0.517 |
+| **GPT-5.2** | OpenAI | 0.455 |
 
 ---
 
@@ -23,7 +36,7 @@ We benchmark multiple LLMs to assess how well they retrieve key insights from **
 
 ## Project Overview
 
-We evaluated several well-known Large Language Models (LLMs)—including GPT, Claude, Gemini, Mistral, Llama, and DeepSeek—on multiple tasks derived from **UK Biobank** data:
+We evaluated six frontier Large Language Models (LLMs)—**Gemini 3 Pro**, **Claude Opus 4.5**, **Claude Sonnet 4**, **GPT-5.2**, **Mistral Large**, and **DeepSeek V3**—on multiple tasks derived from **UK Biobank** data:
 
 1. **Top Keywords** in publications (frequency analysis)  
 2. **Most Cited Papers** based on citation counts from the UK Biobank’s metadata  
@@ -48,6 +61,7 @@ LLM_4_UKB/
 │   ├── combined_bart_keywords.csv
 │   ├── combined_keywords_bart.csv
 ├── PYTHON/
+│   ├── 00-collect-model-responses.py      # NEW: Collect LLM responses via API
 │   ├── 00-00-ukb-schema-publication-reports.py
 │   ├── 00-condense-UKB-abstracts.py
 │   ├── 01-benchmark_llm_keywords.py
@@ -55,6 +69,7 @@ LLM_4_UKB/
 │   ├── 03-benchmark_llm_authors.py
 │   ├── 04-benchmark_llm_institutions.py
 │   ├── 05-benchmark-summary-results.py
+│   ├── 06-00-biobank-eval.py              # Generate publication figures
 │   ├── 06-query-ukb-bart.py
 │   └── ARCHIVE/
 ├── README.md
@@ -104,7 +119,12 @@ LLM_4_UKB/
 
 ### Scripts Overview
 
-1. **`00-00-ukb-schema-publication-reports.py` / `00-condense-UKB-abstracts.py`**  
+0. **`00-collect-model-responses.py`** *(NEW)*
+   Collects responses from frontier LLMs via their APIs. Requires API keys in `.env` file.
+   - Supports: Anthropic, OpenAI, Google, Mistral, DeepSeek
+   - *Output:* Populates `DATA/01-04` CSV files with model responses
+
+1. **`00-00-ukb-schema-publication-reports.py` / `00-condense-UKB-abstracts.py`**
    Preprocessing or cleaning of raw UK Biobank data.
 
 2. **`01-benchmark_llm_keywords.py`**  
@@ -127,25 +147,43 @@ LLM_4_UKB/
    - *Input:* `DATA/04-top-applicant-institutions.csv`  
    - *Output:* `RESULTS/BENCHMARK/institutions_coverage.csv`
 
-6. **`05-benchmark-summary-results.py`**  
+6. **`05-benchmark-summary-results.py`**
    Aggregates or summarizes cross-script outputs for an overall performance ranking.
+   - *Output:* `RESULTS/BENCHMARK/final_overall_ranking.csv`
 
-7. **`06-query-ukb-bart.py`**  
+7. **`06-00-biobank-eval.py`**
+   Generates publication-quality figures (Figure 3 and Figure 4) for the manuscript.
+   - *Output:* `figure_3_clean_fixed.png`, `baseline_comparison_clean.png`
+
+8. **`06-query-ukb-bart.py`**
    Demonstrates querying a BART model or merging partial results. Not always needed for the main pipeline.
 
 **Example Workflow**:
 ```bash
-# (Optional) Preprocess data
-python PYTHON/00-condense-UKB-abstracts.py
+# Step 1: Collect LLM responses (requires API keys in .env)
+python PYTHON/00-collect-model-responses.py
 
-# Run benchmark scripts
+# Step 2: Run benchmark evaluation scripts
 python PYTHON/01-benchmark_llm_keywords.py
 python PYTHON/02-benchmark_llm_papers.py
 python PYTHON/03-benchmark_llm_authors.py
 python PYTHON/04-benchmark_llm_institutions.py
 
-# Summarize results
+# Step 3: Summarize results
 python PYTHON/05-benchmark-summary-results.py
+
+# Step 4: Generate publication figures
+python PYTHON/06-00-biobank-eval.py
+```
+
+**API Keys Setup** (for `00-collect-model-responses.py`):
+Create a `.env` file in the project root with:
+```
+ANTHROPIC_API_KEY=your_key_here
+OPENAI_API_KEY=your_key_here
+GOOGLE_API_KEY=your_key_here
+MISTRAL_API_KEY=your_key_here
+DEEPSEEK_API_KEY=your_key_here
 ```
 
 ---

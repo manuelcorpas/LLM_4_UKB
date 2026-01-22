@@ -26,3 +26,5 @@ RESULTS/ARCHIVE/
 
 # Results are local artefacts
 RESULTS/
+.env
+.claude/

@@ -12,7 +12,6 @@ SUBJECTS_CSV = "RESULTS/BENCHMARK/top-cited-paper-coverage.csv"        # Model,C
 KEYWORDS_CSV = "RESULTS/BENCHMARK/keywords_results.csv"        # Model,CoverageScore,WeightedCoverageScore,KeywordsFound
 
 OUTPUT_CSV = "RESULTS/BENCHMARK/final_overall_ranking.csv"
-    main()
 
 ##############################################################################
 # 2) HELPER FUNCTION: LOAD A CSV INTO A DICT
