@@ -128,10 +128,8 @@ def create_overall_panel(output_file):
 
     fig, ax = plt.subplots(figsize=(10, 6))
 
-    # Create gradient colors based on score
-    colors = [COLORS['bars'][i] for i in range(len(models))]
-
-    bars = ax.bar(models, overall, color=colors, edgecolor='white', linewidth=0.5)
+    # Use single consistent color
+    bars = ax.bar(models, overall, color=COLORS['overall'], edgecolor='white', linewidth=0.5)
 
     ax.set_ylabel('Overall Weighted Coverage', fontsize=12)
     ax.set_title('Overall LLM Performance Ranking (January 2026)', fontsize=14, fontweight='bold')
@@ -209,9 +207,8 @@ def create_combined_figure():
     ax = axes[1, 1]
     models = [m for m in MODEL_ORDER if m in overall_data]
     overall = [overall_data[m] for m in models]
-    colors = [COLORS['bars'][i] for i in range(len(models))]
 
-    bars = ax.bar(models, overall, color=colors, edgecolor='white', linewidth=0.5)
+    bars = ax.bar(models, overall, color=COLORS['overall'], edgecolor='white', linewidth=0.5)
     ax.set_title('E. Overall Ranking', fontsize=12, fontweight='bold')
     ax.set_xticklabels([m.replace(' ', '\n') for m in models], rotation=0, ha='center', fontsize=8)
     ax.set_ylim(0, 0.8)
