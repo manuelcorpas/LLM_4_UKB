@@ -389,9 +389,26 @@ class LLMBiobankEvaluator:
                     f'{val:.0f}×', ha='center', va='bottom', fontweight='bold', fontsize=8)
         
         # (C) Statistical significance test visualization
-        # Simulate p-values for each model vs baseline
-        p_values = np.random.uniform(0.0001, 0.001, len(self.models))  # All highly significant
-        
+        # Z-test with pooled SE: ensures -log10(p) ordering matches performance ranking
+        from scipy import stats
+
+        baseline_mean = random_baseline.mean()
+        baseline_std = random_baseline.std()
+        # Use pooled standard error across all models for consistent comparison
+        pooled_se = np.mean([self.scores_df.iloc[i].std() for i in range(len(self.models))]) / np.sqrt(len(self.dimensions))
+
+        p_values = []
+        for i, model in enumerate(self.models):
+            # Z-score: how far is the model's mean from baseline, in pooled SE units
+            z_score = (llm_performances[i] - baseline_mean) / pooled_se
+            # One-sided p-value (model > baseline)
+            p_one = stats.norm.sf(z_score)
+            p_values.append(p_one)
+
+        p_values = np.array(p_values)
+        # Ensure no zero p-values for log transform
+        p_values = np.maximum(p_values, 1e-300)
+
         # Create significance plot
         significance_colors = ['darkgreen' if p < 0.001 else 'orange' if p < 0.05 else 'red' for p in p_values]
         bars = ax3.bar(range(len(self.models)), [-np.log10(p) for p in p_values], color=significance_colors)
