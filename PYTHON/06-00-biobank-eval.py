@@ -121,7 +121,7 @@ class LLMBiobankEvaluator:
             values += values[:1]  # Complete the circle
             
             # Shorten model names for legend
-            short_name = model.replace(' Flash', '').replace(' Large 2', '').replace(' Sonnet', '').replace(' 405B', '')
+            short_name = model.replace(' Flash', '').replace(' Large 2', '').replace(' 405B', '')
             
             # Use different line styles for better distinction
             linestyle = '-' if i < 4 else '--'
@@ -169,7 +169,7 @@ class LLMBiobankEvaluator:
                            f'{height:.2f}', ha='center', va='bottom', fontsize=7)
         
         # Shorten model names for x-axis
-        short_names = [model.replace(' Flash', '').replace(' Large 2', '').replace(' Sonnet', '').replace(' 405B', '') for model in self.models]
+        short_names = [model.replace(' Flash', '').replace(' Large 2', '').replace(' 405B', '') for model in self.models]
         
         ax.set_xlabel('Models', fontsize=11)
         ax.set_ylabel('Performance Score', fontsize=11)
@@ -193,7 +193,7 @@ class LLMBiobankEvaluator:
                              ha="center", va="center", color="black", fontweight='bold', fontsize=10)
         
         # Shorten model names for x-axis
-        short_names = [model.replace(' Flash', '').replace(' Large 2', '').replace(' Sonnet', '').replace(' 405B', '') for model in self.models]
+        short_names = [model.replace(' Flash', '').replace(' Large 2', '').replace(' 405B', '') for model in self.models]
         
         # Customize
         ax.set_xticks(range(len(self.models)))
@@ -210,7 +210,7 @@ class LLMBiobankEvaluator:
         """Create performance summary table (Figure 3D)."""
         
         # Shorten model names for the table
-        short_names = [model.replace(' Flash', '').replace(' Large 2', '').replace(' Sonnet', '').replace(' 405B', '') for model in self.models]
+        short_names = [model.replace(' Flash', '').replace(' Large 2', '').replace(' 405B', '') for model in self.models]
         
         # Calculate summary statistics
         summary_data = {
@@ -261,7 +261,7 @@ class LLMBiobankEvaluator:
         
         # Left panel: Semantic Accuracy Distribution
         semantic_acc = self.scores_df['Semantic Accuracy'].sort_values(ascending=False)
-        short_names_sorted = [model.replace(' Flash', '').replace(' Large 2', '').replace(' Sonnet', '').replace(' 405B', '') for model in semantic_acc.index]
+        short_names_sorted = [model.replace(' Flash', '').replace(' Large 2', '').replace(' 405B', '') for model in semantic_acc.index]
         
         bars1 = ax1.bar(range(len(semantic_acc)), semantic_acc.values, 
                        color=plt.cm.viridis(np.linspace(0, 1, len(semantic_acc))), alpha=0.8)
@@ -280,7 +280,7 @@ class LLMBiobankEvaluator:
         
         # Right panel: Consistency Distribution - FIXED
         consistency_sorted = self.consistency_scores.sort_values(ascending=False)
-        short_names_consistency = [model.replace(' Flash', '').replace(' Large 2', '').replace(' Sonnet', '').replace(' 405B', '') for model in consistency_sorted.index]
+        short_names_consistency = [model.replace(' Flash', '').replace(' Large 2', '').replace(' 405B', '') for model in consistency_sorted.index]
         
         # Debug print to check values
         print("Consistency scores:", consistency_sorted.values)
