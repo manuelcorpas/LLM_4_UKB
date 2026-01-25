@@ -101,8 +101,10 @@ def create_benchmark_panel(data, title, output_file, ylabel="Score"):
 
     plt.tight_layout()
     plt.savefig(output_file, dpi=300, bbox_inches='tight', facecolor='white')
+    pdf_file = str(output_file).replace('.png', '.pdf')
+    plt.savefig(pdf_file, dpi=300, bbox_inches='tight', facecolor='white')
     plt.close()
-    print(f"Saved: {output_file}")
+    print(f"Saved: {output_file} + PDF")
 
 
 def create_overall_panel(output_file):
@@ -151,8 +153,10 @@ def create_overall_panel(output_file):
 
     plt.tight_layout()
     plt.savefig(output_file, dpi=300, bbox_inches='tight', facecolor='white')
+    pdf_file = str(output_file).replace('.png', '.pdf')
+    plt.savefig(pdf_file, dpi=300, bbox_inches='tight', facecolor='white')
     plt.close()
-    print(f"Saved: {output_file}")
+    print(f"Saved: {output_file} + PDF")
 
 
 def create_combined_figure():
@@ -229,8 +233,9 @@ def create_combined_figure():
     plt.suptitle('Figure 2: LLM Benchmark Results (January 2026)', fontsize=14, fontweight='bold', y=1.02)
     plt.tight_layout()
     plt.savefig(OUTPUT_DIR / "Fig2_combined.png", dpi=300, bbox_inches='tight', facecolor='white')
+    plt.savefig(OUTPUT_DIR / "Fig2_combined.pdf", dpi=300, bbox_inches='tight', facecolor='white')
     plt.close()
-    print(f"Saved: {OUTPUT_DIR / 'Fig2_combined.png'}")
+    print(f"Saved: {OUTPUT_DIR / 'Fig2_combined.png'} + PDF")
 
 
 def main():

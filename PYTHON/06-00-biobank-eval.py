@@ -495,8 +495,10 @@ if __name__ == "__main__":
     
     # Save figures
     fig3.savefig('figure_3_clean_fixed.png', dpi=300, bbox_inches='tight')
+    fig3.savefig('figure_3_clean_fixed.pdf', dpi=300, bbox_inches='tight')
     fig_baseline.savefig('baseline_comparison_clean.png', dpi=300, bbox_inches='tight')
-    
-    print("\nFigures saved as 'figure_3_clean_fixed.png' and 'baseline_comparison_clean.png'")
+    fig_baseline.savefig('baseline_comparison_clean.pdf', dpi=300, bbox_inches='tight')
+
+    print("\nFigures saved as PNG and PDF formats")
     
     plt.show()
