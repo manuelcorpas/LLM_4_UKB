@@ -57,20 +57,18 @@ LLM_4_UKB/
 │   ├── 02-subject-most-cited.csv
 │   ├── 03-most-prolific-authors.csv
 │   ├── 04-top-applicant-institutions.csv
-│   ├── bart_temp.csv
-│   ├── combined_bart_keywords.csv
-│   ├── combined_keywords_bart.csv
 ├── PYTHON/
-│   ├── 00-collect-model-responses.py      # NEW: Collect LLM responses via API
-│   ├── 00-00-ukb-schema-publication-reports.py
-│   ├── 00-condense-UKB-abstracts.py
-│   ├── 01-benchmark_llm_keywords.py
-│   ├── 02-benchmark_llm_papers.py
-│   ├── 03-benchmark_llm_authors.py
-│   ├── 04-benchmark_llm_institutions.py
-│   ├── 05-benchmark-summary-results.py
-│   ├── 06-00-biobank-eval.py              # Generate publication figures
-│   ├── 06-query-ukb-bart.py
+│   ├── 00-extract-schema-data.py          # Extract UKB schema/publication data
+│   ├── 01-condense-abstracts.py           # Condense UKB abstracts
+│   ├── 02-collect-model-responses.py      # Collect LLM responses via API
+│   ├── 03-benchmark-keywords.py           # Benchmark: keywords
+│   ├── 04-benchmark-papers.py             # Benchmark: most-cited papers
+│   ├── 05-benchmark-authors.py            # Benchmark: prolific authors
+│   ├── 06-benchmark-institutions.py       # Benchmark: applicant institutions
+│   ├── 07-benchmark-summary.py            # Aggregate benchmark results
+│   ├── 08-multidimensional-eval.py        # Generate Figures 3 & 4
+│   ├── 09-generate-figure1.py             # Generate Figure 1 panels
+│   ├── 10-generate-figure2.py             # Generate Figure 2 panels
 │   └── ARCHIVE/
 ├── README.md
 ├── RESULTS/
@@ -119,64 +117,66 @@ LLM_4_UKB/
 
 ### Scripts Overview
 
-0. **`00-collect-model-responses.py`** *(NEW)*
+0. **`00-extract-schema-data.py`** / **`01-condense-abstracts.py`**
+   Preprocessing or cleaning of raw UK Biobank data.
+
+1. **`02-collect-model-responses.py`**
    Collects responses from frontier LLMs via their APIs. Requires API keys in `.env` file.
    - Supports: Anthropic, OpenAI, Google, Mistral, DeepSeek
    - *Output:* Populates `DATA/01-04` CSV files with model responses
 
-1. **`00-00-ukb-schema-publication-reports.py` / `00-condense-UKB-abstracts.py`**
-   Preprocessing or cleaning of raw UK Biobank data.
-
-2. **`01-benchmark_llm_keywords.py`**  
-   Evaluates coverage of top keywords in UK Biobank abstracts.  
-   - *Input:* `DATA/01-most-common-keyword.csv`  
+2. **`03-benchmark-keywords.py`**
+   Evaluates coverage of top keywords in UK Biobank abstracts.
+   - *Input:* `DATA/01-most-common-keyword.csv`
    - *Output:* `RESULTS/BENCHMARK/keywords_results.csv`
 
-3. **`02-benchmark_llm_papers.py`**  
-   Assesses retrieval of the most-cited papers.  
-   - *Input:* `DATA/02-subject-most-cited.csv`  
+3. **`04-benchmark-papers.py`**
+   Assesses retrieval of the most-cited papers.
+   - *Input:* `DATA/02-subject-most-cited.csv`
    - *Output:* `RESULTS/BENCHMARK/top-cited-paper-coverage.csv`
 
-4. **`03-benchmark_llm_authors.py`**  
-   Checks coverage of top authors by publication count.  
-   - *Input:* `DATA/03-most-prolific-authors.csv`  
+4. **`05-benchmark-authors.py`**
+   Checks coverage of top authors by publication count.
+   - *Input:* `DATA/03-most-prolific-authors.csv`
    - *Output:* `RESULTS/BENCHMARK/authors_coverage.csv`
 
-5. **`04-benchmark_llm_institutions.py`**  
-   Evaluates coverage of leading applicant institutions.  
-   - *Input:* `DATA/04-top-applicant-institutions.csv`  
+5. **`06-benchmark-institutions.py`**
+   Evaluates coverage of leading applicant institutions.
+   - *Input:* `DATA/04-top-applicant-institutions.csv`
    - *Output:* `RESULTS/BENCHMARK/institutions_coverage.csv`
 
-6. **`05-benchmark-summary-results.py`**
+6. **`07-benchmark-summary.py`**
    Aggregates or summarizes cross-script outputs for an overall performance ranking.
    - *Output:* `RESULTS/BENCHMARK/final_overall_ranking.csv`
 
-7. **`06-00-biobank-eval.py`**
+7. **`08-multidimensional-eval.py`**
    Generates publication-quality figures (Figure 3 and Figure 4) for the manuscript.
    - *Output:* `figure_3_clean_fixed.png`, `baseline_comparison_clean.png`
 
-8. **`06-query-ukb-bart.py`**
-   Demonstrates querying a BART model or merging partial results. Not always needed for the main pipeline.
+8. **`09-generate-figure1.py`** / **`10-generate-figure2.py`**
+   Generate Figure 1 and Figure 2 panels for the manuscript.
 
 **Example Workflow**:
 ```bash
 # Step 1: Collect LLM responses (requires API keys in .env)
-python PYTHON/00-collect-model-responses.py
+python PYTHON/02-collect-model-responses.py
 
 # Step 2: Run benchmark evaluation scripts
-python PYTHON/01-benchmark_llm_keywords.py
-python PYTHON/02-benchmark_llm_papers.py
-python PYTHON/03-benchmark_llm_authors.py
-python PYTHON/04-benchmark_llm_institutions.py
+python PYTHON/03-benchmark-keywords.py
+python PYTHON/04-benchmark-papers.py
+python PYTHON/05-benchmark-authors.py
+python PYTHON/06-benchmark-institutions.py
 
 # Step 3: Summarize results
-python PYTHON/05-benchmark-summary-results.py
+python PYTHON/07-benchmark-summary.py
 
 # Step 4: Generate publication figures
-python PYTHON/06-00-biobank-eval.py
+python PYTHON/08-multidimensional-eval.py
+python PYTHON/09-generate-figure1.py
+python PYTHON/10-generate-figure2.py
 ```
 
-**API Keys Setup** (for `00-collect-model-responses.py`):
+**API Keys Setup** (for `02-collect-model-responses.py`):
 Create a `.env` file in the project root with:
 ```
 ANTHROPIC_API_KEY=your_key_here

@@ -15,7 +15,7 @@ Models tested (8 frontier models):
 - Kimi K2 (Moonshot)
 
 Usage:
-    python 00-collect-model-responses.py
+    python 02-collect-model-responses.py
 
 Environment variables required:
     ANTHROPIC_API_KEY
@@ -77,10 +77,10 @@ except ImportError:
 # BENCHMARK QUESTIONS
 # ============================================================================
 # IMPORTANT: The file names must match what the evaluation scripts expect!
-# - 01-benchmark_llm_keywords.py reads DATA/01-most-common-keyword.csv
-# - 02-benchmark_llm_papers.py reads DATA/02-subject-most-cited.csv (expects PAPER subjects)
-# - 03-benchmark_llm_authors.py reads DATA/03-most-prolific-authors.csv
-# - 04-benchmark_llm_institutions.py reads DATA/04-top-applicant-institutions.csv (expects INSTITUTIONS)
+# - 03-benchmark-keywords.py reads DATA/01-most-common-keyword.csv
+# - 04-benchmark-papers.py reads DATA/02-subject-most-cited.csv (expects PAPER subjects)
+# - 05-benchmark-authors.py reads DATA/03-most-prolific-authors.csv
+# - 06-benchmark-institutions.py reads DATA/04-top-applicant-institutions.csv (expects INSTITUTIONS)
 
 BENCHMARK_QUESTIONS = {
     "01-keywords": {
@@ -442,12 +442,12 @@ def main():
     print("\nNext steps:")
     print("  1. Review the responses for any errors")
     print("  2. Run the evaluation pipeline:")
-    print("     python 01-benchmark_llm_keywords.py")
-    print("     python 02-benchmark_llm_papers.py")
-    print("     python 03-benchmark_llm_authors.py")
-    print("     python 04-benchmark_llm_institutions.py")
-    print("     python 05-benchmark-summary-results.py")
-    print("     python 06-00-biobank-eval.py")
+    print("     python 03-benchmark-keywords.py")
+    print("     python 04-benchmark-papers.py")
+    print("     python 05-benchmark-authors.py")
+    print("     python 06-benchmark-institutions.py")
+    print("     python 07-benchmark-summary.py")
+    print("     python 08-multidimensional-eval.py")
 
 
 if __name__ == "__main__":
