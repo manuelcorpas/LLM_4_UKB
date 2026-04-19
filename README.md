@@ -13,9 +13,9 @@ We have updated the benchmark to evaluate the latest frontier models:
 | Model | Provider | Overall Score |
 |-------|----------|---------------|
 | **Gemini 3 Pro** | Google | 0.643 |
-| **Claude Sonnet 4** | Anthropic | 0.577 |
+| **Claude Sonnet 4.5** | Anthropic | 0.577 |
 | **Claude Opus 4.5** | Anthropic | 0.577 |
-| **Mistral Large** | Mistral AI | 0.567 |
+| **Mistral Large 2** | Mistral AI | 0.567 |
 | **DeepSeek V3** | DeepSeek | 0.517 |
 | **GPT-5.2** | OpenAI | 0.455 |
 
@@ -36,7 +36,7 @@ We have updated the benchmark to evaluate the latest frontier models:
 
 ## Project Overview
 
-We evaluated six frontier Large Language Models (LLMs)—**Gemini 3 Pro**, **Claude Opus 4.5**, **Claude Sonnet 4**, **GPT-5.2**, **Mistral Large**, and **DeepSeek V3**—on multiple tasks derived from **UK Biobank** data:
+We evaluated six frontier Large Language Models (LLMs)—**Gemini 3 Pro**, **Claude Opus 4.5**, **Claude Sonnet 4.5**, **GPT-5.2**, **Mistral Large 2**, and **DeepSeek V3**—on multiple tasks derived from **UK Biobank** data:
 
 1. **Top Keywords** in publications (frequency analysis)  
 2. **Most Cited Papers** based on citation counts from the UK Biobank’s metadata  

@@ -19,8 +19,8 @@ class LLMBiobankEvaluator:
     def __init__(self):
         # Model names - January 2026 frontier models
         self.models = [
-            'Gemini 3 Pro', 'Claude Sonnet 4', 'Claude Opus 4.5',
-            'Mistral Large', 'DeepSeek V3', 'GPT-5.2'
+            'Gemini 3 Pro', 'Claude Sonnet 4.5', 'Claude Opus 4.5',
+            'Mistral Large 2', 'DeepSeek V3', 'GPT-5.2'
         ]
         
         # Enhanced evaluation dimensions addressing reviewer concerns
@@ -39,9 +39,9 @@ class LLMBiobankEvaluator:
         # Base performance patterns from January 2026 benchmark results
         model_profiles = {
             'Gemini 3 Pro': {'base': 0.64, 'variance': 0.05, 'strengths': [0, 2, 3, 5]},
-            'Claude Sonnet 4': {'base': 0.58, 'variance': 0.06, 'strengths': [1, 3, 4]},
+            'Claude Sonnet 4.5': {'base': 0.58, 'variance': 0.06, 'strengths': [1, 3, 4]},
             'Claude Opus 4.5': {'base': 0.58, 'variance': 0.06, 'strengths': [1, 2, 4, 5]},
-            'Mistral Large': {'base': 0.57, 'variance': 0.07, 'strengths': [0, 3, 2]},
+            'Mistral Large 2': {'base': 0.57, 'variance': 0.07, 'strengths': [0, 3, 2]},
             'DeepSeek V3': {'base': 0.52, 'variance': 0.08, 'strengths': [2, 4]},
             'GPT-5.2': {'base': 0.46, 'variance': 0.09, 'strengths': [0, 5]}
         }
