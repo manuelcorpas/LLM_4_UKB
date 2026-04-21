@@ -24,7 +24,9 @@ ukb_env/
 # Ignore archived results artefacts
 RESULTS/ARCHIVE/
 
-# Results are local artefacts
+# Results are local artefacts (except evaluation outputs)
 RESULTS/
+!RESULTS/EVALUATION/
+!RESULTS/EVALUATION/*.csv
 .env
 .claude/
