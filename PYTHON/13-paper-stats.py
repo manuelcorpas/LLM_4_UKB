@@ -14,10 +14,12 @@ No numbers are hard-coded here; everything is computed from the CSVs.
 """
 
 from pathlib import Path
+import csv
 import pandas as pd
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 EVAL = PROJECT_ROOT / "RESULTS" / "EVALUATION"
+DATA = PROJECT_ROOT / "DATA"
 
 DIMS = [
     "SemanticAccuracy", "FactualCorrectness", "DomainKnowledge",
@@ -45,6 +47,20 @@ def main():
     print("=" * 70)
     print("LOCKED MANUSCRIPT NUMBERS  (source: RESULTS/EVALUATION/*.csv)")
     print("=" * 70)
+
+    # Corpus counts (Schema 19 publications / abstracts, Schema 27 applications)
+    s19 = DATA / "schema_19.txt"
+    s27 = DATA / "schema_27.txt"
+    if s19.exists():
+        pub = pd.read_csv(s19, sep="\t", quoting=csv.QUOTE_NONE, on_bad_lines="skip",
+                          engine="python", dtype=str)
+        n_pub = len(pub)
+        n_abs = pub["abstract"].dropna().astype(str).str.strip().ne("").sum() if "abstract" in pub.columns else 0
+        print(f"\nSchema 19 corpus: {n_pub} publications, of which {n_abs} carry an abstract")
+    if s27.exists():
+        app = pd.read_csv(s27, sep="\t", quoting=csv.QUOTE_NONE, on_bad_lines="skip",
+                          engine="python", dtype=str)
+        print(f"Schema 27 corpus: {len(app)} approved research applications")
 
     baseline = stats["BaselineMean"].iloc[0]
     print(f"\nRandom baseline mean WCS: {baseline:.4f}")
