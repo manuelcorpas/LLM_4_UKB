@@ -3,6 +3,9 @@ ANALYSIS/
 DATA/*
 !DATA/*.csv
 !DATA/**/*.csv
+# Schema 19/27 ground-truth source files (Fig 1 + corpus counts reproducibility)
+!DATA/schema_19.txt
+!DATA/schema_27.txt
 
 results/*/model/
 results/*/data/
