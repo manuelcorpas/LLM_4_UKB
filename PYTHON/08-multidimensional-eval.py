@@ -728,7 +728,9 @@ def _extract_keyword_pool(schema_df):
     ]
     keywords.update(noise_terms)
 
-    return list(keywords)
+    # sorted() gives a deterministic, hash-seed-independent ordering so that a
+    # fixed np.random.seed reproduces the same baseline sample across processes.
+    return sorted(keywords)
 
 
 def _extract_author_pool(schema_df):
@@ -753,7 +755,8 @@ def _extract_author_pool(schema_df):
     ]
     authors.update(noise_names)
 
-    return list(authors)
+    # sorted() for deterministic ordering (see _extract_keyword_pool).
+    return sorted(authors)
 
 
 def _extract_title_pool(schema_df):
