@@ -83,7 +83,7 @@ ax3.axhline(-np.log10(0.001), color="red", linestyle="--", label="p < 0.001", al
 ax3.axhline(-np.log10(0.05), color="orange", linestyle="--", label="p < 0.05", alpha=0.7)
 ax3.set_xlabel("Models", fontsize=10)
 ax3.set_ylabel("-log₁₀(p-value)", fontsize=10)
-ax3.set_title("Statistical Significance vs Baseline (Mann-Whitney U)",
+ax3.set_title("Statistical Significance vs Baseline (exceedance test)",
               fontsize=11, fontweight="bold")
 ax3.set_xticks(range(len(models)))
 ax3.set_xticklabels(models, rotation=45, fontsize=9, ha="right")

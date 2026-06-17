@@ -794,47 +794,43 @@ def _extract_institution_pool():
 
 def run_statistical_tests(llm_wcs_scores, baseline_scores):
     """
-    Mann-Whitney U test comparing each LLM's Weighted Coverage Score
-    against the random baseline distribution.
+    Exact one-sided exceedance test for each LLM's Weighted Coverage Score
+    against the empirical random-baseline distribution.
+
+    Each model contributes a single Weighted Coverage Score, so significance is
+    the proportion of baseline samples that reach or exceed it. With e exceedances
+    among n baseline draws we report the conservative one-sided bound
+    p <= (e + 1) / (n + 1). (This is the Mann-Whitney U / rank-sum p-value for the
+    degenerate case n1 = 1; it is NOT computed by replicating the single model
+    score, which would make the p-value a function of the replication count.)
     """
-    if not HAS_SCIPY:
-        print("  scipy not available, skipping statistical tests")
-        return None
+    print("\n=== STATISTICAL TESTING (exact one-sided exceedance test) ===")
 
-    print("\n=== STATISTICAL TESTING (Mann-Whitney U) ===")
-
-    # Compute mean baseline WCS per run (average across 4 tasks)
+    # Mean baseline WCS per run (average across the 4 tasks)
     n_runs = len(list(baseline_scores.values())[0])
     baseline_mean_per_run = np.zeros(n_runs)
     for task_scores in baseline_scores.values():
         baseline_mean_per_run += task_scores
     baseline_mean_per_run /= len(baseline_scores)
-
     baseline_mean = np.mean(baseline_mean_per_run)
 
     results = []
     for model_name, wcs in llm_wcs_scores.items():
-        # Mann-Whitney U: is this LLM's score significantly > baseline distribution?
-        u_stat, p_value = stats.mannwhitneyu(
-            [wcs] * n_runs,
-            baseline_mean_per_run,
-            alternative='greater'
-        )
-
-        improvement = wcs / baseline_mean if baseline_mean > 0 else float('inf')
-
+        exceed = int(np.sum(baseline_mean_per_run >= wcs))
+        p_value = (exceed + 1) / (n_runs + 1)          # conservative one-sided bound
+        improvement = wcs / baseline_mean if baseline_mean > 0 else float("inf")
         results.append({
             "Model": model_name,
             "WCS": wcs,
             "BaselineMean": baseline_mean,
             "ImprovementFactor": round(improvement, 1),
-            "U_statistic": u_stat,
+            "BaselineN": n_runs,
+            "BaselineExceedances": exceed,
             "p_value": p_value,
             "significant": p_value < 0.001,
         })
-
-        print(f"  {model_name:20s}: WCS={wcs:.3f}, {improvement:.0f}x improvement, "
-              f"U={u_stat:.0f}, p={p_value:.2e}")
+        print(f"  {model_name:20s}: WCS={wcs:.3f}, {improvement:.1f}x, "
+              f"baseline>=WCS: {exceed}/{n_runs}, p<={p_value:.1e}")
 
     return pd.DataFrame(results)
 
@@ -1188,7 +1184,7 @@ def main():
     schema_df = load_schema_data()
 
     np.random.seed(42)  # reproducibility
-    baseline_scores = run_baseline_comparison(schema_df, num_runs=100)
+    baseline_scores = run_baseline_comparison(schema_df, num_runs=10000)
 
     # Save baseline scores
     baseline_path = RESULTS_DIR / "baseline_comparison.csv"
